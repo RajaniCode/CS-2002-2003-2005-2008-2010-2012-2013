@@ -1,0 +1,5 @@
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_NewService\bin\Debug\WCF_NewService.dll
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_NewService\bin\Debug\WCF_NewService.pdb
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_NewService\obj\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_NewService\obj\Debug\WCF_NewService.dll
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_NewService\obj\Debug\WCF_NewService.pdb

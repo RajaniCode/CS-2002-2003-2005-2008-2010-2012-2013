@@ -1,0 +1,6 @@
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_TempRoutingService\bin\Debug\WCF_TempRoutingService.exe.config
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_TempRoutingService\bin\Debug\WCF_TempRoutingService.exe
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_TempRoutingService\bin\Debug\WCF_TempRoutingService.pdb
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_TempRoutingService\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_TempRoutingService\obj\x86\Debug\WCF_TempRoutingService.exe
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_TempRoutingService\obj\x86\Debug\WCF_TempRoutingService.pdb

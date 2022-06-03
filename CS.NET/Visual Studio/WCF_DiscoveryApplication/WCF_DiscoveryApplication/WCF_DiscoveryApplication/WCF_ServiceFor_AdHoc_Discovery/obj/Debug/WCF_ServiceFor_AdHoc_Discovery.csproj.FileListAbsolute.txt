@@ -1,0 +1,5 @@
+G:\VS2010_Practice\WCF40\WCF_DiscoveryApplication\WCF_ServiceFor_AdHoc_Discovery\bin\Debug\WCF_ServiceFor_AdHoc_Discovery.dll
+G:\VS2010_Practice\WCF40\WCF_DiscoveryApplication\WCF_ServiceFor_AdHoc_Discovery\bin\Debug\WCF_ServiceFor_AdHoc_Discovery.pdb
+G:\VS2010_Practice\WCF40\WCF_DiscoveryApplication\WCF_ServiceFor_AdHoc_Discovery\obj\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF40\WCF_DiscoveryApplication\WCF_ServiceFor_AdHoc_Discovery\obj\Debug\WCF_ServiceFor_AdHoc_Discovery.dll
+G:\VS2010_Practice\WCF40\WCF_DiscoveryApplication\WCF_ServiceFor_AdHoc_Discovery\obj\Debug\WCF_ServiceFor_AdHoc_Discovery.pdb

@@ -1,0 +1,14 @@
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\bin\Debug\WPF_ClientApp.exe
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\bin\Debug\WPF_ClientApp.pdb
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\MainWindow.baml
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\MainWindow.g.cs
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\App.g.cs
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\WPF_ClientApp_MarkupCompile.cache
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\WPF_ClientApp.g.resources
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\WPF_ClientApp.Properties.Resources.resources
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\WPF_ClientApp.exe
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\obj\x86\Debug\WPF_ClientApp.pdb
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WPF_ClientApp\bin\Debug\WPF_ClientApp.exe.config

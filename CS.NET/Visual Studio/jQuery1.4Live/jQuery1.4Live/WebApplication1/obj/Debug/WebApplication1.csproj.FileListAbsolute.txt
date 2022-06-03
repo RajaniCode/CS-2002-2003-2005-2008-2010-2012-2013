@@ -1,0 +1,10 @@
+E:\articles\jQuery 1.4 Alpha\WebApplication1\bin\WebApplication1.dll
+E:\articles\jQuery 1.4 Alpha\WebApplication1\bin\WebApplication1.pdb
+E:\articles\jQuery 1.4 Alpha\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\jQuery 1.4 Alpha\WebApplication1\obj\Debug\WebApplication1.dll
+E:\articles\jQuery 1.4 Alpha\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\jQuery 1.4 Alpha\WebApplication1\bin\WebApplication1.dll
+C:\jQuery 1.4 Alpha\WebApplication1\bin\WebApplication1.pdb
+C:\jQuery 1.4 Alpha\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\jQuery 1.4 Alpha\WebApplication1\obj\Debug\WebApplication1.dll
+C:\jQuery 1.4 Alpha\WebApplication1\obj\Debug\WebApplication1.pdb

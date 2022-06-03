@@ -1,0 +1,5 @@
+G:\Mahesh_Practice\Silverlight3\SILV3_UserControlNAvigation\WCF_Service\bin\WCF_Service.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_UserControlNAvigation\WCF_Service\bin\WCF_Service.pdb
+G:\Mahesh_Practice\Silverlight3\SILV3_UserControlNAvigation\WCF_Service\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\Silverlight3\SILV3_UserControlNAvigation\WCF_Service\obj\Debug\WCF_Service.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_UserControlNAvigation\WCF_Service\obj\Debug\WCF_Service.pdb

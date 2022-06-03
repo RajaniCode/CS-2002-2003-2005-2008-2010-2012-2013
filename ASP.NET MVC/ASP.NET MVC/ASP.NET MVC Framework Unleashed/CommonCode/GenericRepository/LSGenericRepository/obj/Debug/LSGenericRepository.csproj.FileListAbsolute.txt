@@ -1,0 +1,7 @@
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\CommonCode\GenericRepository\LSGenericRepository\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\CommonCode\GenericRepository\LSGenericRepository\bin\Debug\LSGenericRepository.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\CommonCode\GenericRepository\LSGenericRepository\bin\Debug\LSGenericRepository.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\CommonCode\GenericRepository\LSGenericRepository\bin\Debug\GenericRepository.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\CommonCode\GenericRepository\LSGenericRepository\bin\Debug\GenericRepository.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\CommonCode\GenericRepository\LSGenericRepository\obj\Debug\LSGenericRepository.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\CommonCode\GenericRepository\LSGenericRepository\obj\Debug\LSGenericRepository.pdb

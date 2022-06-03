@@ -1,0 +1,5 @@
+C:\ASP.Net Projects\AjaxProgressBarExample\AjaxProgressBarExample\bin\AjaxProgressBarExample.dll
+C:\ASP.Net Projects\AjaxProgressBarExample\AjaxProgressBarExample\bin\AjaxProgressBarExample.pdb
+C:\ASP.Net Projects\AjaxProgressBarExample\AjaxProgressBarExample\obj\Debug\ResolveAssemblyReference.cache
+C:\ASP.Net Projects\AjaxProgressBarExample\AjaxProgressBarExample\obj\Debug\AjaxProgressBarExample.dll
+C:\ASP.Net Projects\AjaxProgressBarExample\AjaxProgressBarExample\obj\Debug\AjaxProgressBarExample.pdb

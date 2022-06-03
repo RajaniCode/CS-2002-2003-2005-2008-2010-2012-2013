@@ -1,0 +1,1 @@
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstExistingSQLite\EF6CodeFirstExistingSQLite\bin\Debug\EF6CodeFirstExistingSQLite.exe.config

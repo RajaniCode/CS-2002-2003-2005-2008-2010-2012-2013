@@ -1,0 +1,7 @@
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter11 - Better Performance with Caching\CS\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter11 - Better Performance with Caching\CS\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter11 - Better Performance with Caching\CS\MvcApplication1\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter11 - Better Performance with Caching\CS\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter11 - Better Performance with Caching\CS\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter11 - Better Performance with Caching\CS\MvcApplication1\MvcApplication1\bin\MvcFakes.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter11 - Better Performance with Caching\CS\MvcApplication1\MvcApplication1\bin\MvcFakes.pdb

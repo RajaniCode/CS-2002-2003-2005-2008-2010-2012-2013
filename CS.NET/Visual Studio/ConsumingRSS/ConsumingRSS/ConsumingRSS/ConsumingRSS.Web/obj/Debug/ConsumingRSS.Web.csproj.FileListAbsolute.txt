@@ -1,0 +1,14 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\ConsumingRSS.Web.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\ConsumingRSS.Web.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\System.Web.Silverlight.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\de\System.Web.Silverlight.resources.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\es\System.Web.Silverlight.resources.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\fr\System.Web.Silverlight.resources.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\it\System.Web.Silverlight.resources.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\ja\System.Web.Silverlight.resources.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\ko\System.Web.Silverlight.resources.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\zh-Hans\System.Web.Silverlight.resources.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\bin\zh-Hant\System.Web.Silverlight.resources.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\obj\Debug\ConsumingRSS.Web.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\Silverlight2\ConsumingRSS\ConsumingRSS.Web\obj\Debug\ConsumingRSS.Web.pdb

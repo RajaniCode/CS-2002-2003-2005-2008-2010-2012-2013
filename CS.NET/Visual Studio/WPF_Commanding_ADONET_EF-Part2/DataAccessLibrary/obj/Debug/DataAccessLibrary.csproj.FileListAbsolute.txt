@@ -1,0 +1,6 @@
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll.config
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\DataAccessLibrary\bin\Debug\DataAccessLibrary.pdb
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\DataAccessLibrary\obj\Debug\ResolveAssemblyReference.cache
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\DataAccessLibrary\obj\Debug\DataAccessLibrary.dll
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\DataAccessLibrary\obj\Debug\DataAccessLibrary.pdb

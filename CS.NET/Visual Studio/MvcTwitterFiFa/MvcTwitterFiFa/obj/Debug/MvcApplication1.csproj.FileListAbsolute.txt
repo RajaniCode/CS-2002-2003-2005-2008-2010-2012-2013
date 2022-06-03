@@ -1,0 +1,10 @@
+S:\Temp\MvcApplication1\bin\MvcApplication1.dll
+S:\Temp\MvcApplication1\bin\MvcApplication1.pdb
+S:\Temp\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+S:\Temp\MvcApplication1\obj\Debug\MvcApplication1.dll
+S:\Temp\MvcApplication1\obj\Debug\MvcApplication1.pdb
+S:\Articles\Using ASP.NET to Query Twitter's Public API\MvcApplication1\bin\MvcApplication1.dll
+S:\Articles\Using ASP.NET to Query Twitter's Public API\MvcApplication1\bin\MvcApplication1.pdb
+S:\Articles\Using ASP.NET to Query Twitter's Public API\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+S:\Articles\Using ASP.NET to Query Twitter's Public API\MvcApplication1\obj\Debug\MvcApplication1.dll
+S:\Articles\Using ASP.NET to Query Twitter's Public API\MvcApplication1\obj\Debug\MvcApplication1.pdb

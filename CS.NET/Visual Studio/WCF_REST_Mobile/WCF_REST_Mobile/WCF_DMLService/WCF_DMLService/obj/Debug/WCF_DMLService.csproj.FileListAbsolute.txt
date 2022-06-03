@@ -1,0 +1,5 @@
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\WCF_DMLService\bin\WCF_DMLService.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\WCF_DMLService\bin\WCF_DMLService.pdb
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\WCF_DMLService\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\WCF_DMLService\obj\Debug\WCF_DMLService.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\WCF_DMLService\obj\Debug\WCF_DMLService.pdb

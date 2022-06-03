@@ -1,0 +1,5 @@
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\SILV4_ClientApplication.Web\bin\SILV4_ClientApplication.Web.dll
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\SILV4_ClientApplication.Web\bin\SILV4_ClientApplication.Web.pdb
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\SILV4_ClientApplication.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\SILV4_ClientApplication.Web\obj\Debug\SILV4_ClientApplication.Web.dll
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\SILV4_ClientApplication.Web\obj\Debug\SILV4_ClientApplication.Web.pdb

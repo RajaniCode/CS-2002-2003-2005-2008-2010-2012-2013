@@ -1,0 +1,10 @@
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\bin\WISpawner.dll
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\bin\WISpawner.pdb
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\obj\Debug\WISpawner.dll
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\obj\Debug\WISpawner.pdb
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\bin\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.dll
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\bin\PresentationCore.dll
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\bin\Microsoft.TeamFoundation.WorkItemTracking.Client.Cache.dll
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\bin\Microsoft.TeamFoundation.WorkItemTracking.Client.RuleEngine.dll
+C:\Documents and Settings\TfsSetup\My Documents\Visual Studio 10\Projects\WISpawner\WISpawner\bin\System.Printing.dll

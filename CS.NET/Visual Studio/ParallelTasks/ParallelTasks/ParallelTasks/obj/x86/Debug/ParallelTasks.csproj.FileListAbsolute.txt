@@ -1,0 +1,5 @@
+c:\users\supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\ParallelTasks\bin\Debug\ParallelTasks.exe
+c:\users\supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\ParallelTasks\bin\Debug\ParallelTasks.pdb
+c:\users\supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\ParallelTasks\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\ParallelTasks\obj\x86\Debug\ParallelTasks.exe
+c:\users\supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\ParallelTasks\obj\x86\Debug\ParallelTasks.pdb

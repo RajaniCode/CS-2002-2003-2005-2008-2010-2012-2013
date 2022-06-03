@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="NorthwindContext-Web.config Connection String" description="NorthwindContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=.; Initial Catalog=Northwind; Integrated Security=True; MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\lle\\Source\\Repos\\genericunitofworkandrepositories5\\main\\Sample\\Northwind\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NorthwindContext']/@connectionString" />
+  </parameter>
+  <parameter name="Repository.Pattern.Ef6.DataContext-Web.config Connection String" description="Repository.Pattern.Ef6.DataContext Connection String used in web.config by the application to access the database." defaultValue="Repository.Pattern.Ef6.DataContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\lle\\Source\\Repos\\genericunitofworkandrepositories5\\main\\Sample\\Northwind\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Repository.Pattern.Ef6.DataContext']/@connectionString" />
+  </parameter>
+</parameters>

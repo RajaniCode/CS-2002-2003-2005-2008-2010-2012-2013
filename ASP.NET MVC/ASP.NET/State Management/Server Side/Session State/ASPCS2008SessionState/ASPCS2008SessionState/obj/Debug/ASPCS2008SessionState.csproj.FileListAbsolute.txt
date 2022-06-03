@@ -1,0 +1,10 @@
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008SessionState\ASPCS2008SessionState\bin\ASPCS2008SessionState.dll
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008SessionState\ASPCS2008SessionState\bin\ASPCS2008SessionState.pdb
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008SessionState\ASPCS2008SessionState\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008SessionState\ASPCS2008SessionState\obj\Debug\ASPCS2008SessionState.dll
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008SessionState\ASPCS2008SessionState\obj\Debug\ASPCS2008SessionState.pdb
+C:\Documents and Settings\RAJANI\Desktop\State Management\Server Side\Session State\ASPCS2008SessionState\ASPCS2008SessionState\bin\ASPCS2008SessionState.dll
+C:\Documents and Settings\RAJANI\Desktop\State Management\Server Side\Session State\ASPCS2008SessionState\ASPCS2008SessionState\bin\ASPCS2008SessionState.pdb
+C:\Documents and Settings\RAJANI\Desktop\State Management\Server Side\Session State\ASPCS2008SessionState\ASPCS2008SessionState\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RAJANI\Desktop\State Management\Server Side\Session State\ASPCS2008SessionState\ASPCS2008SessionState\obj\Debug\ASPCS2008SessionState.dll
+C:\Documents and Settings\RAJANI\Desktop\State Management\Server Side\Session State\ASPCS2008SessionState\ASPCS2008SessionState\obj\Debug\ASPCS2008SessionState.pdb

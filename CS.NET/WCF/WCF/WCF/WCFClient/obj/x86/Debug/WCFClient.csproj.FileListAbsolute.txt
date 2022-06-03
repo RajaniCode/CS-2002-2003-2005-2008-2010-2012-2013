@@ -1,0 +1,26 @@
+C:\Users\Rajani\Desktop\WCF\WCFClient\bin\Debug\WCFClient.exe.config
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\WCFClient.Form1.resources
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\WCFClient.Properties.Resources.resources
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rajani\Desktop\WCF\WCFClient\bin\Debug\WCFClient.exe
+C:\Users\Rajani\Desktop\WCF\WCFClient\bin\Debug\WCFClient.pdb
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\WCFClient.exe
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\WCFClient.pdb
+C:\Users\Rajani\Desktop\Code\WCF\WCFClient\bin\Debug\WCFClient.exe.config
+C:\Users\Rajani\Desktop\Code\WCF\WCFClient\obj\x86\Debug\WCFClient.exe
+C:\Users\Rajani\Desktop\Code\WCF\WCFClient\obj\x86\Debug\WCFClient.pdb
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\obj\x86\Debug\WCFClient.Form1.resources
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\obj\x86\Debug\WCFClient.Properties.Resources.resources
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\obj\x86\Debug\WCFClient.exe
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\bin\Debug\WCFClient.exe.config
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\bin\Debug\WCFClient.exe
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\bin\Debug\WCFClient.pdb
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClient\obj\x86\Debug\WCFClient.pdb
+E:\Repository\R\Quick Reference\Code\WCF\WCF\WCFClient\bin\Debug\WCFClient.exe.config
+E:\Repository\R\Quick Reference\Code\WCF\WCF\WCFClient\obj\x86\Debug\WCFClient.exe
+E:\Repository\R\Quick Reference\Code\WCF\WCF\WCFClient\obj\x86\Debug\WCFClient.pdb

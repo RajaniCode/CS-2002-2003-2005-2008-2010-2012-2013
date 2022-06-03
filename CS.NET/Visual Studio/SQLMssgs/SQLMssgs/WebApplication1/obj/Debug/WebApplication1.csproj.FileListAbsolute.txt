@@ -1,0 +1,10 @@
+D:\articles\Returning Identity column with ADO.NET\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Returning Identity column with ADO.NET\WebApplication1\bin\WebApplication1.dll
+D:\articles\Returning Identity column with ADO.NET\WebApplication1\bin\WebApplication1.pdb
+D:\articles\Returning Identity column with ADO.NET\WebApplication1\obj\Debug\WebApplication1.dll
+D:\articles\Returning Identity column with ADO.NET\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\articles\Displaying SQL Messages with ADO.NET\WebApplication1\bin\WebApplication1.dll
+E:\articles\Displaying SQL Messages with ADO.NET\WebApplication1\bin\WebApplication1.pdb
+E:\articles\Displaying SQL Messages with ADO.NET\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Displaying SQL Messages with ADO.NET\WebApplication1\obj\Debug\WebApplication1.dll
+E:\articles\Displaying SQL Messages with ADO.NET\WebApplication1\obj\Debug\WebApplication1.pdb

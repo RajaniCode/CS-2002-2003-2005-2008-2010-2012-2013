@@ -1,0 +1,15 @@
+E:\articles\Wordcount\Wordcount\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Wordcount\Wordcount\bin\DatabaseInfo.dll
+E:\articles\Wordcount\Wordcount\bin\DatabaseInfo.pdb
+E:\articles\Wordcount\Wordcount\obj\Debug\DatabaseInfo.dll
+E:\articles\Wordcount\Wordcount\obj\Debug\DatabaseInfo.pdb
+E:\articles\DatabaseInfo\DatabaseInfo\bin\DatabaseInfo.dll
+E:\articles\DatabaseInfo\DatabaseInfo\bin\DatabaseInfo.pdb
+E:\articles\DatabaseInfo\DatabaseInfo\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\DatabaseInfo\DatabaseInfo\obj\Debug\DatabaseInfo.dll
+E:\articles\DatabaseInfo\DatabaseInfo\obj\Debug\DatabaseInfo.pdb
+D:\articles\DatabaseInfo\DatabaseInfo\bin\DatabaseInfo.dll
+D:\articles\DatabaseInfo\DatabaseInfo\bin\DatabaseInfo.pdb
+D:\articles\DatabaseInfo\DatabaseInfo\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\DatabaseInfo\DatabaseInfo\obj\Debug\DatabaseInfo.dll
+D:\articles\DatabaseInfo\DatabaseInfo\obj\Debug\DatabaseInfo.pdb

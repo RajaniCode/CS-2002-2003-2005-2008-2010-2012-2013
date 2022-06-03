@@ -1,0 +1,15 @@
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\bin\Debug\EfRepPatTest.Entity.dll
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\bin\Debug\EfRepPatTest.Entity.pdb
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\obj\Debug\EfRepPatTest.Entity.dll
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\obj\Debug\EfRepPatTest.Entity.pdb
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full\EfRepositoryPatterTest.Entity\bin\Debug\EfRepPatTest.Entity.dll
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full\EfRepositoryPatterTest.Entity\bin\Debug\EfRepPatTest.Entity.pdb
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full\EfRepositoryPatterTest.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full\EfRepositoryPatterTest.Entity\obj\Debug\EfRepPatTest.Entity.dll
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full\EfRepositoryPatterTest.Entity\obj\Debug\EfRepPatTest.Entity.pdb
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full - PK Assignable\EfRepositoryPatterTest.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full - PK Assignable\EfRepositoryPatterTest.Entity\obj\Debug\EfRepPatTest.Entity.dll
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full - PK Assignable\EfRepositoryPatterTest.Entity\obj\Debug\EfRepPatTest.Entity.pdb
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full - PK Assignable\EfRepositoryPatterTest.Entity\bin\Debug\EfRepPatTest.Entity.dll
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest Full - PK Assignable\EfRepositoryPatterTest.Entity\bin\Debug\EfRepPatTest.Entity.pdb

@@ -1,0 +1,6 @@
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_Client\bin\Debug\WCF_Client.exe
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_Client\bin\Debug\WCF_Client.pdb
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_Client\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_Client\obj\x86\Debug\WCF_Client.exe
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_Client\obj\x86\Debug\WCF_Client.pdb
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_Client\bin\Debug\WCF_Client.exe.config

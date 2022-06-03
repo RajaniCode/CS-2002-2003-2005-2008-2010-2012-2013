@@ -1,0 +1,5 @@
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\SILV3_RESTDMLClient.Web\bin\SILV3_RESTDMLClient.Web.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\SILV3_RESTDMLClient.Web\bin\SILV3_RESTDMLClient.Web.pdb
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\SILV3_RESTDMLClient.Web\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\SILV3_RESTDMLClient.Web\obj\Debug\SILV3_RESTDMLClient.Web.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_CallingRESTDMLService\SILV3_RESTDMLClient.Web\obj\Debug\SILV3_RESTDMLClient.Web.pdb

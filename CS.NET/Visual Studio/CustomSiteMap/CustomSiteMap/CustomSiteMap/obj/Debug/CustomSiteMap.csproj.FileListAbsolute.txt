@@ -1,0 +1,10 @@
+E:\articles\CustomSiteMap\CustomSiteMap\bin\CustomSiteMap.dll
+E:\articles\CustomSiteMap\CustomSiteMap\bin\CustomSiteMap.pdb
+E:\articles\CustomSiteMap\CustomSiteMap\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\CustomSiteMap\CustomSiteMap\obj\Debug\CustomSiteMap.dll
+E:\articles\CustomSiteMap\CustomSiteMap\obj\Debug\CustomSiteMap.pdb
+D:\articles\CustomSiteMap\CustomSiteMap\bin\CustomSiteMap.dll
+D:\articles\CustomSiteMap\CustomSiteMap\bin\CustomSiteMap.pdb
+D:\articles\CustomSiteMap\CustomSiteMap\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\CustomSiteMap\CustomSiteMap\obj\Debug\CustomSiteMap.dll
+D:\articles\CustomSiteMap\CustomSiteMap\obj\Debug\CustomSiteMap.pdb

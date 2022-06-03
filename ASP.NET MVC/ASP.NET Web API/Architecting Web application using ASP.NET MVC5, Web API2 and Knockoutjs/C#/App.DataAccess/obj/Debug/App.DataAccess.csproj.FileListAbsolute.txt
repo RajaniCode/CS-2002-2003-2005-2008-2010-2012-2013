@@ -1,0 +1,16 @@
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\App.DataAccess.dll.config
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\App.DataAccess.dll
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\App.DataAccess.pdb
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\App.Domain.dll
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\App.Domain.pdb
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\obj\Debug\App.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\obj\Debug\MVC5EntityFrameworkDataAccess.Migrations.mig123.resources
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\obj\Debug\App.DataAccess.csproj.GenerateResource.Cache
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\obj\Debug\App.DataAccess.dll
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\obj\Debug\App.DataAccess.pdb
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\obj\Debug\MVC5EntityFrameworkDataAccess.Migrations.mig1231.resources
+C:\Users\askar\Dropbox\Project\AskarMusthaffa\MVC5EntityFrameworkDataAccess\obj\Debug\MVC5EntityFrameworkDataAccess.Migrations.mig1233.resources

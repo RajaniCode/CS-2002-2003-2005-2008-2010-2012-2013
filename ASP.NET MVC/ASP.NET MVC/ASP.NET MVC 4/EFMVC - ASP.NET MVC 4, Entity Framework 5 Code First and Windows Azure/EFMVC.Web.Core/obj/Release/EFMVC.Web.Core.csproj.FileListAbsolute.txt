@@ -1,0 +1,13 @@
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\EFMVC.Web.Core.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\EFMVC.Web.Core.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\EFMVC.Core.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\EFMVC.Model.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\System.Web.Http.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\System.Net.Http.Formatting.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\EFMVC.Core.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\EFMVC.Model.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\System.Web.Http.xml
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\bin\Release\System.Net.Http.Formatting.xml
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\obj\Release\EFMVC.Web.Core.csprojResolveAssemblyReference.cache
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\obj\Release\EFMVC.Web.Core.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Web.Core\obj\Release\EFMVC.Web.Core.pdb

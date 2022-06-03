@@ -1,0 +1,5 @@
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\WCF_DataService\obj\Debug\ResolveAssemblyReference.cache
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\WCF_DataService\bin\WCF_DataService.dll
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\WCF_DataService\bin\WCF_DataService.pdb
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\WCF_DataService\obj\Debug\WCF_DataService.dll
+D:\Mahesh_Practice\Silverlight_40\SILV4_MVVM\WCF_DataService\obj\Debug\WCF_DataService.pdb

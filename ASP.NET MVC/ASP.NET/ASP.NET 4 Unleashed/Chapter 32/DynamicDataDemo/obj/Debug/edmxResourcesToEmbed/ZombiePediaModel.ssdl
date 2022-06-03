@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ZombiePediaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ZombiePediaModelStoreContainer">
+    <EntitySet Name="ZombieSighting" EntityType="ZombiePediaModel.Store.ZombieSighting" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ZombieType" EntityType="ZombiePediaModel.Store.ZombieType" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_ZombieSighting_ZombieType" Association="ZombiePediaModel.Store.FK_ZombieSighting_ZombieType">
+      <End Role="ZombieType" EntitySet="ZombieType" />
+      <End Role="ZombieSighting" EntitySet="ZombieSighting" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ZombieSighting">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nickname" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Feeder" Type="bit" Nullable="false" />
+    <Property Name="Ambulatory" Type="bit" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+    <Property Name="ZombieTypeID" Type="int" Nullable="false" />
+    <Property Name="Latitude" Type="decimal" Nullable="false" />
+    <Property Name="Longitude" Type="decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ZombieType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK_ZombieSighting_ZombieType">
+    <End Role="ZombieType" Type="ZombiePediaModel.Store.ZombieType" Multiplicity="1" />
+    <End Role="ZombieSighting" Type="ZombiePediaModel.Store.ZombieSighting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ZombieType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ZombieSighting">
+        <PropertyRef Name="ZombieTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

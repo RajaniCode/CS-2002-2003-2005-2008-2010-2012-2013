@@ -1,0 +1,12 @@
+C:\Users\Rajani\Desktop\WCF\WCFClient\bin\Debug\WCFClient.exe.config
+C:\Users\Rajani\Desktop\WCF\WCFClient\bin\Debug\WCFClient.exe
+C:\Users\Rajani\Desktop\WCF\WCFClient\bin\Debug\WCFClient.pdb
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\WCFClient.exe
+C:\Users\Rajani\Desktop\WCF\WCFClient\obj\x86\Debug\WCFClient.pdb
+C:\Users\Rajani\Documents\Rajani\Code\WCF\WCFClient\bin\Debug\WCFClient.exe.config
+C:\Users\Rajani\Documents\Rajani\Code\WCF\WCFClient\obj\x86\Debug\WCFClient.exe
+C:\Users\Rajani\Documents\Rajani\Code\WCF\WCFClient\obj\x86\Debug\WCFClient.pdb
+C:\Code\WCF\WCFClient\bin\Debug\WCFClient.exe.config
+C:\Code\WCF\WCFClient\obj\x86\Debug\WCFClient.exe
+C:\Code\WCF\WCFClient\obj\x86\Debug\WCFClient.pdb

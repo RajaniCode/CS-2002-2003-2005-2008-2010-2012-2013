@@ -1,0 +1,5 @@
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.Client\Bin\Debug\Silverlight.Com.Client.dll
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.Client\Bin\Debug\Silverlight.Com.Client.pdb
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.Client\obj\Debug\ResolveAssemblyReference.cache
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.Client\obj\Debug\Silverlight.Com.Client.dll
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.Client\obj\Debug\Silverlight.Com.Client.pdb

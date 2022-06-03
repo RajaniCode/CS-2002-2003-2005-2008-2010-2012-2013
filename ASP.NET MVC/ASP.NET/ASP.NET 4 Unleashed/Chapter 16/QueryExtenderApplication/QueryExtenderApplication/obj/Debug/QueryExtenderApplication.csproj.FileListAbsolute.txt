@@ -1,0 +1,5 @@
+c:\users\kevin\documents\visual studio 2010\Projects\QueryExtenderApplication\QueryExtenderApplication\bin\QueryExtenderApplication.dll
+c:\users\kevin\documents\visual studio 2010\Projects\QueryExtenderApplication\QueryExtenderApplication\bin\QueryExtenderApplication.pdb
+c:\users\kevin\documents\visual studio 2010\Projects\QueryExtenderApplication\QueryExtenderApplication\obj\Debug\ResolveAssemblyReference.cache
+c:\users\kevin\documents\visual studio 2010\Projects\QueryExtenderApplication\QueryExtenderApplication\obj\Debug\QueryExtenderApplication.dll
+c:\users\kevin\documents\visual studio 2010\Projects\QueryExtenderApplication\QueryExtenderApplication\obj\Debug\QueryExtenderApplication.pdb

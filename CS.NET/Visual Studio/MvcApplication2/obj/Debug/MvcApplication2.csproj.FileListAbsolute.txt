@@ -1,0 +1,15 @@
+c:\temp2\MvcApplication2\bin\MvcApplication2.dll
+c:\temp2\MvcApplication2\bin\MvcApplication2.pdb
+c:\temp2\MvcApplication2\obj\Debug\ResolveAssemblyReference.cache
+c:\temp2\MvcApplication2\obj\Debug\MvcApplication2.dll
+c:\temp2\MvcApplication2\obj\Debug\MvcApplication2.pdb
+H:\articles\ASP.NET MVC ModelBinder\MvcApplication2\bin\MvcApplication2.dll
+H:\articles\ASP.NET MVC ModelBinder\MvcApplication2\bin\MvcApplication2.pdb
+H:\articles\ASP.NET MVC ModelBinder\MvcApplication2\obj\Debug\ResolveAssemblyReference.cache
+H:\articles\ASP.NET MVC ModelBinder\MvcApplication2\obj\Debug\MvcApplication2.dll
+H:\articles\ASP.NET MVC ModelBinder\MvcApplication2\obj\Debug\MvcApplication2.pdb
+E:\articles\ASP.NET MVC ModelBinder\MvcApplication2\bin\MvcApplication2.dll
+E:\articles\ASP.NET MVC ModelBinder\MvcApplication2\bin\MvcApplication2.pdb
+E:\articles\ASP.NET MVC ModelBinder\MvcApplication2\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\ASP.NET MVC ModelBinder\MvcApplication2\obj\Debug\MvcApplication2.dll
+E:\articles\ASP.NET MVC ModelBinder\MvcApplication2\obj\Debug\MvcApplication2.pdb

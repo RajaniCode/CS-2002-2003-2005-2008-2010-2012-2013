@@ -1,0 +1,8 @@
+E:\articles\Bulk Insert with SqlBulkCopy\BulkCopy\bin\Debug\BulkCopy.exe.config
+E:\articles\Bulk Insert with SqlBulkCopy\BulkCopy\bin\Debug\BulkCopy.exe
+E:\articles\Bulk Insert with SqlBulkCopy\BulkCopy\bin\Debug\BulkCopy.pdb
+E:\articles\Bulk Insert with SqlBulkCopy\BulkCopy\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Bulk Insert with SqlBulkCopy\BulkCopy\obj\Debug\BulkCopy.exe
+E:\articles\Bulk Insert with SqlBulkCopy\BulkCopy\obj\Debug\BulkCopy.pdb
+D:\Articles\Malcolm\Bulk_Insert_with_SqlBulkCopy\BulkCopy\bin\Debug\BulkCopy.exe.config
+C:\Users\Rajani\Documents\Rajani\Code\skydrive-2012-04-02\BulkCopy\BulkCopy\bin\Debug\BulkCopy.exe.config

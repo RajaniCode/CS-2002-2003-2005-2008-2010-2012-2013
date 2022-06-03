@@ -1,0 +1,12 @@
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\Bin\Debug\AppManifest.xaml
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\Bin\Debug\ImagesInIsolatedStorage.dll
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\Bin\Debug\ImagesInIsolatedStorage.pdb
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\Bin\Debug\ImagesInIsolatedStorage.xap
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\Bin\Debug\TestPage.html
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\obj\Debug\App.g.cs
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\obj\Debug\Page.g.cs
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\obj\Debug\ImagesInIsolatedStorage.g.resources
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\obj\Debug\ImagesInIsolatedStorage.dll
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\obj\Debug\ImagesInIsolatedStorage.pdb
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\ImagesInIsolatedStorage\ImagesInIsolatedStorage\obj\Debug\XapCacheFile.xml

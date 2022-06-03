@@ -1,0 +1,5 @@
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter13 - Deployment\CS\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter13 - Deployment\CS\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter13 - Deployment\CS\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter13 - Deployment\CS\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter13 - Deployment\CS\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

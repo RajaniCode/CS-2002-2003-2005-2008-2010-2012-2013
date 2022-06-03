@@ -1,0 +1,5 @@
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\clsDataContracts\bin\Debug\clsDataContracts.dll
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\clsDataContracts\bin\Debug\clsDataContracts.pdb
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\clsDataContracts\obj\Debug\ResolveAssemblyReference.cache
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\clsDataContracts\obj\Debug\clsDataContracts.dll
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\clsDataContracts\obj\Debug\clsDataContracts.pdb

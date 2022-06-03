@@ -1,0 +1,5 @@
+C:\Users\Rajani\Desktop\ASPCS2008SessionStateInWebService\ASPCS2008WebServiceSessionState\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\ASPCS2008SessionStateInWebService\ASPCS2008WebServiceSessionState\bin\ASPCS2008WebServiceSessionState.dll
+C:\Users\Rajani\Desktop\ASPCS2008SessionStateInWebService\ASPCS2008WebServiceSessionState\bin\ASPCS2008WebServiceSessionState.pdb
+C:\Users\Rajani\Desktop\ASPCS2008SessionStateInWebService\ASPCS2008WebServiceSessionState\obj\Debug\ASPCS2008WebServiceSessionState.dll
+C:\Users\Rajani\Desktop\ASPCS2008SessionStateInWebService\ASPCS2008WebServiceSessionState\obj\Debug\ASPCS2008WebServiceSessionState.pdb

@@ -1,0 +1,5 @@
+c:\users\supro\documents\visual studio 2010\Projects\SilverlightODataREST\SilverlightODataREST.Web\bin\SilverlightODataREST.Web.dll
+c:\users\supro\documents\visual studio 2010\Projects\SilverlightODataREST\SilverlightODataREST.Web\bin\SilverlightODataREST.Web.pdb
+c:\users\supro\documents\visual studio 2010\Projects\SilverlightODataREST\SilverlightODataREST.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\users\supro\documents\visual studio 2010\Projects\SilverlightODataREST\SilverlightODataREST.Web\obj\Debug\SilverlightODataREST.Web.dll
+c:\users\supro\documents\visual studio 2010\Projects\SilverlightODataREST\SilverlightODataREST.Web\obj\Debug\SilverlightODataREST.Web.pdb

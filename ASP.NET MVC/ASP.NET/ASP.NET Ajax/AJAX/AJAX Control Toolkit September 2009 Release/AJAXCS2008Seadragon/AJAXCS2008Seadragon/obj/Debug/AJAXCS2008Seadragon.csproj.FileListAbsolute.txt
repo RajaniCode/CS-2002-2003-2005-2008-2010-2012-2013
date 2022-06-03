@@ -1,0 +1,7 @@
+C:\Documents and Settings\RAJANI\Desktop\AJAXCS2008Seadragon\AJAXCS2008Seadragon\bin\AJAXCS2008Seadragon.dll
+C:\Documents and Settings\RAJANI\Desktop\AJAXCS2008Seadragon\AJAXCS2008Seadragon\bin\AJAXCS2008Seadragon.pdb
+C:\Documents and Settings\RAJANI\Desktop\AJAXCS2008Seadragon\AJAXCS2008Seadragon\bin\AjaxControlToolkit.dll
+C:\Documents and Settings\RAJANI\Desktop\AJAXCS2008Seadragon\AJAXCS2008Seadragon\bin\AjaxControlToolkit.pdb
+C:\Documents and Settings\RAJANI\Desktop\AJAXCS2008Seadragon\AJAXCS2008Seadragon\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RAJANI\Desktop\AJAXCS2008Seadragon\AJAXCS2008Seadragon\obj\Debug\AJAXCS2008Seadragon.dll
+C:\Documents and Settings\RAJANI\Desktop\AJAXCS2008Seadragon\AJAXCS2008Seadragon\obj\Debug\AJAXCS2008Seadragon.pdb

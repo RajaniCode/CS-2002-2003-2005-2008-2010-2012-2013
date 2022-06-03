@@ -1,0 +1,12 @@
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\ModalPopTests.dll
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\ModalPopTests.pdb
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\ModalPop.dll
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\MvcContrib.dll
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\MvcContrib.TestHelper.dll
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\nunit.core.dll
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\nunit.framework.dll
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\ModalPop.pdb
+C:\Repository\Blog Code\ModalPop\ModalPopTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Repository\Blog Code\ModalPop\ModalPopTests\obj\Debug\ModalPopTests.dll
+C:\Repository\Blog Code\ModalPop\ModalPopTests\obj\Debug\ModalPopTests.pdb
+C:\Repository\Blog Code\ModalPop\ModalPopTests\bin\Debug\Microsoft.Web.Mvc.dll

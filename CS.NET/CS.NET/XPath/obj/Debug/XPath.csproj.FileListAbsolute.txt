@@ -1,0 +1,8 @@
+C:\Users\rajani.somaskandan\Desktop\XPath\bin\Debug\XPath.exe
+C:\Users\rajani.somaskandan\Desktop\XPath\bin\Debug\XPath.pdb
+C:\Users\rajani.somaskandan\Desktop\XPath\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rajani.somaskandan\Desktop\XPath\obj\Debug\XPath.EditForm.resources
+C:\Users\rajani.somaskandan\Desktop\XPath\obj\Debug\XPath.Form1.resources
+C:\Users\rajani.somaskandan\Desktop\XPath\obj\Debug\XPath.csproj.GenerateResource.Cache
+C:\Users\rajani.somaskandan\Desktop\XPath\obj\Debug\XPath.exe
+C:\Users\rajani.somaskandan\Desktop\XPath\obj\Debug\XPath.pdb

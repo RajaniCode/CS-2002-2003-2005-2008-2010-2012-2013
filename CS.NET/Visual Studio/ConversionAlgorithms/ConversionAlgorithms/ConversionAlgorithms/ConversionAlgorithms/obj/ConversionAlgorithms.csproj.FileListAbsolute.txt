@@ -1,0 +1,5 @@
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\ConversionAlgorithms\ConversionAlgorithms\obj\Debug\ConversionAlgorithms.exe
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\ConversionAlgorithms\ConversionAlgorithms\obj\Debug\ConversionAlgorithms.pdb
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\ConversionAlgorithms\ConversionAlgorithms\bin\Debug\ConversionAlgorithms.exe
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\ConversionAlgorithms\ConversionAlgorithms\bin\Debug\ConversionAlgorithms.pdb
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\ConversionAlgorithms\ConversionAlgorithms\obj\Debug\ResolveAssemblyReference.cache

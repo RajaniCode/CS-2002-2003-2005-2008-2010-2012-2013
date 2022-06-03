@@ -1,0 +1,9 @@
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.dll.config
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter08 - Validation\CS\MvcApplication1\MvcApplication1.Tests\bin\Debug\System.ComponentModel.DataAnnotations.dll

@@ -1,0 +1,104 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+
+namespace Client
+{
+    public partial class formClient : Form
+    {
+        ReceiveClient clientReceive = null;
+        string name;
+       
+        public formClient()
+        {
+            InitializeComponent();
+            this.FormClosing += new FormClosingEventHandler(formClient_FormClosing);
+            this.textBoxSend.KeyPress += new KeyPressEventHandler(textBoxSend_KeyPress);            
+        }      
+
+        private void formClient_Load(object sender, EventArgs e)
+        {
+            textBoxMessages.Enabled = false;
+            textBoxSend.Enabled = false;
+            buttonSend.Enabled = false;
+        }
+
+        private void formClient_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            clientReceive.Stop(this.name);
+        }              
+
+        private void buttonLogin_Click(object sender, EventArgs e)
+        {
+            if (textBoxUserName.Text.Trim().Length > 0)
+            {
+                textBoxMessages.Enabled = true;
+                textBoxSend.Enabled = true;
+                buttonSend.Enabled = true;
+                this.name = textBoxUserName.Text.Trim();
+                clientReceive = new ReceiveClient();
+                clientReceive.Start(clientReceive, this.name);
+                clientReceive.ChatReceviedListOfNames += new ReceviedListOfNames(receiveClient_ChatReceviedListOfNames);
+                clientReceive.ChatReceivedMessage += new ReceviedMessage(receiveClient_ChatReceivedMessage);
+            }
+            else
+            {
+                textBoxMessages.Enabled = false;
+                textBoxSend.Enabled = false;
+                buttonSend.Enabled = false;
+            }
+        }
+
+        private void buttonSend_Click(object sender, EventArgs e)
+        {
+            SendMessage();
+        }
+
+        private void textBoxSend_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            int keyValue = (int)e.KeyChar;
+
+            if (keyValue == 13)
+            {
+                SendMessage();
+            }
+        }
+
+        void receiveClient_ChatReceivedMessage(string sender, string message)
+        {
+            if (message.Length > 0)
+            {
+                textBoxMessages.Text += Environment.NewLine + sender + ">" + message;
+            }
+        }
+
+        void receiveClient_ChatReceviedListOfNames(object sender, List<string> names)
+        {
+            listBoxClients.Items.Clear();
+            foreach (string name in names)
+            {
+                if (name != this.name)
+                {
+                    listBoxClients.Items.Add(name);
+                }
+            }
+        }
+
+        private void SendMessage()
+        {
+            if (listBoxClients.Items.Count != 0)
+            {
+                textBoxMessages.Text += Environment.NewLine + this.name + ">" + textBoxSend.Text.Trim();
+                if (listBoxClients.SelectedItems.Count == 0)
+                {
+                    clientReceive.SendMessage(textBoxSend.Text, this.name, listBoxClients.Items[0].ToString().Trim());
+                }
+                else if (!string.IsNullOrEmpty(listBoxClients.SelectedItem.ToString().Trim()))
+                {
+                    clientReceive.SendMessage(textBoxSend.Text, this.name, listBoxClients.SelectedItem.ToString().Trim());
+                }
+                textBoxSend.Clear();
+            }
+        }
+    }   
+}

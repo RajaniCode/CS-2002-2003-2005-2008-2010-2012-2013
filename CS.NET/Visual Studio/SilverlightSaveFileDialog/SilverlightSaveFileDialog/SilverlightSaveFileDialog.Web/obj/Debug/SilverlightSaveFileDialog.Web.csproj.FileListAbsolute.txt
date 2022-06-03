@@ -1,0 +1,5 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog.Web\bin\SilverlightSaveFileDialog.Web.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog.Web\bin\SilverlightSaveFileDialog.Web.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog.Web\obj\Debug\SilverlightSaveFileDialog.Web.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog.Web\obj\Debug\SilverlightSaveFileDialog.Web.pdb

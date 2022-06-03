@@ -1,0 +1,5 @@
+D:\articles\Silverlight 3 Element Binding\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+D:\articles\Silverlight 3 Element Binding\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+D:\articles\Silverlight 3 Element Binding\SilverlightApplication1.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Silverlight 3 Element Binding\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+D:\articles\Silverlight 3 Element Binding\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb

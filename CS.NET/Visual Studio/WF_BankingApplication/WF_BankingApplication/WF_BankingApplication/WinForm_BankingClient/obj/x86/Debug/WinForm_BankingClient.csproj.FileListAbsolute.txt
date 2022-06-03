@@ -1,0 +1,10 @@
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\bin\Debug\WinForm_BankingClient.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\bin\Debug\WinForm_BankingClient.pdb
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\obj\x86\Debug\WinForm_BankingClient.Form1.resources
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\obj\x86\Debug\WinForm_BankingClient.Properties.Resources.resources
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\obj\x86\Debug\WinForm_BankingClient.csproj.GenerateResource.Cache
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\obj\x86\Debug\WinForm_BankingClient.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\obj\x86\Debug\WinForm_BankingClient.pdb
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\bin\Debug\WF_BankingApplication.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WinForm_BankingClient\bin\Debug\WF_BankingApplication.pdb

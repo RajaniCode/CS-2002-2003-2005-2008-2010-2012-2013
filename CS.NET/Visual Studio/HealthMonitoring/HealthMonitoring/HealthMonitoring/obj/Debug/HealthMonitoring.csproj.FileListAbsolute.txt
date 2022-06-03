@@ -1,0 +1,10 @@
+E:\articles\Health Monitoring\HealthMonitoring\bin\HealthMonitoring.dll
+E:\articles\Health Monitoring\HealthMonitoring\bin\HealthMonitoring.pdb
+E:\articles\Health Monitoring\HealthMonitoring\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Health Monitoring\HealthMonitoring\obj\Debug\HealthMonitoring.dll
+E:\articles\Health Monitoring\HealthMonitoring\obj\Debug\HealthMonitoring.pdb
+D:\articles\Health Monitoring\HealthMonitoring\bin\HealthMonitoring.dll
+D:\articles\Health Monitoring\HealthMonitoring\bin\HealthMonitoring.pdb
+D:\articles\Health Monitoring\HealthMonitoring\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Health Monitoring\HealthMonitoring\obj\Debug\HealthMonitoring.dll
+D:\articles\Health Monitoring\HealthMonitoring\obj\Debug\HealthMonitoring.pdb

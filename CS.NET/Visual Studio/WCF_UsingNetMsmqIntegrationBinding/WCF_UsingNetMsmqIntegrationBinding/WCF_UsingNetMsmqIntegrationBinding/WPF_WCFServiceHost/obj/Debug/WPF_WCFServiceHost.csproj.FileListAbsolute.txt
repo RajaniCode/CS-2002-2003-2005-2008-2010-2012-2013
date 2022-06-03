@@ -1,0 +1,15 @@
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\bin\Debug\WPF_WCFServiceHost.exe.config
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\bin\Debug\WPF_WCFServiceHost.exe
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\bin\Debug\WPF_WCFServiceHost.pdb
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\bin\Debug\BusinessDataObject.dll
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\bin\Debug\BusinessDataObject.pdb
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\Window1.baml
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\Window1.g.cs
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\App.g.cs
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\WPF_WCFServiceHost_MarkupCompile.cache
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\WPF_WCFServiceHost.g.resources
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\WPF_WCFServiceHost.Properties.Resources.resources
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\WPF_WCFServiceHost.csproj.GenerateResource.Cache
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\WPF_WCFServiceHost.exe
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\WPF_WCFServiceHost\obj\Debug\WPF_WCFServiceHost.pdb

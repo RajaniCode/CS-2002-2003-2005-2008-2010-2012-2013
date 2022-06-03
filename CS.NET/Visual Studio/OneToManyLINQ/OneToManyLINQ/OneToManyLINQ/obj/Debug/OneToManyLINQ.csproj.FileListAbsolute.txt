@@ -1,0 +1,5 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\OneToManyLINQ\OneToManyLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\OneToManyLINQ\OneToManyLINQ\bin\Debug\OneToManyLINQ.exe
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\OneToManyLINQ\OneToManyLINQ\bin\Debug\OneToManyLINQ.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\OneToManyLINQ\OneToManyLINQ\obj\Debug\OneToManyLINQ.exe
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\OneToManyLINQ\OneToManyLINQ\obj\Debug\OneToManyLINQ.pdb

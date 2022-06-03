@@ -1,0 +1,8 @@
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\ConsoleHost\bin\Debug\ConsoleHost.exe
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\ConsoleHost\bin\Debug\ConsoleHost.pdb
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\ConsoleHost\bin\Debug\SecureServiceLibrary.dll
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\ConsoleHost\bin\Debug\SecureServiceLibrary.pdb
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\ConsoleHost\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\ConsoleHost\obj\Debug\ConsoleHost.exe
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\ConsoleHost\obj\Debug\ConsoleHost.pdb

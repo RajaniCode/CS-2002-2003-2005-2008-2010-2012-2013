@@ -1,0 +1,829 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <lst name="responseHeader">
+    <int name="status">0</int>
+    <int name="QTime">0</int>
+    <lst name="params">
+      <str name="facet">true</str>
+      <str name="fl">*</str>
+      <str name="start">1</str>
+      <str name="q">SearchTerm:HLCPA100</str>
+      <arr name="facet.field">
+        <str>ManufacturerId</str>
+        <str>DistributorId</str>
+      </arr>
+      <str name="rows">10</str>
+    </lst>
+  </lst>
+  <result name="response" numFound="10" start="1">
+    <doc>
+      <arr name="CountryRegionID">
+        <int>1</int>
+        <int>2</int>
+        <int>1</int>
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>106474~0</str>
+        <str>102979~0</str>
+        <str>135192~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>106474~1</str>
+        <str>106474~2</str>
+        <str>102979~1</str>
+        <str>135192~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>106474~279118209</str>
+        <str>102979~186736972</str>
+        <str>135192~221109962</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>106474~Avnet Electronics Marketing</str>
+        <str>102979~Quest Components</str>
+        <str>135192~Global Access Unlimited</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>106474~556</str>
+        <str>102979~964</str>
+        <str>135192~15</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>106474~0.00</str>
+        <str>102979~0.00</str>
+        <str>135192~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>106474~0</str>
+        <str>102979~0</str>
+        <str>135192~137136</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>106474</int>
+        <int>102979</int>
+        <int>135192</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>Avnet Electronics Marketing</str>
+        <str>Quest Components</str>
+        <str>Global Access Unlimited</str>
+      </arr>
+      <int name="ManufacturerId">0</int>
+      <str name="ManufacturerName">zzunknown</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCP-A100~0</str>
+      <str name="PartNumber">HLCP-A100</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+        <float>0.0</float>
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>556.0</float>
+        <float>964.0</float>
+        <float>15.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <str name="SearchTerm">HLCPA100</str>
+      <str name="SearchTermExact">HLCPA100</str>
+      <int name="UserID">0</int>
+    </doc>
+    <doc>
+      <str name="ColumnDescription">LED LIGHT BAR</str>
+      <arr name="CountryRegionID">
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>143252~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>143252~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>143252~6048571</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>143252~SMT Corp</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>143252~52</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>143252~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>143252~143634</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>143252</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>SMT Corp</str>
+      </arr>
+      <int name="ManufacturerId">143000</int>
+      <str name="ManufacturerName">zzunknown</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCP-A100~143000</str>
+      <str name="PartNumber">HLCP-A100</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>52.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <arr name="ProductID">
+        <int>9566244</int>
+      </arr>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <str name="SearchTerm">HLCPA100</str>
+      <str name="SearchTermExact">HLCPA100</str>
+      <int name="UserID">0</int>
+    </doc>
+    <doc>
+      <arr name="CountryRegionID">
+        <int>1</int>
+        <int>2</int>
+        <int>1</int>
+        <int>1</int>
+        <int>1</int>
+        <int>2</int>
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>100789~0</str>
+        <str>120020~0</str>
+        <str>104333~0</str>
+        <str>102617~0</str>
+        <str>139004~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>100789~1</str>
+        <str>100789~2</str>
+        <str>120020~1</str>
+        <str>104333~1</str>
+        <str>102617~1</str>
+        <str>102617~2</str>
+        <str>139004~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>100789~281803107</str>
+        <str>120020~269780736</str>
+        <str>104333~281529926</str>
+        <str>102617~221140784</str>
+        <str>139004~279969888</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>100789~Arrow North American Components (NAC)</str>
+        <str>120020~Abacus Technologies</str>
+        <str>104333~Mouser Electronics</str>
+        <str>102617~Future Electronics</str>
+        <str>139004~Derf Electronics</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>100789~574</str>
+        <str>120020~1050</str>
+        <str>104333~1</str>
+        <str>102617~320</str>
+        <str>139004~240</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>100789~0.00</str>
+        <str>120020~0.00</str>
+        <str>104333~0.00</str>
+        <str>102617~0.00</str>
+        <str>139004~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>100789~0</str>
+        <str>120020~0</str>
+        <str>104333~0</str>
+        <str>102617~0</str>
+        <str>139004~0</str>
+      </arr>
+      <arr name="DistIdRegionID">
+        <str>100789~1</str>
+        <str>100789~2</str>
+        <str>104333~1</str>
+        <str>104333~2</str>
+        <str>102617~1</str>
+        <str>102617~2</str>
+        <str>139004~1</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>100789</int>
+        <int>120020</int>
+        <int>104333</int>
+        <int>102617</int>
+        <int>139004</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>Arrow North American Components (NAC)</str>
+        <str>Abacus Technologies</str>
+        <str>Mouser Electronics</str>
+        <str>Future Electronics</str>
+        <str>Derf Electronics</str>
+      </arr>
+      <int name="ManufacturerId">139801</int>
+      <str name="ManufacturerName">Avago Technologies</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCP-A100~139801</str>
+      <str name="PartNumber">HLCP-A100</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+        <float>0.0</float>
+        <float>0.0</float>
+        <float>0.0</float>
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>574.0</float>
+        <float>1050.0</float>
+        <float>1.0</float>
+        <float>320.0</float>
+        <float>240.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <arr name="RegionID">
+        <int>1</int>
+        <int>2</int>
+        <int>1</int>
+        <int>2</int>
+        <int>1</int>
+        <int>2</int>
+        <int>1</int>
+      </arr>
+      <str name="SearchTerm">HLCPA100Avago Technologies</str>
+      <str name="SearchTermExact">HLCPA100Avago Technologies</str>
+      <int name="UserID">0</int>
+    </doc>
+    <doc>
+      <arr name="CountryRegionID">
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>100001~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>100001~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>100001~278411525</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>100001~America II Electronics</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>100001~40</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>100001~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>100001~0</str>
+      </arr>
+      <arr name="DistIdRegionID">
+        <str>100001~1</str>
+        <str>100001~2</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>100001</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>America II Electronics</str>
+      </arr>
+      <int name="ManufacturerId">139801</int>
+      <str name="ManufacturerName">Avago Technologies</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCP-A100(C~139801</str>
+      <str name="PartNumber">HLCP-A100(C</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>40.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <arr name="RegionID">
+        <int>1</int>
+        <int>2</int>
+      </arr>
+      <str name="SearchTerm">HLCPA100CAvago Technologies</str>
+      <str name="SearchTermExact">HLCPA100CAvago Technologies</str>
+      <int name="UserID">0</int>
+    </doc>
+    <doc>
+      <arr name="CountryRegionID">
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>143058~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>143058~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>143058~281611441</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>143058~PRV Electronics</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>143058~44</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>143058~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>143058~143465</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>143058</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>PRV Electronics</str>
+      </arr>
+      <int name="ManufacturerId">139801</int>
+      <str name="ManufacturerName">Avago Technologies</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCPA100C~139801</str>
+      <str name="PartNumber">HLCPA100C</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>44.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <str name="SearchTerm">HLCPA100CAvago Technologies</str>
+      <str name="SearchTermExact">HLCPA100CAvago Technologies</str>
+      <int name="UserID">0</int>
+    </doc>
+    <doc>
+      <arr name="CountryRegionID">
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>144581~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>144581~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>144581~283581196</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>144581~Elcom Components</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>144581~872</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>144581~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>144581~0</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>144581</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>Elcom Components</str>
+      </arr>
+      <int name="ManufacturerId">102932</int>
+      <str name="ManufacturerName">Hewlett-Packard</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCP-A100~102932</str>
+      <str name="PartNumber">HLCP-A100</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>872.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <str name="SearchTerm">HLCPA100HewlettPackard</str>
+      <str name="SearchTermExact">HLCPA100HewlettPackard</str>
+      <int name="UserID">0</int>
+    </doc>
+    <doc>
+      <arr name="CountryRegionID">
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>100001~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>100001~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>100001~101146286</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>100001~America II Electronics</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>100001~143</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>100001~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>100001~0</str>
+      </arr>
+      <arr name="DistIdRegionID">
+        <str>100001~1</str>
+        <str>100001~2</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>100001</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>America II Electronics</str>
+      </arr>
+      <int name="ManufacturerId">139801</int>
+      <str name="ManufacturerName">Avago Technologies</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCPA100~139801</str>
+      <str name="PartNumber">HLCPA100</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>143.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <arr name="ProductID">
+        <int>919313</int>
+      </arr>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <arr name="RegionID">
+        <int>1</int>
+        <int>2</int>
+      </arr>
+      <str name="SearchTerm">HLCPA100Avago Technologies</str>
+      <str name="SearchTermExact">HLCPA100Avago Technologies</str>
+      <int name="UserID">0</int>
+    </doc>
+    <doc>
+      <arr name="CountryRegionID">
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>143058~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>143058~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>143058~273913383</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>143058~PRV Electronics</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>143058~4518</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>143058~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>143058~143465</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>143058</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>PRV Electronics</str>
+      </arr>
+      <int name="ManufacturerId">139801</int>
+      <str name="ManufacturerName">Avago Technologies</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCPA100BC000~139801</str>
+      <str name="PartNumber">HLCPA100BC000</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>4518.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <str name="SearchTerm">HLCPA100BC000Avago Technologies</str>
+      <str name="SearchTermExact">HLCPA100BC000Avago Technologies</str>
+      <int name="UserID">0</int>
+    </doc>
+    <doc>
+      <str name="ColumnDescription">Null</str>
+      <arr name="CountryRegionID">
+        <int>1</int>
+      </arr>
+      <arr name="DistIdBuy_Button">
+        <str>100001~0</str>
+      </arr>
+      <arr name="DistIdCountryRegionID">
+        <str>100001~1</str>
+      </arr>
+      <arr name="DistIdDistrbutorPartID">
+        <str>100001~278421524</str>
+      </arr>
+      <arr name="DistIdDistributorName">
+        <str>100001~America II Electronics</str>
+      </arr>
+      <arr name="DistIdPartQuantity">
+        <str>100001~4108</str>
+      </arr>
+      <arr name="DistIdPrice">
+        <str>100001~0.00</str>
+      </arr>
+      <arr name="DistIdRFQCPID">
+        <str>100001~0</str>
+      </arr>
+      <arr name="DistIdRegionID">
+        <str>100001~1</str>
+        <str>100001~2</str>
+      </arr>
+      <arr name="DistributorId">
+        <int>100001</int>
+      </arr>
+      <arr name="DistributorName">
+        <str>America II Electronics</str>
+      </arr>
+      <int name="ManufacturerId">139801</int>
+      <str name="ManufacturerName">Avago Technologies</str>
+      <str name="PartAppNotes"/>
+      <str name="PartAppNotesLink"/>
+      <str name="PartMfrId">HLCP-A100-BC000~139801</str>
+      <str name="PartNumber">HLCP-A100-BC000</str>
+      <arr name="PartPrice">
+        <float>0.0</float>
+      </arr>
+      <arr name="PartQuantity">
+        <float>4108.0</float>
+      </arr>
+      <str name="PartSoftTool"/>
+      <str name="PartSoftToolLink"/>
+      <str name="PartUploadDate">2012-03-16 21:36:57.987</str>
+      <arr name="ProductID">
+        <int>3056785</int>
+      </arr>
+      <str name="ProductType"/>
+      <int name="ProductTypeId">0</int>
+      <arr name="RegionID">
+        <int>1</int>
+        <int>2</int>
+      </arr>
+      <str name="SearchTerm">HLCPA100BC000Avago Technologies</str>
+      <str name="SearchTermExact">HLCPA100BC000Avago Technologies</str>
+      <int name="UserID">0</int>
+    </doc>
+  </result>
+  <lst name="facet_counts">
+    <lst name="facet_queries"/>
+    <lst name="facet_fields">
+      <lst name="ManufacturerId">
+        <int name="139801">6</int>
+        <int name="0">2</int>
+        <int name="102932">1</int>
+        <int name="143000">1</int>
+        <int name="100012">0</int>
+        <int name="100013">0</int>
+        <int name="100061">0</int>
+        <int name="100129">0</int>
+        <int name="100134">0</int>
+        <int name="100173">0</int>
+        <int name="100176">0</int>
+        <int name="100183">0</int>
+        <int name="100236">0</int>
+        <int name="100266">0</int>
+        <int name="100278">0</int>
+        <int name="100282">0</int>
+        <int name="100286">0</int>
+        <int name="100296">0</int>
+        <int name="100322">0</int>
+        <int name="100328">0</int>
+        <int name="100332">0</int>
+        <int name="100334">0</int>
+        <int name="100344">0</int>
+        <int name="100403">0</int>
+        <int name="100432">0</int>
+        <int name="100443">0</int>
+        <int name="100487">0</int>
+        <int name="100518">0</int>
+        <int name="100557">0</int>
+        <int name="100576">0</int>
+        <int name="100602">0</int>
+        <int name="100620">0</int>
+        <int name="100622">0</int>
+        <int name="100663">0</int>
+        <int name="100665">0</int>
+        <int name="100680">0</int>
+        <int name="100723">0</int>
+        <int name="100733">0</int>
+        <int name="100772">0</int>
+        <int name="100784">0</int>
+        <int name="100800">0</int>
+        <int name="100858">0</int>
+        <int name="100879">0</int>
+        <int name="100898">0</int>
+        <int name="100943">0</int>
+        <int name="100967">0</int>
+        <int name="100969">0</int>
+        <int name="100974">0</int>
+        <int name="100984">0</int>
+        <int name="100985">0</int>
+        <int name="101061">0</int>
+        <int name="101116">0</int>
+        <int name="101167">0</int>
+        <int name="101207">0</int>
+        <int name="101214">0</int>
+        <int name="101253">0</int>
+        <int name="101275">0</int>
+        <int name="101337">0</int>
+        <int name="101372">0</int>
+        <int name="101484">0</int>
+        <int name="101525">0</int>
+        <int name="101531">0</int>
+        <int name="101566">0</int>
+        <int name="101662">0</int>
+        <int name="101666">0</int>
+        <int name="101720">0</int>
+        <int name="101758">0</int>
+        <int name="101782">0</int>
+        <int name="101786">0</int>
+        <int name="101816">0</int>
+        <int name="101822">0</int>
+        <int name="101829">0</int>
+        <int name="101931">0</int>
+        <int name="101934">0</int>
+        <int name="101966">0</int>
+        <int name="101985">0</int>
+        <int name="102026">0</int>
+        <int name="102175">0</int>
+        <int name="102209">0</int>
+        <int name="102275">0</int>
+        <int name="102400">0</int>
+        <int name="102407">0</int>
+        <int name="102549">0</int>
+        <int name="102557">0</int>
+        <int name="102560">0</int>
+        <int name="102599">0</int>
+        <int name="102602">0</int>
+        <int name="102603">0</int>
+        <int name="102667">0</int>
+        <int name="102673">0</int>
+        <int name="102681">0</int>
+        <int name="102691">0</int>
+        <int name="102743">0</int>
+        <int name="102770">0</int>
+        <int name="102785">0</int>
+        <int name="102793">0</int>
+        <int name="102864">0</int>
+        <int name="102886">0</int>
+        <int name="102913">0</int>
+        <int name="102962">0</int>
+      </lst>
+      <lst name="DistributorId">
+        <int name="100001">3</int>
+        <int name="143058">3</int>
+        <int name="100789">1</int>
+        <int name="102617">1</int>
+        <int name="102979">1</int>
+        <int name="104333">1</int>
+        <int name="106474">1</int>
+        <int name="120020">1</int>
+        <int name="122792">1</int>
+        <int name="135192">1</int>
+        <int name="139004">1</int>
+        <int name="143252">1</int>
+        <int name="144581">1</int>
+        <int name="100077">0</int>
+        <int name="100232">0</int>
+        <int name="100270">0</int>
+        <int name="100298">0</int>
+        <int name="100454">0</int>
+        <int name="100535">0</int>
+        <int name="100786">0</int>
+        <int name="100832">0</int>
+        <int name="101312">0</int>
+        <int name="101337">0</int>
+        <int name="101397">0</int>
+        <int name="101457">0</int>
+        <int name="101469">0</int>
+        <int name="101664">0</int>
+        <int name="101748">0</int>
+        <int name="101842">0</int>
+        <int name="102109">0</int>
+        <int name="102129">0</int>
+        <int name="102205">0</int>
+        <int name="102209">0</int>
+        <int name="102217">0</int>
+        <int name="102416">0</int>
+        <int name="102516">0</int>
+        <int name="102612">0</int>
+        <int name="102643">0</int>
+        <int name="102665">0</int>
+        <int name="102784">0</int>
+        <int name="102877">0</int>
+        <int name="103008">0</int>
+        <int name="103216">0</int>
+        <int name="103298">0</int>
+        <int name="103547">0</int>
+        <int name="103705">0</int>
+        <int name="103934">0</int>
+        <int name="103943">0</int>
+        <int name="103970">0</int>
+        <int name="104462">0</int>
+        <int name="104619">0</int>
+        <int name="104720">0</int>
+        <int name="104767">0</int>
+        <int name="104824">0</int>
+        <int name="104943">0</int>
+        <int name="104978">0</int>
+        <int name="105109">0</int>
+        <int name="105132">0</int>
+        <int name="105175">0</int>
+        <int name="105266">0</int>
+        <int name="105274">0</int>
+        <int name="105393">0</int>
+        <int name="105479">0</int>
+        <int name="106042">0</int>
+        <int name="106227">0</int>
+        <int name="106459">0</int>
+        <int name="106555">0</int>
+        <int name="106619">0</int>
+        <int name="106621">0</int>
+        <int name="106763">0</int>
+        <int name="106972">0</int>
+        <int name="107161">0</int>
+        <int name="107902">0</int>
+        <int name="107980">0</int>
+        <int name="108341">0</int>
+        <int name="108594">0</int>
+        <int name="108830">0</int>
+        <int name="109053">0</int>
+        <int name="109277">0</int>
+        <int name="109316">0</int>
+        <int name="109544">0</int>
+        <int name="109588">0</int>
+        <int name="110130">0</int>
+        <int name="110159">0</int>
+        <int name="110192">0</int>
+        <int name="111111">0</int>
+        <int name="111531">0</int>
+        <int name="120059">0</int>
+        <int name="120092">0</int>
+        <int name="120226">0</int>
+        <int name="120361">0</int>
+        <int name="120458">0</int>
+        <int name="120683">0</int>
+        <int name="120886">0</int>
+        <int name="120889">0</int>
+        <int name="121167">0</int>
+        <int name="121171">0</int>
+        <int name="121230">0</int>
+        <int name="121381">0</int>
+        <int name="121564">0</int>
+      </lst>
+    </lst>
+    <lst name="facet_dates"/>
+  </lst>
+</response>

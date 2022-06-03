@@ -1,0 +1,16 @@
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\bin\Debug\WPF_RESTCLient.exe
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\bin\Debug\WPF_RESTCLient.pdb
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\ResolveAssemblyReference.cache
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\Window1.baml
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\Window1.g.cs
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\App.g.cs
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\WPF_RESTCLient_MarkupCompile.cache
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\WPF_RESTCLient.g.resources
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\WPF_RESTCLient.Properties.Resources.resources
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\WPF_RESTCLient.csproj.GenerateResource.Cache
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\WPF_RESTCLient.exe
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\obj\Debug\WPF_RESTCLient.pdb
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\bin\Debug\clsDataContracts.dll
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\bin\Debug\clsDataContracts.pdb
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WPF_RESTCLient\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb

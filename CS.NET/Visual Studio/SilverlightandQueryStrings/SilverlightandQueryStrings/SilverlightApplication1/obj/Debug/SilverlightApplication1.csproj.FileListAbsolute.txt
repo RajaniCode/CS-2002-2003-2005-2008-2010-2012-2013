@@ -1,0 +1,24 @@
+C:\Temp\SilverlightApplication1\Bin\Debug\AppManifest.xaml
+C:\Temp\SilverlightApplication1\Bin\Debug\SilverlightApplication1.dll
+C:\Temp\SilverlightApplication1\Bin\Debug\SilverlightApplication1.pdb
+C:\Temp\SilverlightApplication1\Bin\Debug\SilverlightApplication1.xap
+C:\Temp\SilverlightApplication1\Bin\Debug\TestPage.html
+C:\Temp\SilverlightApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\SilverlightApplication1\obj\Debug\App.g.cs
+C:\Temp\SilverlightApplication1\obj\Debug\Page.g.cs
+C:\Temp\SilverlightApplication1\obj\Debug\SilverlightApplication1.g.resources
+C:\Temp\SilverlightApplication1\obj\Debug\SilverlightApplication1.dll
+C:\Temp\SilverlightApplication1\obj\Debug\SilverlightApplication1.pdb
+C:\Temp\SilverlightApplication1\obj\Debug\XapCacheFile.xml
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\Bin\Debug\AppManifest.xaml
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\Bin\Debug\SilverlightApplication1.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\Bin\Debug\SilverlightApplication1.pdb
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\Bin\Debug\SilverlightApplication1.xap
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\Bin\Debug\TestPage.html
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\obj\Debug\App.g.cs
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\obj\Debug\Page.g.cs
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\obj\Debug\SilverlightApplication1.g.resources
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\obj\Debug\SilverlightApplication1.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\obj\Debug\SilverlightApplication1.pdb
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1\obj\Debug\XapCacheFile.xml

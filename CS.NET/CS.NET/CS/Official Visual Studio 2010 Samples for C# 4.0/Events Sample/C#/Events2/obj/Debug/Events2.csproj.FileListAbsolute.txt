@@ -1,0 +1,5 @@
+C:\Users\Rajani\Desktop\MSDN\Official Visual Studio 2010 Samples for C# 4.0\Events Sample\C#\Events2\bin\Debug\Events2.exe
+C:\Users\Rajani\Desktop\MSDN\Official Visual Studio 2010 Samples for C# 4.0\Events Sample\C#\Events2\bin\Debug\Events2.pdb
+C:\Users\Rajani\Desktop\MSDN\Official Visual Studio 2010 Samples for C# 4.0\Events Sample\C#\Events2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\MSDN\Official Visual Studio 2010 Samples for C# 4.0\Events Sample\C#\Events2\obj\Debug\Events2.exe
+C:\Users\Rajani\Desktop\MSDN\Official Visual Studio 2010 Samples for C# 4.0\Events Sample\C#\Events2\obj\Debug\Events2.pdb

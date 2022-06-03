@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<w:WF_BankingApp xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sad="clr-namespace:System.Activities.Debugger;assembly=System.Activities" xmlns:w="clr-namespace:WF_BankingApplication;assembly=WF_BankingApplication" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <w:WF_BankingApp.Body>
+    <p:Sequence DisplayName="Banking_App" sad:XamlDebuggerXmlReader.FileName="G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\WF_BankingApp.xaml">
+      <p:Sequence.Variables>
+        <p:Variable x:TypeArguments="w:CBankingApp" Name="objBankingApp" />
+      </p:Sequence.Variables>
+      <p:InvokeMethod MethodName="CreateAccount">
+        <p:InvokeMethod.TargetObject>
+          <p:InArgument x:TypeArguments="w:CBankingApp">[objBankingApp]</p:InArgument>
+        </p:InvokeMethod.TargetObject>
+        <p:InArgument x:TypeArguments="x:String">[AccountName]</p:InArgument>
+        <p:InArgument x:TypeArguments="x:String">[AccountAddress]</p:InArgument>
+        <p:InArgument x:TypeArguments="s:Decimal">[OpeningBalance]</p:InArgument>
+      </p:InvokeMethod>
+      <p:If Condition="[TransactionType = &quot;Deposit&quot;]">
+        <p:If.Else>
+          <p:InvokeMethod MethodName="Withdrawal">
+            <p:InvokeMethod.Result>
+              <p:OutArgument x:TypeArguments="s:Decimal">[NetBalance]</p:OutArgument>
+            </p:InvokeMethod.Result>
+            <p:InvokeMethod.TargetObject>
+              <p:InArgument x:TypeArguments="w:CBankingApp">[objBankingApp]</p:InArgument>
+            </p:InvokeMethod.TargetObject>
+            <p:InArgument x:TypeArguments="s:Decimal">[TransactionAmount]</p:InArgument>
+          </p:InvokeMethod>
+        </p:If.Else>
+        <p:If.Then>
+          <p:InvokeMethod MethodName="Deposit">
+            <p:InvokeMethod.Result>
+              <p:OutArgument x:TypeArguments="s:Decimal">[NetBalance]</p:OutArgument>
+            </p:InvokeMethod.Result>
+            <p:InvokeMethod.TargetObject>
+              <p:InArgument x:TypeArguments="w:CBankingApp">[objBankingApp]</p:InArgument>
+            </p:InvokeMethod.TargetObject>
+            <p:InArgument x:TypeArguments="s:Decimal">[TransactionAmount]</p:InArgument>
+          </p:InvokeMethod>
+        </p:If.Then>
+      </p:If>
+    </p:Sequence>
+  </w:WF_BankingApp.Body>
+</w:WF_BankingApp>

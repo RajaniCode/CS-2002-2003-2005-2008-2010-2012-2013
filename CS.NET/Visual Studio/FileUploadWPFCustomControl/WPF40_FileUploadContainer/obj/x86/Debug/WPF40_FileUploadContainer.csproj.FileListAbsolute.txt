@@ -1,0 +1,16 @@
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\bin\Debug\WPF40_FileUploadContainer.exe
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\bin\Debug\WPF40_FileUploadContainer.pdb
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\MainWindow.baml
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\MainWindow.g.cs
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\App.g.cs
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\WPF40_FileUploadContainer_MarkupCompile.cache
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\WPF40_FileUploadContainer.g.resources
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\WPF40_FileUploadContainer.Properties.Resources.resources
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\WPF40_FileUploadContainer.exe
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\WPF40_FileUploadContainer.pdb
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\bin\Debug\WPF40_FileUploadContainer.exe.config
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\bin\Debug\WPF40_FileUploadCustonControl.dll
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF40_FileUploadContainer\bin\Debug\WPF40_FileUploadCustonControl.pdb

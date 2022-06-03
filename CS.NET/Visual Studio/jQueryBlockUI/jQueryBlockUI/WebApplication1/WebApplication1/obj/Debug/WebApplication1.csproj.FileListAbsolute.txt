@@ -1,0 +1,15 @@
+C:\Documents and Settings\malcolm\My Documents\Visual Studio 2008\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Documents and Settings\malcolm\My Documents\Visual Studio 2008\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Documents and Settings\malcolm\My Documents\Visual Studio 2008\Projects\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\malcolm\My Documents\Visual Studio 2008\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Documents and Settings\malcolm\My Documents\Visual Studio 2008\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\articles\jQuery BlockUI\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\articles\jQuery BlockUI\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\articles\jQuery BlockUI\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\jQuery BlockUI\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\articles\jQuery BlockUI\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\articles\jQuery BlockUI\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\articles\jQuery BlockUI\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\articles\jQuery BlockUI\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\jQuery BlockUI\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\articles\jQuery BlockUI\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

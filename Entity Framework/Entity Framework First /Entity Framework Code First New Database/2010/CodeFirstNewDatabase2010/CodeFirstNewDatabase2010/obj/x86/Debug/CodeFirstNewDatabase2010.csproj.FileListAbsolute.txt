@@ -1,0 +1,15 @@
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\bin\Debug\CodeFirstNewDatabase2010.exe
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\bin\Debug\CodeFirstNewDatabase2010.pdb
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\obj\x86\Debug\CodeFirstNewDatabase2010.exe
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\obj\x86\Debug\CodeFirstNewDatabase2010.pdb
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\bin\Debug\CodeFirstNewDatabase2010.exe.config
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\bin\Debug\EntityFramework.dll
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\bin\Debug\EntityFramework.xml
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\obj\x86\Debug\CodeFirstNewDatabase2010.csprojResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\obj\x86\Debug\CodeFirstNewDatabase2010.Migrations.InitialCreate.resources
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\obj\x86\Debug\CodeFirstNewDatabase2010.csproj.GenerateResource.Cache
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\obj\x86\Debug\CodeFirstNewDatabase2010.Migrations.AddUrl.resources
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\obj\x86\Debug\CodeFirstNewDatabase2010.Migrations.AddUser.resources
+C:\Users\Rajani\Desktop\EF Videos\HDI-ITPro-MSDN-winvideo-CodeFirstNewDatabase\2010\CodeFirstNewDatabase2010\CodeFirstNewDatabase2010\obj\x86\Debug\CodeFirstNewDatabase2010.Migrations.ChangeDisplayName.resources

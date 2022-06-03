@@ -1,0 +1,10 @@
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\obj\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\obj\Debug\WF_TransactionScopeSequence.g.xaml
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\obj\Debug\WF_TransactionScopeSequence.g.cs
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\obj\Debug\WF_TransactionScope.csproj.XamlGeneratedFileListAbsolute.txt
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\bin\Debug\WF_TransactionScope.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\bin\Debug\WF_TransactionScope.pdb
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\obj\Debug\WF_TransactionScope.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\obj\Debug\WF_TransactionScope.pdb
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\obj\Debug\_XamlTemporaryAssembly_.dll
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WF_TransactionScope\obj\Debug\_XamlTemporaryAssembly_.pdb

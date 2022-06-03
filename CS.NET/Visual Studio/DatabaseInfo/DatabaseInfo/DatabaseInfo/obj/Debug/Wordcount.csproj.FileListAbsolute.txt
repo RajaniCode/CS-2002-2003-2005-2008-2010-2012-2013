@@ -1,0 +1,5 @@
+E:\articles\Wordcount\Wordcount\bin\Wordcount.dll
+E:\articles\Wordcount\Wordcount\bin\Wordcount.pdb
+E:\articles\Wordcount\Wordcount\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Wordcount\Wordcount\obj\Debug\Wordcount.dll
+E:\articles\Wordcount\Wordcount\obj\Debug\Wordcount.pdb

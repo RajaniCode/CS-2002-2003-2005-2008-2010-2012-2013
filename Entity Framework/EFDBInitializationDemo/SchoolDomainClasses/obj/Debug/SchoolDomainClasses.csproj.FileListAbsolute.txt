@@ -1,0 +1,10 @@
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\SchoolDomainClasses\bin\Debug\SchoolDomainClasses.dll
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\SchoolDomainClasses\bin\Debug\SchoolDomainClasses.pdb
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\SchoolDomainClasses\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\SchoolDomainClasses\obj\Debug\SchoolDomainClasses.dll
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\SchoolDomainClasses\obj\Debug\SchoolDomainClasses.pdb
+C:\Documents and Settings\ravi.karia\My Documents\Visual Studio 2010\Projects\EFDBInitializationDemo\SchoolDomainClasses\bin\Debug\SchoolDomainClasses.dll
+C:\Documents and Settings\ravi.karia\My Documents\Visual Studio 2010\Projects\EFDBInitializationDemo\SchoolDomainClasses\bin\Debug\SchoolDomainClasses.pdb
+C:\Documents and Settings\ravi.karia\My Documents\Visual Studio 2010\Projects\EFDBInitializationDemo\SchoolDomainClasses\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ravi.karia\My Documents\Visual Studio 2010\Projects\EFDBInitializationDemo\SchoolDomainClasses\obj\Debug\SchoolDomainClasses.dll
+C:\Documents and Settings\ravi.karia\My Documents\Visual Studio 2010\Projects\EFDBInitializationDemo\SchoolDomainClasses\obj\Debug\SchoolDomainClasses.pdb

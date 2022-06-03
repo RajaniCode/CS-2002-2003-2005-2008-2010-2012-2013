@@ -1,0 +1,5 @@
+C:\Users\Rajani\Desktop\WCF\WCFService\bin\Debug\WCFService.dll
+C:\Users\Rajani\Desktop\WCF\WCFService\bin\Debug\WCFService.pdb
+C:\Users\Rajani\Desktop\WCF\WCFService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\WCF\WCFService\obj\Debug\WCFService.dll
+C:\Users\Rajani\Desktop\WCF\WCFService\obj\Debug\WCFService.pdb

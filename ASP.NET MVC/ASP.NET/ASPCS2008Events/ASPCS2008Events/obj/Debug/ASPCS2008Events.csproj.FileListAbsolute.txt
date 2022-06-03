@@ -1,0 +1,5 @@
+F:\Snippet\ASPCS2008Events\ASPCS2008Events\bin\ASPCS2008Events.dll
+F:\Snippet\ASPCS2008Events\ASPCS2008Events\bin\ASPCS2008Events.pdb
+F:\Snippet\ASPCS2008Events\ASPCS2008Events\obj\Debug\ResolveAssemblyReference.cache
+F:\Snippet\ASPCS2008Events\ASPCS2008Events\obj\Debug\ASPCS2008Events.dll
+F:\Snippet\ASPCS2008Events\ASPCS2008Events\obj\Debug\ASPCS2008Events.pdb

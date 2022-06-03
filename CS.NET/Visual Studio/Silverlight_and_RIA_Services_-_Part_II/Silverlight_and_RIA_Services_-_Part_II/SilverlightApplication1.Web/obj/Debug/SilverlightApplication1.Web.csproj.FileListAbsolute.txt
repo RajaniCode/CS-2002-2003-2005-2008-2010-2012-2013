@@ -1,0 +1,39 @@
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\System.ComponentModel.DataAnnotations.dll
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\System.Web.DomainServices.dll
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\System.Web.DomainServices.Providers.dll
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\System.Web.Ria.dll
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\System.Web.DomainServices.Providers.xml
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\System.Web.DomainServices.xml
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\System.ComponentModel.DataAnnotations.xml
+E:\articles\Silverlight and RIA Services\SilverlightApplication1.Web\bin\System.Web.Ria.xml
+D:\Articles\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+D:\Articles\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+D:\Articles\SilverlightApplication1.Web\bin\System.ComponentModel.DataAnnotations.dll
+D:\Articles\SilverlightApplication1.Web\bin\System.Web.DomainServices.dll
+D:\Articles\SilverlightApplication1.Web\bin\System.Web.DomainServices.Providers.dll
+D:\Articles\SilverlightApplication1.Web\bin\System.Web.Ria.dll
+D:\Articles\SilverlightApplication1.Web\bin\System.Web.DomainServices.Providers.xml
+D:\Articles\SilverlightApplication1.Web\bin\System.Web.DomainServices.xml
+D:\Articles\SilverlightApplication1.Web\bin\System.ComponentModel.DataAnnotations.xml
+D:\Articles\SilverlightApplication1.Web\bin\System.Web.Ria.xml
+D:\Articles\SilverlightApplication1.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+D:\Articles\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb
+E:\Articles\New folder\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+E:\Articles\New folder\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+E:\Articles\New folder\SilverlightApplication1.Web\bin\System.ComponentModel.DataAnnotations.dll
+E:\Articles\New folder\SilverlightApplication1.Web\bin\System.Web.DomainServices.dll
+E:\Articles\New folder\SilverlightApplication1.Web\bin\System.Web.DomainServices.Providers.dll
+E:\Articles\New folder\SilverlightApplication1.Web\bin\System.Web.Ria.dll
+E:\Articles\New folder\SilverlightApplication1.Web\bin\System.Web.DomainServices.Providers.xml
+E:\Articles\New folder\SilverlightApplication1.Web\bin\System.Web.DomainServices.xml
+E:\Articles\New folder\SilverlightApplication1.Web\bin\System.ComponentModel.DataAnnotations.xml
+E:\Articles\New folder\SilverlightApplication1.Web\bin\System.Web.Ria.xml
+E:\Articles\New folder\SilverlightApplication1.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\Articles\New folder\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+E:\Articles\New folder\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb

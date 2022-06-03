@@ -1,0 +1,12 @@
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\Bin\Debug\PrintingSilverlight.dll
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\Bin\Debug\PrintingSilverlight.pdb
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\Bin\Debug\AppManifest.xaml
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\Bin\Debug\PrintingSilverlight.xap
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\Bin\Debug\PrintingSilverlightTestPage.html
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\obj\Debug\ResolveAssemblyReference.cache
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\obj\Debug\App.g.i.cs
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\obj\Debug\MainPage.g.i.cs
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\obj\Debug\PrintingSilverlight.g.resources
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\obj\Debug\PrintingSilverlight.dll
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\obj\Debug\PrintingSilverlight.pdb
+c:\users\suprotim\documents\visual studio 2010\Projects\Silverlight\PrintingSilverlight\PrintingSilverlight\obj\Debug\XapCacheFile.xml

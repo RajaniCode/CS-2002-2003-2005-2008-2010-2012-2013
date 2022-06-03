@@ -1,0 +1,10 @@
+D:\articles\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\bin\MvcApplication1.dll
+D:\articles\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\bin\MvcApplication1.pdb
+D:\articles\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\articles\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\obj\Debug\MvcApplication1.pdb
+S:\Keeping Your ASP.NET Session Alive Using jQuery\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\bin\MvcApplication1.dll
+S:\Keeping Your ASP.NET Session Alive Using jQuery\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\bin\MvcApplication1.pdb
+S:\Keeping Your ASP.NET Session Alive Using jQuery\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+S:\Keeping Your ASP.NET Session Alive Using jQuery\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\obj\Debug\MvcApplication1.dll
+S:\Keeping Your ASP.NET Session Alive Using jQuery\Keeping Your ASP.NET Session Alive Using jQuery\MvcApplication1\obj\Debug\MvcApplication1.pdb

@@ -1,0 +1,5 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightAutoScroll\SilverlightAutoScroll.Web\bin\SilverlightAutoScroll.Web.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightAutoScroll\SilverlightAutoScroll.Web\bin\SilverlightAutoScroll.Web.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightAutoScroll\SilverlightAutoScroll.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightAutoScroll\SilverlightAutoScroll.Web\obj\Debug\SilverlightAutoScroll.Web.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightAutoScroll\SilverlightAutoScroll.Web\obj\Debug\SilverlightAutoScroll.Web.pdb

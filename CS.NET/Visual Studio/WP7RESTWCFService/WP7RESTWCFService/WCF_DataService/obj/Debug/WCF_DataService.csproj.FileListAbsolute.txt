@@ -1,0 +1,5 @@
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WCF_DataService\bin\WCF_DataService.dll
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WCF_DataService\bin\WCF_DataService.pdb
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WCF_DataService\obj\Debug\ResolveAssemblyReference.cache
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WCF_DataService\obj\Debug\WCF_DataService.dll
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WCF_DataService\obj\Debug\WCF_DataService.pdb

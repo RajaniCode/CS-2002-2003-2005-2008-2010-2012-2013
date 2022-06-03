@@ -1,0 +1,12 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\obj\Debug\App.g.cs
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\obj\Debug\Page.g.cs
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\obj\Debug\InkXaml.g.resources
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\Bin\Debug\AppManifest.xaml
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\Bin\Debug\InkXaml.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\Bin\Debug\InkXaml.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\Bin\Debug\InkXaml.xap
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\Bin\Debug\TestPage.html
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\obj\Debug\InkXaml.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\obj\Debug\InkXaml.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ASPNETSilverlightInkDemo\InkXaml\obj\Debug\XapCacheFile.xml

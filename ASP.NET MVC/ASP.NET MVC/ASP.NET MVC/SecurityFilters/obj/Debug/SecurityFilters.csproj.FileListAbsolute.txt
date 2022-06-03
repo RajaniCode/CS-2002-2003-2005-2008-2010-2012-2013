@@ -1,0 +1,10 @@
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\bin\SecurityFilters.dll
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\bin\SecurityFilters.pdb
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\bin\AntiXSSLibrary.dll
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\bin\FluentSecurity.dll
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\bin\HtmlSanitizationLibrary.dll
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\bin\AntiXSSLibrary.xml
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\bin\HtmlSanitizationLibrary.xml
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\obj\Debug\SecurityFilters.dll
+E:\Documents\Visual Studio 2010\Projects\JQueryDataTables\SecurityFilters\obj\Debug\SecurityFilters.pdb

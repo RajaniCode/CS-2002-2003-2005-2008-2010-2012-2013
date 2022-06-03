@@ -1,0 +1,7 @@
+E:\MVC\ASP.NET MVC 2 RTM\mvc2-ms-pl\mvc2-ms-pl\MVC2-MS-Pl\bin\Debug\System.Web.Mvc.dll
+E:\MVC\ASP.NET MVC 2 RTM\mvc2-ms-pl\mvc2-ms-pl\MVC2-MS-Pl\bin\Debug\System.Web.Mvc.pdb
+E:\MVC\ASP.NET MVC 2 RTM\mvc2-ms-pl\mvc2-ms-pl\MVC2-MS-Pl\obj\Debug\ResolveAssemblyReference.cache
+E:\MVC\ASP.NET MVC 2 RTM\mvc2-ms-pl\mvc2-ms-pl\MVC2-MS-Pl\obj\Debug\System.Web.Mvc.Resources.MvcResources.resources
+E:\MVC\ASP.NET MVC 2 RTM\mvc2-ms-pl\mvc2-ms-pl\MVC2-MS-Pl\obj\Debug\System.Web.Mvc.csproj.GenerateResource.Cache
+E:\MVC\ASP.NET MVC 2 RTM\mvc2-ms-pl\mvc2-ms-pl\MVC2-MS-Pl\obj\Debug\System.Web.Mvc.dll
+E:\MVC\ASP.NET MVC 2 RTM\mvc2-ms-pl\mvc2-ms-pl\MVC2-MS-Pl\obj\Debug\System.Web.Mvc.pdb

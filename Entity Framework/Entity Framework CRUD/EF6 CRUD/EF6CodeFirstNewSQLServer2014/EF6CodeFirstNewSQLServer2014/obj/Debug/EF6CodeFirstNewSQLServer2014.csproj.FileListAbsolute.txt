@@ -1,0 +1,13 @@
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\bin\Debug\EF6CodeFirstNewSQLServer2014.exe.config
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\bin\Debug\EF6CodeFirstNewSQLServer2014.exe
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\bin\Debug\EF6CodeFirstNewSQLServer2014.pdb
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\obj\Debug\EF6CodeFirstNewSQLServer2014.csprojResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\obj\Debug\EF6CodeFirstNewSQLServer2014.Form1.resources
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\obj\Debug\EF6CodeFirstNewSQLServer2014.Properties.Resources.resources
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\obj\Debug\EF6CodeFirstNewSQLServer2014.csproj.GenerateResource.Cache
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\obj\Debug\EF6CodeFirstNewSQLServer2014.exe
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\obj\Debug\EF6CodeFirstNewSQLServer2014.pdb
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\bin\Debug\EntityFramework.dll
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\bin\Debug\EntityFramework.xml
+C:\Users\Rajani\Desktop\Entity Framework\EF CRUD\EF6CodeFirstNewSQLServer2014\EF6CodeFirstNewSQLServer2014\bin\Debug\EntityFramework.SqlServer.xml

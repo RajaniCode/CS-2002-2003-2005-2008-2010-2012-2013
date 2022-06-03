@@ -1,0 +1,5 @@
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\WCF_DataService\bin\WCF_DataService.dll
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\WCF_DataService\bin\WCF_DataService.pdb
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\WCF_DataService\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\WCF_DataService\obj\Debug\WCF_DataService.dll
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\WCF_DataService\obj\Debug\WCF_DataService.pdb

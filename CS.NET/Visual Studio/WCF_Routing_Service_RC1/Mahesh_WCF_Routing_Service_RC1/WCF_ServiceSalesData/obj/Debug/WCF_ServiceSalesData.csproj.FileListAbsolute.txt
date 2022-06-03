@@ -1,0 +1,10 @@
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\bin\WCF_ServiceSalesData.dll
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\bin\WCF_ServiceSalesData.pdb
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\obj\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\obj\Debug\WCF_ServiceSalesData.dll
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\obj\Debug\WCF_ServiceSalesData.pdb
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\bin\WCF_ServiceSalesData.dll
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\bin\WCF_ServiceSalesData.pdb
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\obj\Debug\WCF_ServiceSalesData.dll
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_ServiceSalesData\obj\Debug\WCF_ServiceSalesData.pdb

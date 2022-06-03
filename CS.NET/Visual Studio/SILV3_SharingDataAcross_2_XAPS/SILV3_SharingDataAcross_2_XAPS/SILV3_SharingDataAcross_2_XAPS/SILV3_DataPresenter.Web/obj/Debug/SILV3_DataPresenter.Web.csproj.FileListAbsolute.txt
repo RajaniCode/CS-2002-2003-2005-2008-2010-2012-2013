@@ -1,0 +1,5 @@
+G:\Mahesh_Practice\Silverlight3\SILV3_SharingDataAcross_2_XAPS\SILV3_DataPresenter.Web\bin\SILV3_DataPresenter.Web.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_SharingDataAcross_2_XAPS\SILV3_DataPresenter.Web\bin\SILV3_DataPresenter.Web.pdb
+G:\Mahesh_Practice\Silverlight3\SILV3_SharingDataAcross_2_XAPS\SILV3_DataPresenter.Web\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\Silverlight3\SILV3_SharingDataAcross_2_XAPS\SILV3_DataPresenter.Web\obj\Debug\SILV3_DataPresenter.Web.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_SharingDataAcross_2_XAPS\SILV3_DataPresenter.Web\obj\Debug\SILV3_DataPresenter.Web.pdb

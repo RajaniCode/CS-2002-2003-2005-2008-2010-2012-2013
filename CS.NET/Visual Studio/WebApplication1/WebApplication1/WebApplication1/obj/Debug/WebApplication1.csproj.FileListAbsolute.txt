@@ -1,0 +1,15 @@
+C:\TEMP\Projects\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\TEMP\Projects\WebApplication1\bin\WebApplication1.dll
+C:\TEMP\Projects\WebApplication1\bin\WebApplication1.pdb
+C:\TEMP\Projects\WebApplication1\obj\Debug\WebApplication1.dll
+C:\TEMP\Projects\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\article\WebApplication1\bin\WebApplication1.dll
+E:\article\WebApplication1\bin\WebApplication1.pdb
+E:\article\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\article\WebApplication1\obj\Debug\WebApplication1.dll
+E:\article\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\article\WebApplication1\bin\WebApplication1.dll
+D:\article\WebApplication1\bin\WebApplication1.pdb
+D:\article\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\article\WebApplication1\obj\Debug\WebApplication1.dll
+D:\article\WebApplication1\obj\Debug\WebApplication1.pdb

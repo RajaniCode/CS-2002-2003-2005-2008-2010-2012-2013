@@ -1,0 +1,8 @@
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_ConsoleHost\bin\Debug\WCF_ConsoleHost.exe
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_ConsoleHost\bin\Debug\WCF_ConsoleHost.pdb
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_ConsoleHost\bin\Debug\WCF_NewService.dll
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_ConsoleHost\bin\Debug\WCF_NewService.pdb
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_ConsoleHost\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_ConsoleHost\obj\x86\Debug\WCF_ConsoleHost.exe
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_ConsoleHost\obj\x86\Debug\WCF_ConsoleHost.pdb
+G:\VS2010_Practice\WCF40\WCF40_NewFeatures\WCF_ConsoleHost\bin\Debug\WCF_ConsoleHost.exe.config

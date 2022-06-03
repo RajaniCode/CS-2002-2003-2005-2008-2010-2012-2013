@@ -1,0 +1,10 @@
+E:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+E:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+E:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+E:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb
+D:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+D:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+D:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+D:\articles\Silverlight 3 Out of Browser\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb

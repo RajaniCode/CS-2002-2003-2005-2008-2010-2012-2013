@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\SimpleSubscriber\SimpleSubscriber\bin\SimpleSubscriber.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\SimpleSubscriber\SimpleSubscriber\bin\SimpleSubscriber.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\SimpleSubscriber\SimpleSubscriber\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\SimpleSubscriber\SimpleSubscriber\obj\Debug\SimpleSubscriber.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\SimpleSubscriber\SimpleSubscriber\obj\Debug\SimpleSubscriber.pdb

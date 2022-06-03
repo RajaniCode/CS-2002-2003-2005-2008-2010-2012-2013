@@ -1,0 +1,10 @@
+c:\Temp\MetaTagsApplication\bin\MetaTagsApplication.dll
+c:\Temp\MetaTagsApplication\bin\MetaTagsApplication.pdb
+c:\Temp\MetaTagsApplication\obj\Debug\ResolveAssemblyReference.cache
+c:\Temp\MetaTagsApplication\obj\Debug\MetaTagsApplication.dll
+c:\Temp\MetaTagsApplication\obj\Debug\MetaTagsApplication.pdb
+E:\articles\MetaTags\MetaTagsApplication\bin\MetaTagsApplication.dll
+E:\articles\MetaTags\MetaTagsApplication\bin\MetaTagsApplication.pdb
+E:\articles\MetaTags\MetaTagsApplication\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\MetaTags\MetaTagsApplication\obj\Debug\MetaTagsApplication.dll
+E:\articles\MetaTags\MetaTagsApplication\obj\Debug\MetaTagsApplication.pdb

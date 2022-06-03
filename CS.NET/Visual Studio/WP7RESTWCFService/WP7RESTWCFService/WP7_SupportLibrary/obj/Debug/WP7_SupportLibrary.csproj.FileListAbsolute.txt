@@ -1,0 +1,5 @@
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WP7_SupportLibrary\Bin\Debug\WP7_SupportLibrary.dll
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WP7_SupportLibrary\Bin\Debug\WP7_SupportLibrary.pdb
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WP7_SupportLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WP7_SupportLibrary\obj\Debug\WP7_SupportLibrary.dll
+E:\WIndowsPhoneDemos\WP7_GettingDataFromWCFService\WP7_SupportLibrary\obj\Debug\WP7_SupportLibrary.pdb

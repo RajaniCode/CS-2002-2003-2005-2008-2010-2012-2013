@@ -1,0 +1,8 @@
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore.Tests\bin\Debug\ToyStore.Tests.dll.config
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore.Tests\bin\Debug\ToyStore.Tests.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore.Tests\bin\Debug\ToyStore.Tests.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore.Tests\bin\Debug\ToyStore.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore.Tests\bin\Debug\ToyStore.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore.Tests\obj\Debug\ToyStore.Tests.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore.Tests\obj\Debug\ToyStore.Tests.pdb

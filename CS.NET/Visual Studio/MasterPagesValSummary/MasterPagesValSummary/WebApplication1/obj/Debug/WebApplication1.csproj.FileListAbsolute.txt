@@ -1,0 +1,15 @@
+F:\Silverlight\Master pages\WebApplication1\bin\WebApplication1.dll
+F:\Silverlight\Master pages\WebApplication1\bin\WebApplication1.pdb
+F:\Silverlight\Master pages\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\Silverlight\Master pages\WebApplication1\obj\Debug\WebApplication1.dll
+F:\Silverlight\Master pages\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\articles\Master Pages and Validation Summary Controls\WebApplication1\bin\WebApplication1.dll
+D:\articles\Master Pages and Validation Summary Controls\WebApplication1\bin\WebApplication1.pdb
+D:\articles\Master Pages and Validation Summary Controls\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Master Pages and Validation Summary Controls\WebApplication1\obj\Debug\WebApplication1.dll
+D:\articles\Master Pages and Validation Summary Controls\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\articles\Master Pages and Validation Summary Controls\WebApplication1\bin\WebApplication1.dll
+E:\articles\Master Pages and Validation Summary Controls\WebApplication1\bin\WebApplication1.pdb
+E:\articles\Master Pages and Validation Summary Controls\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Master Pages and Validation Summary Controls\WebApplication1\obj\Debug\WebApplication1.dll
+E:\articles\Master Pages and Validation Summary Controls\WebApplication1\obj\Debug\WebApplication1.pdb

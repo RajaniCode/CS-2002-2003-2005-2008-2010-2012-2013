@@ -1,0 +1,5 @@
+E:\articles\File Cache Dependency\WebApplication1\bin\WebApplication1.dll
+E:\articles\File Cache Dependency\WebApplication1\bin\WebApplication1.pdb
+E:\articles\File Cache Dependency\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\File Cache Dependency\WebApplication1\obj\Debug\WebApplication1.dll
+E:\articles\File Cache Dependency\WebApplication1\obj\Debug\WebApplication1.pdb

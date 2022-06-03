@@ -1,0 +1,10 @@
+F:\Snippet\ASPCS2008ListIList\ASPCS2008ListIList\obj\Debug\ResolveAssemblyReference.cache
+F:\Snippet\ASPCS2008ListIList\ASPCS2008ListIList\bin\ASPCS2008ListIList.dll
+F:\Snippet\ASPCS2008ListIList\ASPCS2008ListIList\bin\ASPCS2008ListIList.pdb
+F:\Snippet\ASPCS2008ListIList\ASPCS2008ListIList\obj\Debug\ASPCS2008ListIList.dll
+F:\Snippet\ASPCS2008ListIList\ASPCS2008ListIList\obj\Debug\ASPCS2008ListIList.pdb
+F:\Rajani\Home\ASP.NET\ASPCS2008ListIList\ASPCS2008ListIList\bin\ASPCS2008ListIList.dll
+F:\Rajani\Home\ASP.NET\ASPCS2008ListIList\ASPCS2008ListIList\bin\ASPCS2008ListIList.pdb
+F:\Rajani\Home\ASP.NET\ASPCS2008ListIList\ASPCS2008ListIList\obj\Debug\ResolveAssemblyReference.cache
+F:\Rajani\Home\ASP.NET\ASPCS2008ListIList\ASPCS2008ListIList\obj\Debug\ASPCS2008ListIList.dll
+F:\Rajani\Home\ASP.NET\ASPCS2008ListIList\ASPCS2008ListIList\obj\Debug\ASPCS2008ListIList.pdb

@@ -1,0 +1,10 @@
+C:\articles\HttpHandler\HttpHandler\bin\WebApplication1.dll
+C:\articles\HttpHandler\HttpHandler\bin\WebApplication1.pdb
+C:\articles\HttpHandler\HttpHandler\obj\Debug\ResolveAssemblyReference.cache
+C:\articles\HttpHandler\HttpHandler\obj\Debug\WebApplication1.dll
+C:\articles\HttpHandler\HttpHandler\obj\Debug\WebApplication1.pdb
+D:\Articles\Malcolm\HttpHandler\HttpHandler\bin\WebApplication1.dll
+D:\Articles\Malcolm\HttpHandler\HttpHandler\bin\WebApplication1.pdb
+D:\Articles\Malcolm\HttpHandler\HttpHandler\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\Malcolm\HttpHandler\HttpHandler\obj\Debug\WebApplication1.dll
+D:\Articles\Malcolm\HttpHandler\HttpHandler\obj\Debug\WebApplication1.pdb

@@ -1,0 +1,50 @@
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AJAXCS2008DragPanel.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AJAXCS2008DragPanel.pdb
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AjaxControlToolkit.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AjaxControlToolkit.pdb
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\ar\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\cs\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\de\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\es\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\fr\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\he\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\hi\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\it\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\ja\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\ko\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\nl\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\pt\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\ru\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\ResolveAssemblyReference.cache
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\AJAXCS2008DragPanel.dll
+E:\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\AJAXCS2008DragPanel.pdb
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AJAXCS2008DragPanel.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AJAXCS2008DragPanel.pdb
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AjaxControlToolkit.pdb
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\ar\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\cs\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\de\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\es\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\fr\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\he\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\hi\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\it\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\ja\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\ko\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\nl\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\pt\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\ru\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\AJAXCS2008DragPanel.dll
+C:\Documents and Settings\RAJANI\Desktop\New Folder\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\AJAXCS2008DragPanel.pdb
+C:\Documents and Settings\RAJANI\My Documents\Code\AJAX\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AJAXCS2008DragPanel.dll
+C:\Documents and Settings\RAJANI\My Documents\Code\AJAX\AJAXCS2008DragPanel\AJAXCS2008DragPanel\bin\AJAXCS2008DragPanel.pdb
+C:\Documents and Settings\RAJANI\My Documents\Code\AJAX\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RAJANI\My Documents\Code\AJAX\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\AJAXCS2008DragPanel.dll
+C:\Documents and Settings\RAJANI\My Documents\Code\AJAX\AJAXCS2008DragPanel\AJAXCS2008DragPanel\obj\Debug\AJAXCS2008DragPanel.pdb

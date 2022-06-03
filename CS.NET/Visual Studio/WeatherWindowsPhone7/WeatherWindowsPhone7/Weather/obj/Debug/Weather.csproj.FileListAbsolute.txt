@@ -1,0 +1,13 @@
+D:\Windows Mobile Applications\Weather\Weather\Weather\Bin\Debug\ApplicationIcon.png
+D:\Windows Mobile Applications\Weather\Weather\Weather\Bin\Debug\Background.png
+D:\Windows Mobile Applications\Weather\Weather\Weather\Bin\Debug\Weather.dll
+D:\Windows Mobile Applications\Weather\Weather\Weather\Bin\Debug\Weather.pdb
+D:\Windows Mobile Applications\Weather\Weather\Weather\Bin\Debug\AppManifest.xaml
+D:\Windows Mobile Applications\Weather\Weather\Weather\Bin\Debug\Weather.xap
+D:\Windows Mobile Applications\Weather\Weather\Weather\obj\Debug\ResolveAssemblyReference.cache
+D:\Windows Mobile Applications\Weather\Weather\Weather\obj\Debug\App.g.cs
+D:\Windows Mobile Applications\Weather\Weather\Weather\obj\Debug\MainPage.g.cs
+D:\Windows Mobile Applications\Weather\Weather\Weather\obj\Debug\Weather.g.resources
+D:\Windows Mobile Applications\Weather\Weather\Weather\obj\Debug\Weather.dll
+D:\Windows Mobile Applications\Weather\Weather\Weather\obj\Debug\Weather.pdb
+D:\Windows Mobile Applications\Weather\Weather\Weather\obj\Debug\XapCacheFile.xml

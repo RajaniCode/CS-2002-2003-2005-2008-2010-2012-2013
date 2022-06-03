@@ -1,0 +1,12 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\Bin\Debug\AppManifest.xaml
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\Bin\Debug\SilverlightSaveFileDialog.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\Bin\Debug\SilverlightSaveFileDialog.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\obj\Debug\App.g.cs
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\obj\Debug\MainPage.g.cs
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\obj\Debug\SilverlightSaveFileDialog.g.resources
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\obj\Debug\SilverlightSaveFileDialog.dll
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\obj\Debug\SilverlightSaveFileDialog.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\Bin\Debug\SilverlightSaveFileDialog.xap
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\Bin\Debug\TestPage.html
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\SilverlightSaveFileDialog\SilverlightSaveFileDialog\obj\Debug\XapCacheFile.xml

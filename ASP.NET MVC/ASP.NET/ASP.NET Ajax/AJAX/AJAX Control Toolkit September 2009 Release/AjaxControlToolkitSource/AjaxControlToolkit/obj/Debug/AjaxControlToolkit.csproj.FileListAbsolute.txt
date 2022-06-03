@@ -1,0 +1,16 @@
+C:\Users\swalther\Projects\AspNetAjax\CodePlex\ACT\Development\AjaxControlToolkit\bin\Debug\AjaxControlToolkit.dll
+C:\Users\swalther\Projects\AspNetAjax\CodePlex\ACT\Development\AjaxControlToolkit\bin\Debug\AjaxControlToolkit.pdb
+C:\Users\swalther\Projects\AspNetAjax\CodePlex\ACT\Development\AjaxControlToolkit\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Projects\AspNetAjax\CodePlex\ACT\Development\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.Properties.Resources.resources
+C:\Users\swalther\Projects\AspNetAjax\CodePlex\ACT\Development\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.ScriptResources.ScriptResources.resources
+C:\Users\swalther\Projects\AspNetAjax\CodePlex\ACT\Development\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.csproj.GenerateResource.Cache
+C:\Users\swalther\Projects\AspNetAjax\CodePlex\ACT\Development\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.dll
+C:\Users\swalther\Projects\AspNetAjax\CodePlex\ACT\Development\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.pdb
+C:\Users\swalther\Projects\AspNetAjax\Releases\30930\AjaxControlToolkitSource\AjaxControlToolkit\bin\Debug\AjaxControlToolkit.dll
+C:\Users\swalther\Projects\AspNetAjax\Releases\30930\AjaxControlToolkitSource\AjaxControlToolkit\bin\Debug\AjaxControlToolkit.pdb
+C:\Users\swalther\Projects\AspNetAjax\Releases\30930\AjaxControlToolkitSource\AjaxControlToolkit\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Projects\AspNetAjax\Releases\30930\AjaxControlToolkitSource\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.Properties.Resources.resources
+C:\Users\swalther\Projects\AspNetAjax\Releases\30930\AjaxControlToolkitSource\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.ScriptResources.ScriptResources.resources
+C:\Users\swalther\Projects\AspNetAjax\Releases\30930\AjaxControlToolkitSource\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.csproj.GenerateResource.Cache
+C:\Users\swalther\Projects\AspNetAjax\Releases\30930\AjaxControlToolkitSource\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.dll
+C:\Users\swalther\Projects\AspNetAjax\Releases\30930\AjaxControlToolkitSource\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.pdb

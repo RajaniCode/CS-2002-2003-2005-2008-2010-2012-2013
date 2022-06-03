@@ -1,0 +1,5 @@
+F:\Snippet\ASPCS2008Excel\ASPCS2008Excel\bin\ASPCS2008Excel.dll
+F:\Snippet\ASPCS2008Excel\ASPCS2008Excel\bin\ASPCS2008Excel.pdb
+F:\Snippet\ASPCS2008Excel\ASPCS2008Excel\obj\Debug\ResolveAssemblyReference.cache
+F:\Snippet\ASPCS2008Excel\ASPCS2008Excel\obj\Debug\ASPCS2008Excel.dll
+F:\Snippet\ASPCS2008Excel\ASPCS2008Excel\obj\Debug\ASPCS2008Excel.pdb

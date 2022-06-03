@@ -1,0 +1,15 @@
+D:\articles\Building A Rating Widget With ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.dll
+D:\articles\Building A Rating Widget With ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.pdb
+D:\articles\Building A Rating Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Building A Rating Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\articles\Building A Rating Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.pdb
+D:\articles\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.dll
+D:\articles\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.pdb
+D:\articles\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\articles\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.pdb
+G:\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.dll
+G:\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.pdb
+G:\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+G:\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.dll
+G:\Building A Ratings Widget With ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.pdb

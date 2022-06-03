@@ -1,0 +1,10 @@
+E:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\bin\WebApplication1.dll
+E:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\bin\WebApplication1.pdb
+E:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\obj\Debug\WebApplication1.dll
+E:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\bin\WebApplication1.dll
+D:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\bin\WebApplication1.pdb
+D:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\obj\Debug\WebApplication1.dll
+D:\articles\Fun With jQuery And The ASP.NET CheckBoxList\WebApplication1\obj\Debug\WebApplication1.pdb

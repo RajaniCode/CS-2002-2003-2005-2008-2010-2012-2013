@@ -1,0 +1,9 @@
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\bin\Debug\WCF_ServiceHost.exe
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\bin\Debug\WCF_ServiceHost.pdb
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\obj\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\obj\Debug\WCF_ServiceHost.csproj.XamlGeneratedFileListAbsolute.txt
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\obj\Debug\WCF_ServiceHost.exe
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\obj\Debug\WCF_ServiceHost.pdb
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\bin\Debug\WCF_ServiceHost.exe.config
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\obj\Debug\WF_DataService.g.xaml
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_ServiceHost\obj\Debug\WF_DataService.g.cs

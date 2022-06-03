@@ -1,0 +1,8 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ScreenShotOneClick\ScreenShotOneClick\bin\Debug\ScreenShotOneClick.exe
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ScreenShotOneClick\ScreenShotOneClick\bin\Debug\ScreenShotOneClick.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ScreenShotOneClick\ScreenShotOneClick\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ScreenShotOneClick\ScreenShotOneClick\obj\Debug\ScreenShotOneClick.Form1.resources
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ScreenShotOneClick\ScreenShotOneClick\obj\Debug\ScreenShotOneClick.Properties.Resources.resources
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ScreenShotOneClick\ScreenShotOneClick\obj\Debug\ScreenShotOneClick.csproj.GenerateResource.Cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ScreenShotOneClick\ScreenShotOneClick\obj\Debug\ScreenShotOneClick.exe
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\ScreenShotOneClick\ScreenShotOneClick\obj\Debug\ScreenShotOneClick.pdb

@@ -1,0 +1,24 @@
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\Bin\Debug\AppManifest.xaml
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\Bin\Debug\SilverlightApplication2.dll
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\Bin\Debug\SilverlightApplication2.pdb
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\Bin\Debug\SilverlightApplication2.xap
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\Bin\Debug\TestPage.html
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\obj\Debug\App.g.cs
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\obj\Debug\MainPage.g.cs
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\obj\Debug\SilverlightApplication2.g.resources
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\obj\Debug\SilverlightApplication2.dll
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\obj\Debug\SilverlightApplication2.pdb
+C:\Documents and Settings\P674465D\My Documents\Visual Studio 2008\Projects\SilverlightApplication2\obj\Debug\XapCacheFile.xml
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\Bin\Debug\AppManifest.xaml
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\Bin\Debug\SilverlightApplication2.dll
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\Bin\Debug\SilverlightApplication2.pdb
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\Bin\Debug\SilverlightApplication2.xap
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\Bin\Debug\TestPage.html
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\obj\Debug\App.g.cs
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\obj\Debug\MainPage.g.cs
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\obj\Debug\SilverlightApplication2.g.resources
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\obj\Debug\SilverlightApplication2.dll
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\obj\Debug\SilverlightApplication2.pdb
+D:\articles\Expession Blend 3 Make Control\SilverlightApplication2\obj\Debug\XapCacheFile.xml

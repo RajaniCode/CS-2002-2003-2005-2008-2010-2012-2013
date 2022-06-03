@@ -1,0 +1,6 @@
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\dotNet4Types\dotNet4Types\bin\Debug\dotNet4Types.exe
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\dotNet4Types\dotNet4Types\bin\Debug\dotNet4Types.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\dotNet4Types\dotNet4Types\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\dotNet4Types\dotNet4Types\obj\x86\Debug\dotNet4Types.exe
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\dotNet4Types\dotNet4Types\obj\x86\Debug\dotNet4Types.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\dotNet4Types\dotNet4Types\bin\Debug\dotNet4Types.exe.config

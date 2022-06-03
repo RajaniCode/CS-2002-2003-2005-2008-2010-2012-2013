@@ -1,0 +1,10 @@
+E:\articles\GridView Datakeys\DataKeysApplication\bin\DataKeysApplication.dll
+E:\articles\GridView Datakeys\DataKeysApplication\bin\DataKeysApplication.pdb
+E:\articles\GridView Datakeys\DataKeysApplication\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\GridView Datakeys\DataKeysApplication\obj\Debug\DataKeysApplication.dll
+E:\articles\GridView Datakeys\DataKeysApplication\obj\Debug\DataKeysApplication.pdb
+D:\articles\GridView Datakeys\DataKeysApplication\bin\DataKeysApplication.dll
+D:\articles\GridView Datakeys\DataKeysApplication\bin\DataKeysApplication.pdb
+D:\articles\GridView Datakeys\DataKeysApplication\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\GridView Datakeys\DataKeysApplication\obj\Debug\DataKeysApplication.dll
+D:\articles\GridView Datakeys\DataKeysApplication\obj\Debug\DataKeysApplication.pdb

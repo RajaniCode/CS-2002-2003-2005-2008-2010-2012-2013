@@ -1,0 +1,13 @@
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\Bin\Debug\NavigatingBetweenPages.dll
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\Bin\Debug\NavigatingBetweenPages.pdb
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\Bin\Debug\AppManifest.xaml
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\Bin\Debug\NavigatingBetweenPages.xap
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\Bin\Debug\TestPage.html
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\obj\Debug\App.g.cs
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\obj\Debug\Page2.g.cs
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\obj\Debug\NavigatingBetweenPages.g.resources
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\obj\Debug\NavigatingBetweenPages.dll
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\obj\Debug\NavigatingBetweenPages.pdb
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\obj\Debug\XapCacheFile.xml
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2008\Projects\Silverlight\NavigatingBetweenPages\NavigatingBetweenPages\obj\Debug\Page1.g.cs

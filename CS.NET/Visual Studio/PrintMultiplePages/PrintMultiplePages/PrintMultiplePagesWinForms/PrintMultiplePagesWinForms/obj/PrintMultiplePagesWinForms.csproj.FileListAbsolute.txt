@@ -1,0 +1,8 @@
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\PrintMultiplePagesWinForms\PrintMultiplePagesWinForms\bin\Debug\PrintMultiplePagesWinForms.exe
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\PrintMultiplePagesWinForms\PrintMultiplePagesWinForms\bin\Debug\PrintMultiplePagesWinForms.pdb
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\PrintMultiplePagesWinForms\PrintMultiplePagesWinForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\PrintMultiplePagesWinForms\PrintMultiplePagesWinForms\obj\Debug\PrintMultiplePagesWinForms.Form1.resources
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\PrintMultiplePagesWinForms\PrintMultiplePagesWinForms\obj\Debug\PrintMultiplePagesWinForms.Properties.Resources.resources
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\PrintMultiplePagesWinForms\PrintMultiplePagesWinForms\obj\Debug\PrintMultiplePagesWinForms.csproj.GenerateResource.Cache
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\PrintMultiplePagesWinForms\PrintMultiplePagesWinForms\obj\Debug\PrintMultiplePagesWinForms.exe
+C:\Users\Administrator.suprotim\Documents\Visual Studio 2005\PrintMultiplePagesWinForms\PrintMultiplePagesWinForms\obj\Debug\PrintMultiplePagesWinForms.pdb

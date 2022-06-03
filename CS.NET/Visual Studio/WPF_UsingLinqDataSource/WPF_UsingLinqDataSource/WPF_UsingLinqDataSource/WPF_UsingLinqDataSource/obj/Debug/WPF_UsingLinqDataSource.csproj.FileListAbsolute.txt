@@ -1,0 +1,14 @@
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\ResolveAssemblyReference.cache
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\App.g.cs
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\WPF_UsingLinqDataSource_MarkupCompile.cache
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\bin\Debug\WPF_UsingLinqDataSource.exe
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\bin\Debug\WPF_UsingLinqDataSource.pdb
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\Window1.g.cs
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\WPF_UsingLinqDataSource.g.resources
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\WPF_UsingLinqDataSource.Properties.Resources.resources
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\WPF_UsingLinqDataSource.csproj.GenerateResource.Cache
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\WPF_UsingLinqDataSource.exe
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\WPF_UsingLinqDataSource.pdb
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\WPF_UsingLinqDataSource_MarkupCompile.lref
+G:\WPF_Techforge\WPF_UsingLinqDataSource\WPF_UsingLinqDataSource\obj\Debug\Window1.baml

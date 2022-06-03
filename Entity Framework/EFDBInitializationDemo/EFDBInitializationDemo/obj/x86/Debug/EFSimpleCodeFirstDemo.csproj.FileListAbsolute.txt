@@ -1,0 +1,13 @@
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\bin\Debug\EFSimpleCodeFirstDemo.exe
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\bin\Debug\EFSimpleCodeFirstDemo.pdb
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\obj\x86\Debug\EFSimpleCodeFirstDemo.exe
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\obj\x86\Debug\EFSimpleCodeFirstDemo.pdb
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\bin\Debug\EntityFramework.dll
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\bin\Debug\SchoolDataLayer.dll
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\bin\Debug\SchoolDomainClasses.dll
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\bin\Debug\SchoolDataLayer.pdb
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\bin\Debug\SchoolDomainClasses.pdb
+c:\documents and settings\ravi.karia\my documents\visual studio 2010\Projects\EFSimpleCodeFirstDemo\EFSimpleCodeFirstDemo\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\ravi.karia\My Documents\Visual Studio 2010\Projects\EFDBInitializationDemo\EFSimpleCodeFirstDemo\obj\x86\Debug\EFSimpleCodeFirstDemo.exe
+C:\Documents and Settings\ravi.karia\My Documents\Visual Studio 2010\Projects\EFDBInitializationDemo\EFSimpleCodeFirstDemo\obj\x86\Debug\EFSimpleCodeFirstDemo.pdb

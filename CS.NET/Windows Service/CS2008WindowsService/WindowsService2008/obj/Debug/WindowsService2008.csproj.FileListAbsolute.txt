@@ -1,0 +1,8 @@
+C:\Users\Rajani\Desktop\CS2008WindowsService\WindowsService2008\bin\Debug\WindowsService2008.exe
+C:\Users\Rajani\Desktop\CS2008WindowsService\WindowsService2008\bin\Debug\WindowsService2008.pdb
+C:\Users\Rajani\Desktop\CS2008WindowsService\WindowsService2008\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\CS2008WindowsService\WindowsService2008\obj\Debug\WindowsService2008.ProjectInstaller.resources
+C:\Users\Rajani\Desktop\CS2008WindowsService\WindowsService2008\obj\Debug\WindowsService2008.Service2008.resources
+C:\Users\Rajani\Desktop\CS2008WindowsService\WindowsService2008\obj\Debug\WindowsService2008.csproj.GenerateResource.Cache
+C:\Users\Rajani\Desktop\CS2008WindowsService\WindowsService2008\obj\Debug\WindowsService2008.exe
+C:\Users\Rajani\Desktop\CS2008WindowsService\WindowsService2008\obj\Debug\WindowsService2008.pdb

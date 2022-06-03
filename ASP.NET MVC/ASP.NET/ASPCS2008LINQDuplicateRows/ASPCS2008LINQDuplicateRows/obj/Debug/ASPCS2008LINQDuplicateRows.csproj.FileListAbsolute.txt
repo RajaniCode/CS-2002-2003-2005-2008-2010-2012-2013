@@ -1,0 +1,5 @@
+F:\Snippet\ASPCS2008LINQDuplicateRows\ASPCS2008LINQDuplicateRows\bin\ASPCS2008LINQDuplicateRows.dll
+F:\Snippet\ASPCS2008LINQDuplicateRows\ASPCS2008LINQDuplicateRows\bin\ASPCS2008LINQDuplicateRows.pdb
+F:\Snippet\ASPCS2008LINQDuplicateRows\ASPCS2008LINQDuplicateRows\obj\Debug\ResolveAssemblyReference.cache
+F:\Snippet\ASPCS2008LINQDuplicateRows\ASPCS2008LINQDuplicateRows\obj\Debug\ASPCS2008LINQDuplicateRows.dll
+F:\Snippet\ASPCS2008LINQDuplicateRows\ASPCS2008LINQDuplicateRows\obj\Debug\ASPCS2008LINQDuplicateRows.pdb

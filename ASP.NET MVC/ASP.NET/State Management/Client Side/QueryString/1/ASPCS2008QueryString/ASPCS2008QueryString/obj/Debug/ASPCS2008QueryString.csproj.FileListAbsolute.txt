@@ -1,0 +1,5 @@
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008QueryString\ASPCS2008QueryString\bin\ASPCS2008QueryString.dll
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008QueryString\ASPCS2008QueryString\bin\ASPCS2008QueryString.pdb
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008QueryString\ASPCS2008QueryString\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008QueryString\ASPCS2008QueryString\obj\Debug\ASPCS2008QueryString.dll
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008QueryString\ASPCS2008QueryString\obj\Debug\ASPCS2008QueryString.pdb

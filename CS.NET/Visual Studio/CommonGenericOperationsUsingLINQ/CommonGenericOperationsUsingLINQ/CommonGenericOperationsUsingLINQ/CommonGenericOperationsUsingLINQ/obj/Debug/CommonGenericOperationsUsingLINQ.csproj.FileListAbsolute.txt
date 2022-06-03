@@ -1,0 +1,5 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperationsUsingLINQ\CommonGenericOperationsUsingLINQ\bin\Debug\CommonGenericOperationsUsingLINQ.exe
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperationsUsingLINQ\CommonGenericOperationsUsingLINQ\bin\Debug\CommonGenericOperationsUsingLINQ.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperationsUsingLINQ\CommonGenericOperationsUsingLINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperationsUsingLINQ\CommonGenericOperationsUsingLINQ\obj\Debug\CommonGenericOperationsUsingLINQ.exe
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperationsUsingLINQ\CommonGenericOperationsUsingLINQ\obj\Debug\CommonGenericOperationsUsingLINQ.pdb

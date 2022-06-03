@@ -1,0 +1,2 @@
+C:\Users\rajani.somaskandan\Desktop\ASPCS2008Membership\ASPCS2008Membership\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rajani.somaskandan\Desktop\ASP.NET\ASPCS2008Membership\ASPCS2008Membership\obj\Debug\ResolveAssemblyReference.cache

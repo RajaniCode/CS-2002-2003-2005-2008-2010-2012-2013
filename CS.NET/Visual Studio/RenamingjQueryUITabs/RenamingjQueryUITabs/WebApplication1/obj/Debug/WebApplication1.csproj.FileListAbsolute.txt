@@ -1,0 +1,20 @@
+C:\Temp\jquery-tabs\WebApplication1\bin\WebApplication1.dll
+C:\Temp\jquery-tabs\WebApplication1\bin\WebApplication1.pdb
+C:\Temp\jquery-tabs\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\jquery-tabs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Temp\jquery-tabs\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\articles\jQuery Tabs and Lazy Loading\WebApplication1\bin\WebApplication1.dll
+D:\articles\jQuery Tabs and Lazy Loading\WebApplication1\bin\WebApplication1.pdb
+D:\articles\jQuery Tabs and Lazy Loading\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\jQuery Tabs and Lazy Loading\WebApplication1\obj\Debug\WebApplication1.dll
+D:\articles\jQuery Tabs and Lazy Loading\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\articles\jQuery Tabs and Lazy Loading\WebApplication1\bin\WebApplication1.dll
+E:\articles\jQuery Tabs and Lazy Loading\WebApplication1\bin\WebApplication1.pdb
+E:\articles\jQuery Tabs and Lazy Loading\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\jQuery Tabs and Lazy Loading\WebApplication1\obj\Debug\WebApplication1.dll
+E:\articles\jQuery Tabs and Lazy Loading\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\articles\Renaming jQuery's UI Tabs\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Renaming jQuery's UI Tabs\WebApplication1\obj\Debug\WebApplication1.dll
+D:\articles\Renaming jQuery's UI Tabs\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\articles\Renaming jQuery's UI Tabs\WebApplication1\bin\WebApplication1.dll
+D:\articles\Renaming jQuery's UI Tabs\WebApplication1\bin\WebApplication1.pdb

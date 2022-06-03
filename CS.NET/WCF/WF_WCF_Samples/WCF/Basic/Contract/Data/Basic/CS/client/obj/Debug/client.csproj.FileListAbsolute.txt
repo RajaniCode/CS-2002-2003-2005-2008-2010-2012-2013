@@ -1,0 +1,12 @@
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\bin\client.exe.config
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\bin\client.exe
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\bin\client.pdb
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\obj\Debug\client.exe
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\obj\Debug\client.pdb
+E:\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\bin\client.exe.config
+E:\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\obj\Debug\client.exe
+E:\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\obj\Debug\client.pdb
+E:\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\bin\client.exe
+E:\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\bin\client.pdb
+E:\WF_WCF_Samples\WCF\Basic\Contract\Data\Basic\CS\client\obj\Debug\ResolveAssemblyReference.cache

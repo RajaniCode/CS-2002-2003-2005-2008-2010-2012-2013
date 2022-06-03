@@ -1,0 +1,2 @@
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Azure\bin\Release\ServiceConfiguration.cscfg
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Azure\bin\Release\ServiceDefinition.csdef

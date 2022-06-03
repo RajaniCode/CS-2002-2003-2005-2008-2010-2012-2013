@@ -1,0 +1,5 @@
+C:\Users\Supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\TasksReturnValue\bin\Debug\TasksReturnValue.exe
+C:\Users\Supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\TasksReturnValue\bin\Debug\TasksReturnValue.pdb
+C:\Users\Supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\TasksReturnValue\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\TasksReturnValue\obj\x86\Debug\TasksReturnValue.exe
+C:\Users\Supro\documents\visual studio 2010\Projects\NET4.0\ParallelTasks\TasksReturnValue\obj\x86\Debug\TasksReturnValue.pdb

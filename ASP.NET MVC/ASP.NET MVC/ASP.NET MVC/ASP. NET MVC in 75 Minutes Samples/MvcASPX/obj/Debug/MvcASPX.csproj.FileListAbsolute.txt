@@ -1,0 +1,7 @@
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcASPX\bin\MvcASPX.dll
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcASPX\bin\MvcASPX.pdb
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcASPX\bin\EntityFramework.dll
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcASPX\bin\EntityFramework.xml
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcASPX\obj\Debug\ResolveAssemblyReference.cache
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcASPX\obj\Debug\MvcASPX.dll
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcASPX\obj\Debug\MvcASPX.pdb

@@ -1,0 +1,10 @@
+D:\articles\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.dll
+D:\articles\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.pdb
+D:\articles\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\articles\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.pdb
+S:\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.dll
+S:\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\bin\MvcApplication1.pdb
+S:\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+S:\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.dll
+S:\Building A Color Picker Using ASP.NET MVC And jQuery\MvcApplication1\obj\Debug\MvcApplication1.pdb

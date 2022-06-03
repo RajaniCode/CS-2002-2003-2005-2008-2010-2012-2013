@@ -1,0 +1,14 @@
+D:\articles\Expression Blend DataBinding\Demo\Demo\Bin\Debug\Demo.Screens.dll
+D:\articles\Expression Blend DataBinding\Demo\Demo\Bin\Debug\Demo.Screens.pdb
+D:\articles\Expression Blend DataBinding\Demo\Demo\DemoScreens\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Expression Blend DataBinding\Demo\Demo\DemoScreens\obj\Debug\Screen 1.g.cs
+D:\articles\Expression Blend DataBinding\Demo\Demo\DemoScreens\obj\Debug\Demo.Screens.g.resources
+D:\articles\Expression Blend DataBinding\Demo\Demo\DemoScreens\obj\Debug\Demo.Screens.dll
+D:\articles\Expression Blend DataBinding\Demo\Demo\DemoScreens\obj\Debug\Demo.Screens.pdb
+D:\articles\SketchFlow DataBinding\Demo\Demo\Bin\Debug\Demo.Screens.dll
+D:\articles\SketchFlow DataBinding\Demo\Demo\Bin\Debug\Demo.Screens.pdb
+D:\articles\SketchFlow DataBinding\Demo\Demo\DemoScreens\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\SketchFlow DataBinding\Demo\Demo\DemoScreens\obj\Debug\Screen 1.g.cs
+D:\articles\SketchFlow DataBinding\Demo\Demo\DemoScreens\obj\Debug\Demo.Screens.g.resources
+D:\articles\SketchFlow DataBinding\Demo\Demo\DemoScreens\obj\Debug\Demo.Screens.dll
+D:\articles\SketchFlow DataBinding\Demo\Demo\DemoScreens\obj\Debug\Demo.Screens.pdb

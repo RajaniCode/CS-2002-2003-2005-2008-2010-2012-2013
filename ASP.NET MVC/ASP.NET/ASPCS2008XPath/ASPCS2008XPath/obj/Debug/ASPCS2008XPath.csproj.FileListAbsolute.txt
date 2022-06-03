@@ -1,0 +1,5 @@
+F:\Snippet\ASPCS2008XPath\ASPCS2008XPath\bin\ASPCS2008XPath.dll
+F:\Snippet\ASPCS2008XPath\ASPCS2008XPath\bin\ASPCS2008XPath.pdb
+F:\Snippet\ASPCS2008XPath\ASPCS2008XPath\obj\Debug\ResolveAssemblyReference.cache
+F:\Snippet\ASPCS2008XPath\ASPCS2008XPath\obj\Debug\ASPCS2008XPath.dll
+F:\Snippet\ASPCS2008XPath\ASPCS2008XPath\obj\Debug\ASPCS2008XPath.pdb

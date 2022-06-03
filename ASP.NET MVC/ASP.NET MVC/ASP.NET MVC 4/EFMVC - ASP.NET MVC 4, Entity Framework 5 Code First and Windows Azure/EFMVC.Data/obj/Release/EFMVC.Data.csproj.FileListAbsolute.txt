@@ -1,0 +1,14 @@
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EFMVC.Data.dll.config
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EFMVC.Data.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EFMVC.Data.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EFMVC.Model.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EntityFramework.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EFMVC.Core.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EFMVC.Model.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EntityFramework.xml
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\bin\Release\EFMVC.Core.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\obj\Release\EFMVC.Data.csprojResolveAssemblyReference.cache
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\obj\Release\EFMVC.Data.Migrations.InitialCreate.resources
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\obj\Release\EFMVC.Data.csproj.GenerateResource.Cache
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\obj\Release\EFMVC.Data.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Data\obj\Release\EFMVC.Data.pdb

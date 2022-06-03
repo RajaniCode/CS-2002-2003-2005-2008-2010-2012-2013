@@ -1,0 +1,5 @@
+c:\users\tdykstra.000\documents\visual studio 2010\Projects\CustomWebServerControl\WebApplication2\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tdykstra.000\documents\visual studio 2010\Projects\CustomWebServerControl\WebApplication2\WebApplication2\bin\WebApplication2.dll
+c:\users\tdykstra.000\documents\visual studio 2010\Projects\CustomWebServerControl\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+c:\users\tdykstra.000\documents\visual studio 2010\Projects\CustomWebServerControl\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+c:\users\tdykstra.000\documents\visual studio 2010\Projects\CustomWebServerControl\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

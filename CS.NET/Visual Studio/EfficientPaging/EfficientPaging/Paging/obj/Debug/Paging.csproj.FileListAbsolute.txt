@@ -1,0 +1,10 @@
+C:\articles\Page Caching\Paging\bin\Paging.dll
+C:\articles\Page Caching\Paging\bin\Paging.pdb
+C:\articles\Page Caching\Paging\obj\Debug\ResolveAssemblyReference.cache
+C:\articles\Page Caching\Paging\obj\Debug\Paging.dll
+C:\articles\Page Caching\Paging\obj\Debug\Paging.pdb
+C:\articles\Paging\Paging\bin\Paging.dll
+C:\articles\Paging\Paging\bin\Paging.pdb
+C:\articles\Paging\Paging\obj\Debug\ResolveAssemblyReference.cache
+C:\articles\Paging\Paging\obj\Debug\Paging.dll
+C:\articles\Paging\Paging\obj\Debug\Paging.pdb

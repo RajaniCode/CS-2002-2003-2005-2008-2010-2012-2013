@@ -1,0 +1,10 @@
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\obj\x86\Debug\WinForm_WFTransactionClient.Form1.resources
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\obj\x86\Debug\WinForm_WFTransactionClient.Properties.Resources.resources
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\obj\x86\Debug\WinForm_WFTransactionClient.csproj.GenerateResource.Cache
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\bin\Debug\WinForm_WFTransactionClient.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\bin\Debug\WinForm_WFTransactionClient.pdb
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\bin\Debug\WF_TransactionScope.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\bin\Debug\WF_TransactionScope.pdb
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\obj\x86\Debug\WinForm_WFTransactionClient.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_TransactionScope\WinForm_WFTransactionClient\obj\x86\Debug\WinForm_WFTransactionClient.pdb

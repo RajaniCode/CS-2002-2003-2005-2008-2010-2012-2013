@@ -1,0 +1,17 @@
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.Domain.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.Domain.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.CommandProcessor.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.Core.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.Data.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.Model.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EntityFramework.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.CommandProcessor.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.Core.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.Data.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EFMVC.Model.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\bin\Release\EntityFramework.xml
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\obj\Release\EFMVC.Domain.csprojResolveAssemblyReference.cache
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\obj\Release\EFMVC.Domain.Properties.Resources.resources
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\obj\Release\EFMVC.Domain.csproj.GenerateResource.Cache
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\obj\Release\EFMVC.Domain.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Domain\obj\Release\EFMVC.Domain.pdb

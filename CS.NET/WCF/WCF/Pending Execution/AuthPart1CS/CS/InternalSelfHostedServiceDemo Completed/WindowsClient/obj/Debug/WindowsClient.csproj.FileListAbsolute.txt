@@ -1,0 +1,9 @@
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\bin\Debug\WindowsClient.exe.config
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\bin\Debug\WindowsClient.exe
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\bin\Debug\WindowsClient.pdb
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\obj\Debug\WindowsClient.Form1.resources
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\obj\Debug\WindowsClient.Properties.Resources.resources
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\obj\Debug\WindowsClient.csproj.GenerateResource.Cache
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\obj\Debug\WindowsClient.exe
+C:\Users\Rajani\Desktop\AuthPart1CS\CS\InternalSelfHostedServiceDemo Completed\WindowsClient\obj\Debug\WindowsClient.pdb

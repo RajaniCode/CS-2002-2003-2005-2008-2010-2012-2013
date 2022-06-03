@@ -1,0 +1,7 @@
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WCF_Service\bin\WCF_Service.dll
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WCF_Service\bin\WCF_Service.pdb
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WCF_Service\bin\clsDataContracts.dll
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WCF_Service\bin\clsDataContracts.pdb
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WCF_Service\obj\Debug\ResolveAssemblyReference.cache
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WCF_Service\obj\Debug\WCF_Service.dll
+G:\MaheshSabnis_PErsonal\NewDemos\WPF_WCFRESTApplication\WCF_Service\obj\Debug\WCF_Service.pdb

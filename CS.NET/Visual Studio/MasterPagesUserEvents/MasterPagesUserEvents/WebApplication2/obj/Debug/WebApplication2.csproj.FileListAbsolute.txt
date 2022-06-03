@@ -1,0 +1,10 @@
+c:\Temp\WebApplication2\bin\WebApplication2.dll
+c:\Temp\WebApplication2\bin\WebApplication2.pdb
+c:\Temp\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+c:\Temp\WebApplication2\obj\Debug\WebApplication2.dll
+c:\Temp\WebApplication2\obj\Debug\WebApplication2.pdb
+D:\articles\Master Pages and Events\WebApplication2\bin\WebApplication2.dll
+D:\articles\Master Pages and Events\WebApplication2\bin\WebApplication2.pdb
+D:\articles\Master Pages and Events\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+D:\articles\Master Pages and Events\WebApplication2\obj\Debug\WebApplication2.dll
+D:\articles\Master Pages and Events\WebApplication2\obj\Debug\WebApplication2.pdb

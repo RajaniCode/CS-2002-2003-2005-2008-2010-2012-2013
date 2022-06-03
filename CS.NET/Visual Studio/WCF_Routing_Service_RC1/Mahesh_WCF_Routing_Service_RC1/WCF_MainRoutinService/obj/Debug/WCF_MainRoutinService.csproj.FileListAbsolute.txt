@@ -1,0 +1,10 @@
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\bin\WCF_MainRoutinService.dll
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\bin\WCF_MainRoutinService.pdb
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\obj\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\obj\Debug\WCF_MainRoutinService.dll
+G:\VS2010_Practice\WCF40\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\obj\Debug\WCF_MainRoutinService.pdb
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\bin\WCF_MainRoutinService.dll
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\bin\WCF_MainRoutinService.pdb
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\obj\Debug\WCF_MainRoutinService.dll
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\WCF40_Beta2\Mahesh_WCF_Routing_Service\WCF_MainRoutinService\obj\Debug\WCF_MainRoutinService.pdb

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Tests\bin\Debug\EFMVC.Tests.dll" total="23" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-07-30" time="18:09:46">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="ADMIN" user="shijuv" user-domain="IN" />
+  <culture-info current-culture="en-IN" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.Tests\bin\Debug\EFMVC.Tests.dll" executed="True" result="Success" success="True" time="4.166" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="EFMVC" executed="True" result="Success" success="True" time="4.146" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="4.146" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="ApiControllers" executed="True" result="Success" success="True" time="2.371" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="CategoryApiControllerTest" executed="True" result="Success" success="True" time="2.369" asserts="0">
+                    <results>
+                      <test-case name="EFMVC.Tests.ApiControllers.CategoryApiControllerTest.Delete_Category_Returns_NoContentStatusCode" executed="True" result="Success" success="True" time="1.048" asserts="1" />
+                      <test-case name="EFMVC.Tests.ApiControllers.CategoryApiControllerTest.Get_All_Returns_AllCategory" executed="True" result="Success" success="True" time="0.056" asserts="3" />
+                      <test-case name="EFMVC.Tests.ApiControllers.CategoryApiControllerTest.Get_CorrectCategoryId_Returns_Category" executed="True" result="Success" success="True" time="0.662" asserts="2" />
+                      <test-case name="EFMVC.Tests.ApiControllers.CategoryApiControllerTest.Get_InValidCategoryId_Returns_NotFound" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="EFMVC.Tests.ApiControllers.CategoryApiControllerTest.Post_Category_Returns_CreatedStatusCode" executed="True" result="Success" success="True" time="0.526" asserts="2" />
+                      <test-case name="EFMVC.Tests.ApiControllers.CategoryApiControllerTest.Post_EmptyCategory_Returns_BadRequestStatusCode" executed="True" result="Success" success="True" time="0.039" asserts="1" />
+                      <test-case name="EFMVC.Tests.ApiControllers.CategoryApiControllerTest.Put_Category_Returns_OKStatusCode" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="1.770" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AccountControllerTest" executed="True" result="Success" success="True" time="1.138" asserts="0">
+                    <results>
+                      <test-case name="EFMVC.Tests.Controllers.AccountControllerTest.Cannot_AjaxLogin_With_Empty_UserCrdential" executed="True" result="Success" success="True" time="0.069" asserts="1" />
+                      <test-case name="EFMVC.Tests.Controllers.AccountControllerTest.Cannot_Login_With_Empty_UserCrdential" executed="True" result="Success" success="True" time="0.015" asserts="2" />
+                      <test-case name="EFMVC.Tests.Controllers.AccountControllerTest.Cannot_Login_With_Wrong_UserCrdential" executed="True" result="Success" success="True" time="0.022" asserts="2" />
+                      <test-case name="EFMVC.Tests.Controllers.AccountControllerTest.Login_Success_Redirects_To_Home" executed="True" result="Success" success="True" time="0.932" asserts="3" />
+                      <test-case name="EFMVC.Tests.Controllers.AccountControllerTest.User_Register_Redirects_To_Home" executed="True" result="Success" success="True" time="0.090" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="CategoryControllerTest" executed="True" result="Success" success="True" time="0.034" asserts="0">
+                    <results>
+                      <test-case name="EFMVC.Tests.Controllers.CategoryControllerTest.Cannot_Create_Empty_Category" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                      <test-case name="EFMVC.Tests.Controllers.CategoryControllerTest.Create_Category_Redirects_To_Index" executed="True" result="Success" success="True" time="0.015" asserts="1" />
+                      <test-case name="EFMVC.Tests.Controllers.CategoryControllerTest.Delete_Category_ReturnsPartial" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                      <test-case name="EFMVC.Tests.Controllers.CategoryControllerTest.Index_Returns_Category_List" executed="True" result="Success" success="True" time="0.004" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ExpenseControllerTest" executed="True" result="Success" success="True" time="0.562" asserts="0">
+                    <results>
+                      <test-case name="EFMVC.Tests.Controllers.ExpenseControllerTest.Cannot_Create_Empty_Expense" executed="True" result="Success" success="True" time="0.021" asserts="2" />
+                      <test-case name="EFMVC.Tests.Controllers.ExpenseControllerTest.Create_Expense_Redirects_To_Index" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                      <test-case name="EFMVC.Tests.Controllers.ExpenseControllerTest.Delete_Expense_ReturnsPartial" executed="True" result="Success" success="True" time="0.009" asserts="2" />
+                      <test-case name="EFMVC.Tests.Controllers.ExpenseControllerTest.Index_AjaxRequest_Returns_Partial_With_Expense_List" executed="True" result="Success" success="True" time="0.018" asserts="4" />
+                      <test-case name="EFMVC.Tests.Controllers.ExpenseControllerTest.Index_NormalRequest_Returns_Index_With_Expense_List" executed="True" result="Success" success="True" time="0.496" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="HomeControllerTest" executed="True" result="Success" success="True" time="0.019" asserts="0">
+                    <results>
+                      <test-case name="EFMVC.Tests.Controllers.HomeControllerTest.About" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                      <test-case name="EFMVC.Tests.Controllers.HomeControllerTest.Index" executed="True" result="Success" success="True" time="0.013" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

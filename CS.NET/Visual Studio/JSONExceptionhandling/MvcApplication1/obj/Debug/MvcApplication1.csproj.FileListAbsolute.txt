@@ -1,0 +1,10 @@
+c:\users\malcolm\documents\visual studio 2010\Projects\MvcApplication1\bin\MvcApplication1.dll
+c:\users\malcolm\documents\visual studio 2010\Projects\MvcApplication1\bin\MvcApplication1.pdb
+c:\users\malcolm\documents\visual studio 2010\Projects\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+c:\users\malcolm\documents\visual studio 2010\Projects\MvcApplication1\obj\Debug\MvcApplication1.dll
+c:\users\malcolm\documents\visual studio 2010\Projects\MvcApplication1\obj\Debug\MvcApplication1.pdb
+S:\Articles\JsonExceptionHandling\MvcApplication1\bin\MvcApplication1.dll
+S:\Articles\JsonExceptionHandling\MvcApplication1\bin\MvcApplication1.pdb
+S:\Articles\JsonExceptionHandling\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+S:\Articles\JsonExceptionHandling\MvcApplication1\obj\Debug\MvcApplication1.dll
+S:\Articles\JsonExceptionHandling\MvcApplication1\obj\Debug\MvcApplication1.pdb

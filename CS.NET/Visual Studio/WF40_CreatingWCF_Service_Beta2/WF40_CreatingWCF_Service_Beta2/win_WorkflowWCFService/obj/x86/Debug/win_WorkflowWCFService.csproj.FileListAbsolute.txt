@@ -1,0 +1,10 @@
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\bin\Debug\win_WorkflowWCFService.exe.config
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\bin\Debug\win_WorkflowWCFService.exe
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\bin\Debug\win_WorkflowWCFService.pdb
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\obj\x86\Debug\win_WorkflowWCFService.Form1.resources
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\obj\x86\Debug\win_WorkflowWCFService.Properties.Resources.resources
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\obj\x86\Debug\win_WorkflowWCFService.exe
+G:\Mahesh_Practice\DotNet40\VS2010_Practice\Workflow_Beta_2\WF40_CreatingWCF_Service\win_WorkflowWCFService\obj\x86\Debug\win_WorkflowWCFService.pdb

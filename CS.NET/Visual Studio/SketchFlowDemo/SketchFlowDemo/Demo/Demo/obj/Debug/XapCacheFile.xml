@@ -1,0 +1,14 @@
+﻿<xapCache source="D:\articles\SketchFlow DataBinding\Demo\Demo\Bin\Debug\Demo.xap" lastWriteTime="14/09/2009 11:56:42 AM">
+  <file source="D:\articles\SketchFlow DataBinding\Demo\Demo\obj\Debug\Demo.dll" archivePath="Demo.dll" lastWriteTime="14/09/2009 11:56:41 AM" />
+  <file source="D:\articles\SketchFlow DataBinding\Demo\Demo\Bin\Debug\Demo.Screens.dll" archivePath="Demo.Screens.dll" lastWriteTime="14/09/2009 11:56:39 AM" />
+  <file source="C:\Program Files\Microsoft SDKs\Expression\Blend 3\Interactivity\Libraries\Silverlight\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="14/07/2009 6:56:12 PM" />
+  <file source="C:\Program Files\Microsoft SDKs\Expression\Blend 3\Prototyping\Libraries\Silverlight\Microsoft.Expression.Prototyping.Interactivity.dll" archivePath="Microsoft.Expression.Prototyping.Interactivity.dll" lastWriteTime="14/07/2009 6:56:12 PM" />
+  <file source="C:\Program Files\Microsoft SDKs\Expression\Blend 3\Prototyping\Libraries\Silverlight\Microsoft.Expression.Prototyping.Runtime.dll" archivePath="Microsoft.Expression.Prototyping.Runtime.dll" lastWriteTime="14/07/2009 6:56:14 PM" />
+  <file source="C:\Program Files\Microsoft SDKs\Expression\Blend 3\Prototyping\Libraries\Silverlight\Microsoft.Expression.Prototyping.SketchControls.dll" archivePath="Microsoft.Expression.Prototyping.SketchControls.dll" lastWriteTime="14/07/2009 6:56:12 PM" />
+  <file source="c:\Program Files\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="23/06/2009 10:12:28 PM" />
+  <file source="C:\Program Files\Microsoft SDKs\Expression\Blend 3\Interactivity\Libraries\Silverlight\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="14/07/2009 6:56:12 PM" />
+  <file source="c:\Program Files\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Xml.Serialization.dll" archivePath="System.Xml.Serialization.dll" lastWriteTime="23/06/2009 10:12:28 PM" />
+  <file source="c:\Program Files\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.Navigation.dll" archivePath="System.Windows.Controls.Navigation.dll" lastWriteTime="23/06/2009 10:12:28 PM" />
+  <file source="C:\Program Files\Microsoft SDKs\Expression\Blend 3\Prototyping\Libraries\Silverlight\en\Microsoft.Expression.Prototyping.Runtime.resources.dll" archivePath="en\Microsoft.Expression.Prototyping.Runtime.resources.dll" lastWriteTime="14/07/2009 6:56:26 PM" />
+  <file source="D:\articles\SketchFlow DataBinding\Demo\Demo\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="14/09/2009 11:12:11 AM" />
+</xapCache>

@@ -1,0 +1,10 @@
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\MSDNMagazine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\MSDNMagazine\bin\MSDNMagazine.dll
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\MSDNMagazine\bin\MSDNMagazine.pdb
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\MSDNMagazine\obj\Debug\MSDNMagazine.dll
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\MSDNMagazine\obj\Debug\MSDNMagazine.pdb
+C:\Users\Rajani\Desktop\RESTful Services with WCF\MSDNMagazine\MSDNMagazine\bin\MSDNMagazine.dll
+C:\Users\Rajani\Desktop\RESTful Services with WCF\MSDNMagazine\MSDNMagazine\bin\MSDNMagazine.pdb
+C:\Users\Rajani\Desktop\RESTful Services with WCF\MSDNMagazine\MSDNMagazine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\RESTful Services with WCF\MSDNMagazine\MSDNMagazine\obj\Debug\MSDNMagazine.dll
+C:\Users\Rajani\Desktop\RESTful Services with WCF\MSDNMagazine\MSDNMagazine\obj\Debug\MSDNMagazine.pdb

@@ -1,0 +1,5 @@
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008ProfileProperties\ASPCS2008ProfileProperties\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008ProfileProperties\ASPCS2008ProfileProperties\bin\ASPCS2008ProfileProperties.dll
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008ProfileProperties\ASPCS2008ProfileProperties\bin\ASPCS2008ProfileProperties.pdb
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008ProfileProperties\ASPCS2008ProfileProperties\obj\Debug\ASPCS2008ProfileProperties.dll
+C:\Documents and Settings\RAJANI\Desktop\ASPCS2008ProfileProperties\ASPCS2008ProfileProperties\obj\Debug\ASPCS2008ProfileProperties.pdb

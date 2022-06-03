@@ -1,0 +1,15 @@
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\bin\Debug\WPF_DataGrid_PropertyTriggers.exe
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\bin\Debug\WPF_DataGrid_PropertyTriggers.pdb
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\MainWindow.baml
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\MainWindow.g.cs
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\App.g.cs
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\WPF_DataGrid_PropertyTriggers_MarkupCompile.cache
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\WPF_DataGrid_PropertyTriggers.g.resources
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\WPF_DataGrid_PropertyTriggers.Properties.Resources.resources
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\WPF_DataGrid_PropertyTriggers.exe
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\WPF_DataGrid_PropertyTriggers.pdb
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Mahesh_Practice\DotNet40\RTM\WPF_40\WPF_Solutions_DevCurry\WPF_DataGrid_PropertyTriggers\obj\x86\Debug\WPF_DataGrid_PropertyTriggers_MarkupCompile.lref

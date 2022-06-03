@@ -1,0 +1,8 @@
+C:\Bipin\CodeFirstDbInitializerDemo\bin\Debug\CodeFirstDbInitializerDemo.exe
+C:\Bipin\CodeFirstDbInitializerDemo\bin\Debug\CodeFirstDbInitializerDemo.pdb
+C:\Bipin\CodeFirstDbInitializerDemo\bin\Debug\EntityFramework.dll
+C:\Bipin\CodeFirstDbInitializerDemo\bin\Debug\EntityFramework.xml
+C:\Bipin\CodeFirstDbInitializerDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Bipin\CodeFirstDbInitializerDemo\obj\x86\Debug\CodeFirstDbInitializerDemo.exe
+C:\Bipin\CodeFirstDbInitializerDemo\obj\x86\Debug\CodeFirstDbInitializerDemo.pdb
+C:\Bipin\CodeFirstDbInitializerDemo\bin\Debug\CodeFirstDbInitializerDemo.exe.config

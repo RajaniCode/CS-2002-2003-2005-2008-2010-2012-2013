@@ -1,0 +1,8 @@
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\obj\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\bin\Debug\WF_BankingApplication.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\bin\Debug\WF_BankingApplication.pdb
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\obj\Debug\WF_BankingApp.g.xaml
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\obj\Debug\WF_BankingApp.g.cs
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\obj\Debug\WF_BankingApplication.csproj.XamlGeneratedFileListAbsolute.txt
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\obj\Debug\WF_BankingApplication.exe
+G:\VS2010_Practice\WF40\Mahesh_Labs\WF_BankingApplication\WF_BankingApplication\obj\Debug\WF_BankingApplication.pdb

@@ -1,0 +1,10 @@
+C:\Users\Rajani\Desktop\WCF\WCFClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\WCF\WCFClassLibrary\bin\Debug\WCFClassLibrary.dll
+C:\Users\Rajani\Desktop\WCF\WCFClassLibrary\bin\Debug\WCFClassLibrary.pdb
+C:\Users\Rajani\Desktop\WCF\WCFClassLibrary\obj\Debug\WCFClassLibrary.dll
+C:\Users\Rajani\Desktop\WCF\WCFClassLibrary\obj\Debug\WCFClassLibrary.pdb
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClassLibrary\bin\Debug\WCFClassLibrary.dll
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClassLibrary\bin\Debug\WCFClassLibrary.pdb
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClassLibrary\obj\Debug\WCFClassLibrary.dll
+C:\Users\Rajani\Desktop\Code\WCF\WCF\WCFClassLibrary\obj\Debug\WCFClassLibrary.pdb

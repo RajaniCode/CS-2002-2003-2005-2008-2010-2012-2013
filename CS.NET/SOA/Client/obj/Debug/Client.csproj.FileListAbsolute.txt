@@ -1,0 +1,27 @@
+c:\temp\WCF_Example2\Client\Client\bin\Debug\Client.exe.config
+c:\temp\WCF_Example2\Client\Client\obj\Debug\ResolveAssemblyReference.cache
+c:\temp\WCF_Example2\Client\Client\obj\Debug\Client.Form1.resources
+c:\temp\WCF_Example2\Client\Client\obj\Debug\Client.Properties.Resources.resources
+c:\temp\WCF_Example2\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+c:\temp\WCF_Example2\Client\Client\bin\Debug\Client.exe
+c:\temp\WCF_Example2\Client\Client\bin\Debug\Client.pdb
+c:\temp\WCF_Example2\Client\Client\obj\Debug\Client.exe
+c:\temp\WCF_Example2\Client\Client\obj\Debug\Client.pdb
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\bin\Debug\Client.exe.config
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\obj\Debug\Client.exe
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\obj\Debug\Client.pdb
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\bin\Debug\Client.exe
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\bin\Debug\Client.pdb
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\obj\Debug\Client.Form1.resources
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Documents and Settings\RAJANI\Desktop\New Folder (2)\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\Code\To do\SOA\Client\bin\Debug\Client.exe.config
+E:\Code\To do\SOA\Client\obj\Debug\Client.exe
+E:\Code\To do\SOA\Client\obj\Debug\Client.pdb
+E:\Code\To do\SOA\Client\bin\Debug\Client.exe
+E:\Code\To do\SOA\Client\bin\Debug\Client.pdb
+E:\Code\To do\SOA\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\Code\To do\SOA\Client\obj\Debug\Client.Form1.resources
+E:\Code\To do\SOA\Client\obj\Debug\Client.Properties.Resources.resources
+E:\Code\To do\SOA\Client\obj\Debug\Client.csproj.GenerateResource.Cache

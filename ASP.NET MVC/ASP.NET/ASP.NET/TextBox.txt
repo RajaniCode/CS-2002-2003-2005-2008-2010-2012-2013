@@ -1,0 +1,1 @@
+<asp:TextBox ID="TextBoxEmail" runat="server" onkeyup="this.value=this.value.toLowerCase()"></asp:TextBox>

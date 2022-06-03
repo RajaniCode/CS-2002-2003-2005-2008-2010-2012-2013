@@ -1,0 +1,5 @@
+C:\Users\Rajani\Desktop\Code\ASPCS2008FormsAuthentication\ASPCS2008FormsAuthentication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\Code\ASPCS2008FormsAuthentication\ASPCS2008FormsAuthentication\bin\ASPCS2008FormsAuthentication.dll
+C:\Users\Rajani\Desktop\Code\ASPCS2008FormsAuthentication\ASPCS2008FormsAuthentication\bin\ASPCS2008FormsAuthentication.pdb
+C:\Users\Rajani\Desktop\Code\ASPCS2008FormsAuthentication\ASPCS2008FormsAuthentication\obj\Debug\ASPCS2008FormsAuthentication.dll
+C:\Users\Rajani\Desktop\Code\ASPCS2008FormsAuthentication\ASPCS2008FormsAuthentication\obj\Debug\ASPCS2008FormsAuthentication.pdb

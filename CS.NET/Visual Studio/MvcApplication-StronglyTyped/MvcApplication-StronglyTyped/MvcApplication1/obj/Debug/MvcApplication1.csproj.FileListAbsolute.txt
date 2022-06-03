@@ -1,0 +1,5 @@
+F:\articles\ASP.NET MVC Beta 2 - Strongly Typed UI Helpers\MvcApplication1\bin\MvcApplication1.dll
+F:\articles\ASP.NET MVC Beta 2 - Strongly Typed UI Helpers\MvcApplication1\bin\MvcApplication1.pdb
+F:\articles\ASP.NET MVC Beta 2 - Strongly Typed UI Helpers\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\articles\ASP.NET MVC Beta 2 - Strongly Typed UI Helpers\MvcApplication1\obj\Debug\MvcApplication1.dll
+F:\articles\ASP.NET MVC Beta 2 - Strongly Typed UI Helpers\MvcApplication1\obj\Debug\MvcApplication1.pdb

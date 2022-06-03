@@ -1,0 +1,2 @@
+c:\users\dave\documents\visual studio 2013\Projects\ServerClientChat1.3\ServerClientChat1.3\bin\Debug\ServerClientChat1.3.exe
+c:\users\dave\documents\visual studio 2013\Projects\ServerClientChat1.3\ServerClientChat1.3\bin\Debug\NetComm.dll

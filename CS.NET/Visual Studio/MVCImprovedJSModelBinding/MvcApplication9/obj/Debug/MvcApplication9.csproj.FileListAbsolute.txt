@@ -1,0 +1,5 @@
+c:\users\sheridam\documents\visual studio 2010\Projects\MvcApplication9\bin\MvcApplication9.dll
+c:\users\sheridam\documents\visual studio 2010\Projects\MvcApplication9\bin\MvcApplication9.pdb
+c:\users\sheridam\documents\visual studio 2010\Projects\MvcApplication9\obj\Debug\ResolveAssemblyReference.cache
+c:\users\sheridam\documents\visual studio 2010\Projects\MvcApplication9\obj\Debug\MvcApplication9.dll
+c:\users\sheridam\documents\visual studio 2010\Projects\MvcApplication9\obj\Debug\MvcApplication9.pdb

@@ -1,0 +1,9 @@
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\bin\Debug\WCF_WindowsClient.exe
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\bin\Debug\WCF_WindowsClient.pdb
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\obj\x86\Debug\WCF_WindowsClient.Form1.resources
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\obj\x86\Debug\WCF_WindowsClient.Properties.Resources.resources
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\obj\x86\Debug\WCF_WindowsClient.csproj.GenerateResource.Cache
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\obj\x86\Debug\WCF_WindowsClient.exe
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\obj\x86\Debug\WCF_WindowsClient.pdb
+G:\VS2010_Practice\WCF\Mahesh_WCF_WF_ServiceHostClient\WCF_WindowsClient\bin\Debug\WCF_WindowsClient.exe.config

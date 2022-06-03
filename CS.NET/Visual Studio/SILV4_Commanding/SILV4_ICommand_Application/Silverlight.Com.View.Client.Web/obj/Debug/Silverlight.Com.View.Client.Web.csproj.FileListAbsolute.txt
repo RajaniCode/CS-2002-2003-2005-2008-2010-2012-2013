@@ -1,0 +1,10 @@
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\bin\Silverlight.Com.View.Client.Web.dll
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\bin\Silverlight.Com.View.Client.Web.pdb
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\obj\Debug\Silverlight.Com.View.Client.Web.dll
+D:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\obj\Debug\Silverlight.Com.View.Client.Web.pdb
+H:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\bin\Silverlight.Com.View.Client.Web.dll
+H:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\bin\Silverlight.Com.View.Client.Web.pdb
+H:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\obj\Debug\ResolveAssemblyReference.cache
+H:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\obj\Debug\Silverlight.Com.View.Client.Web.dll
+H:\Mahesh_Practice\Silverlight_40\SILV4_ICommand_Application\Silverlight.Com.View.Client.Web\obj\Debug\Silverlight.Com.View.Client.Web.pdb

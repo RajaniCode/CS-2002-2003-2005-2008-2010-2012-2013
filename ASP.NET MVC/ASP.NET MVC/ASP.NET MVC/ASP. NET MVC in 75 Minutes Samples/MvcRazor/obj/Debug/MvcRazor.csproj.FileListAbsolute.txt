@@ -1,0 +1,7 @@
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcRazor\bin\MvcRazor.dll
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcRazor\bin\MvcRazor.pdb
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcRazor\bin\EntityFramework.dll
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcRazor\bin\EntityFramework.xml
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcRazor\obj\Debug\ResolveAssemblyReference.cache
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcRazor\obj\Debug\MvcRazor.dll
+c:\Users\plitwin\Documents\Visual Studio 2010\Projects\MvcIn75Minutes\MvcRazor\obj\Debug\MvcRazor.pdb

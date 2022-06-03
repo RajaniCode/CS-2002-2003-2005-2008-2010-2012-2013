@@ -1,0 +1,9 @@
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\obj\Debug\ResolveAssemblyReference.cache
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\obj\Debug\Wordpress.Form1.resources
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\obj\Debug\Wordpress.Properties.Resources.resources
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\obj\Debug\Wordpress.csproj.GenerateResource.Cache
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\bin\Debug\Wordpress.exe
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\bin\Debug\Wordpress.pdb
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\obj\Debug\Wordpress.exe
+D:\Windows Applications\Post to Wordpress\WP C#\Wordpress\Wordpress\obj\Debug\Wordpress.pdb

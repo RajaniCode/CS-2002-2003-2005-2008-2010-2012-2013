@@ -1,0 +1,10 @@
+C:\Users\rajani.somaskandan\Desktop\ASPCSJavaScript\ASPCSJavaScript\bin\ASPCSJavaScript.dll
+C:\Users\rajani.somaskandan\Desktop\ASPCSJavaScript\ASPCSJavaScript\bin\ASPCSJavaScript.pdb
+C:\Users\rajani.somaskandan\Desktop\ASPCSJavaScript\ASPCSJavaScript\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rajani.somaskandan\Desktop\ASPCSJavaScript\ASPCSJavaScript\obj\Debug\ASPCSJavaScript.dll
+C:\Users\rajani.somaskandan\Desktop\ASPCSJavaScript\ASPCSJavaScript\obj\Debug\ASPCSJavaScript.pdb
+C:\Users\rajani.somaskandan\Desktop\ASP.NET\ASPCSJavaScript\ASPCSJavaScript\bin\ASPCSJavaScript.dll
+C:\Users\rajani.somaskandan\Desktop\ASP.NET\ASPCSJavaScript\ASPCSJavaScript\bin\ASPCSJavaScript.pdb
+C:\Users\rajani.somaskandan\Desktop\ASP.NET\ASPCSJavaScript\ASPCSJavaScript\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rajani.somaskandan\Desktop\ASP.NET\ASPCSJavaScript\ASPCSJavaScript\obj\Debug\ASPCSJavaScript.dll
+C:\Users\rajani.somaskandan\Desktop\ASP.NET\ASPCSJavaScript\ASPCSJavaScript\obj\Debug\ASPCSJavaScript.pdb

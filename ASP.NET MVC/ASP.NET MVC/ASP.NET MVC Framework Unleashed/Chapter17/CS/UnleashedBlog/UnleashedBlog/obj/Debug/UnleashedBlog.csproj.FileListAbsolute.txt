@@ -1,0 +1,5 @@
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog\bin\UnleashedBlog.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog\bin\UnleashedBlog.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog\obj\Debug\UnleashedBlog.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog\obj\Debug\UnleashedBlog.pdb

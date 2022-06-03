@@ -1,0 +1,5 @@
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\BusinessDataObject\bin\Debug\BusinessDataObject.dll
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\BusinessDataObject\bin\Debug\BusinessDataObject.pdb
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\BusinessDataObject\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\BusinessDataObject\obj\Debug\BusinessDataObject.dll
+G:\Mahesh_Practice\WCF_Win7\WCF_UsingNetMsmqIntegrationBinding\BusinessDataObject\obj\Debug\BusinessDataObject.pdb

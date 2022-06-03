@@ -1,0 +1,28 @@
+C:\Temp\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+C:\Temp\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+C:\Temp\SilverlightApplication1.Web\bin\System.Web.Silverlight.dll
+C:\Temp\SilverlightApplication1.Web\bin\de\System.Web.Silverlight.resources.dll
+C:\Temp\SilverlightApplication1.Web\bin\es\System.Web.Silverlight.resources.dll
+C:\Temp\SilverlightApplication1.Web\bin\fr\System.Web.Silverlight.resources.dll
+C:\Temp\SilverlightApplication1.Web\bin\it\System.Web.Silverlight.resources.dll
+C:\Temp\SilverlightApplication1.Web\bin\ja\System.Web.Silverlight.resources.dll
+C:\Temp\SilverlightApplication1.Web\bin\ko\System.Web.Silverlight.resources.dll
+C:\Temp\SilverlightApplication1.Web\bin\zh-Hans\System.Web.Silverlight.resources.dll
+C:\Temp\SilverlightApplication1.Web\bin\zh-Hant\System.Web.Silverlight.resources.dll
+C:\Temp\SilverlightApplication1.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+C:\Temp\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\SilverlightApplication1.Web.pdb
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\System.Web.Silverlight.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\de\System.Web.Silverlight.resources.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\es\System.Web.Silverlight.resources.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\fr\System.Web.Silverlight.resources.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\it\System.Web.Silverlight.resources.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\ja\System.Web.Silverlight.resources.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\ko\System.Web.Silverlight.resources.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\zh-Hans\System.Web.Silverlight.resources.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\bin\zh-Hant\System.Web.Silverlight.resources.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.dll
+E:\articles\Silverlight and QueryStrings\SilverlightApplication1.Web\obj\Debug\SilverlightApplication1.Web.pdb

@@ -1,0 +1,5 @@
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\LINQ2CountryInfo\LINQ2CountryInfo\bin\Debug\LINQ2CountryInfo.exe
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\LINQ2CountryInfo\LINQ2CountryInfo\bin\Debug\LINQ2CountryInfo.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\LINQ2CountryInfo\LINQ2CountryInfo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\LINQ2CountryInfo\LINQ2CountryInfo\obj\x86\Debug\LINQ2CountryInfo.exe
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\LINQ2CountryInfo\LINQ2CountryInfo\obj\x86\Debug\LINQ2CountryInfo.pdb

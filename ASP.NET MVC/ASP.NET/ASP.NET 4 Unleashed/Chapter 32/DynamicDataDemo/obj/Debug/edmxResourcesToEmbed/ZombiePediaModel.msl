@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ZombiePediaModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="ZombieSightings">
+      <EntityTypeMapping TypeName="ZombiePediaModel.ZombieSighting">
+        <MappingFragment StoreEntitySet="ZombieSighting">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nickname" ColumnName="Nickname" />
+          <ScalarProperty Name="Feeder" ColumnName="Feeder" />
+          <ScalarProperty Name="Ambulatory" ColumnName="Ambulatory" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ZombieTypeID" ColumnName="ZombieTypeID" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZombieTypes">
+      <EntityTypeMapping TypeName="ZombiePediaModel.ZombieType">
+        <MappingFragment StoreEntitySet="ZombieType">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

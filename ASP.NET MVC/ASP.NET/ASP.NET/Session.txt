@@ -1,0 +1,1 @@
+Session objects are created/retrieved during AcquireRequestState event. If you have HTTP Modules which intercept the request before this event, your session might not have been initialized.

@@ -1,0 +1,127 @@
+
+using System.Windows.Forms;
+using Microsoft.TeamFoundation.VersionControl.Client;
+using Microsoft.TeamFoundation.WorkItemTracking.Client;
+using System.Collections;
+using System.IO;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CodeReviewPolicy
+{
+    [Serializable]
+    public class CodeReviewPolicy : PolicyBase
+    {
+        public override string Description
+        {
+            get { return Strings.policyDescription; }
+        }
+
+        public override bool Edit(IPolicyEditArgs policyEditArgs)
+        {
+            return false; 	//Call a UI form to edit configuration if necessary and return true
+        }
+        public override PolicyFailure[] Evaluate()
+        {
+            if (this.Disposed)
+            {
+                throw new ObjectDisposedException(Strings.policyType, Strings.policyDisposedMessage);
+            }
+
+            ArrayList changes = new ArrayList();
+            WorkItem AssociatedCodeReview = null;
+            foreach (WorkItemCheckinInfo wi in this.PendingCheckin.WorkItems.CheckedWorkItems)
+            {
+                if (wi.WorkItem.Type.Name == "Code Review")
+                {
+                    AssociatedCodeReview = wi.WorkItem;
+                    break;
+                }
+            }
+            if (AssociatedCodeReview == null || AssociatedCodeReview.State != "Approved")
+            {
+                PolicyFailure failure = new PolicyFailure(Strings.activateMessage, this);
+                changes.Add(failure);
+            }
+            return (PolicyFailure[])changes.ToArray(typeof(PolicyFailure));
+        }
+
+        public override string Type
+        {
+            get { return Strings.policyType; }
+        }
+
+        public override string TypeDescription
+        {
+            get { return Strings.policyTypeDescription; }
+        }
+
+        public override bool CanEdit
+        {
+            get
+            {
+                return true;
+            }
+        }
+
+
+        public override void DisplayHelp(PolicyFailure failure)
+        {
+            MessageBox.Show(Strings.policyHelp);
+        }
+
+        public override string InstallationInstructions
+        {
+            get
+            {
+                return Strings.policyInstallationInstructions;
+            }
+            set
+            {
+                Strings.policyInstallationInstructions = value;
+            }
+        }
+
+        public override void Activate(PolicyFailure failure)
+        {
+            MessageBox.Show(Strings.activateMessage);
+        }
+
+        protected override void OnPolicyStateChanged(PolicyFailure[] failures)
+        {
+            base.OnPolicyStateChanged(failures);
+        }
+
+        public override void Initialize(IPendingCheckin pendingCheckin)
+        {
+            base.Initialize(pendingCheckin);
+            pendingCheckin.PendingChanges.CheckedPendingChangesChanged += new EventHandler(pendingCheckin_CheckedPendingChangesChanged);
+        }
+
+        public override void Dispose()
+        {
+            PendingCheckin.PendingChanges.CheckedPendingChangesChanged -= new EventHandler(pendingCheckin_CheckedPendingChangesChanged);
+            base.Dispose();
+        }
+
+
+        private void pendingCheckin_CheckedPendingChangesChanged(Object sender, EventArgs e)
+        {
+            OnPolicyStateChanged(Evaluate());
+        }
+    }
+
+    internal class Strings
+    {
+        public static string policyType = "Code Review Policy";
+        public static string policyDescription = "This policy ensures that approved code review workitem is associated with the checkin";
+        public static string policyInstallationInstructions = "Sorry, No instructions are available at this time";
+        public static string policyTypeDescription = policyType + " Description";
+        public static string policyDisposedMessage = policyType + " Object has been disposed.";
+        public static string policyHelp = "Sorry, help for " + policyType + " is not available at this time.";
+        public static string activateMessage = "Approved Code Review workitem is not associated.";
+    }
+
+
+}

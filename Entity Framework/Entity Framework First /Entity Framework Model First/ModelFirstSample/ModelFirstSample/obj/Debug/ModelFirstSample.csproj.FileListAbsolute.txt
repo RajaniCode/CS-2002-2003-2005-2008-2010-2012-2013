@@ -1,0 +1,1 @@
+C:\Users\Rajani\Desktop\Entity Framework\Entity Framework Model First\ModelFirstSample\ModelFirstSample\bin\Debug\ModelFirstSample.exe.config

@@ -1,0 +1,20 @@
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.Tests.dll.config
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.Tests.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.Tests.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog.Tests\obj\Debug\UnleashedBlog.Tests.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter17 - Database Access\CS\UnleashedBlog\UnleashedBlog.Tests\obj\Debug\UnleashedBlog.Tests.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.Tests.dll.config
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.Tests.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.Tests.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\UnleashedBlog.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\obj\Debug\UnleashedBlog.Tests.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\obj\Debug\UnleashedBlog.Tests.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\MvcFakes.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\RouteDebugger.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\RouteDebugger.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter18 - Creating the Routes\CS\UnleashedBlog\UnleashedBlog.Tests\bin\Debug\MvcFakes.pdb

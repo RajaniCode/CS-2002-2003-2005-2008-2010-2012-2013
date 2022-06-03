@@ -1,0 +1,5 @@
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\SilverlightRightMouseClick\SilverlightRightMouseClick.Web\bin\SilverlightRightMouseClick.Web.dll
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\SilverlightRightMouseClick\SilverlightRightMouseClick.Web\bin\SilverlightRightMouseClick.Web.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\SilverlightRightMouseClick\SilverlightRightMouseClick.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\SilverlightRightMouseClick\SilverlightRightMouseClick.Web\obj\Debug\SilverlightRightMouseClick.Web.dll
+C:\Users\Suprotim\Documents\Visual Studio 2010\Projects\SilverlightRightMouseClick\SilverlightRightMouseClick.Web\obj\Debug\SilverlightRightMouseClick.Web.pdb

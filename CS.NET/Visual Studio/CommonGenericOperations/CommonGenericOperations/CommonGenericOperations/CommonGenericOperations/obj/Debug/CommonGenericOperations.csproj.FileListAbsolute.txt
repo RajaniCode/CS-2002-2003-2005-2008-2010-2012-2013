@@ -1,0 +1,6 @@
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperations\CommonGenericOperations\bin\Debug\CommonGenericOperations.exe
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperations\CommonGenericOperations\bin\Debug\CommonGenericOperations.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperations\CommonGenericOperations\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperations\CommonGenericOperations\obj\Debug\CommonGenericOperations.exe
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperations\CommonGenericOperations\obj\Debug\CommonGenericOperations.pdb
+C:\Users\Suprotim\Documents\Visual Studio 2008\Projects\WinForms\CommonGenericOperations\CommonGenericOperations\bin\Debug\CommonGenericOperations.exe.config

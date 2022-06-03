@@ -1,0 +1,5 @@
+G:\Mahesh_Practice\Silverlight3\SILV3_PerformingDML\SILV3-DMLClientApplication.Web\bin\SILV3-DMLClientApplication.Web.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_PerformingDML\SILV3-DMLClientApplication.Web\bin\SILV3-DMLClientApplication.Web.pdb
+G:\Mahesh_Practice\Silverlight3\SILV3_PerformingDML\SILV3-DMLClientApplication.Web\obj\Debug\ResolveAssemblyReference.cache
+G:\Mahesh_Practice\Silverlight3\SILV3_PerformingDML\SILV3-DMLClientApplication.Web\obj\Debug\SILV3-DMLClientApplication.Web.dll
+G:\Mahesh_Practice\Silverlight3\SILV3_PerformingDML\SILV3-DMLClientApplication.Web\obj\Debug\SILV3-DMLClientApplication.Web.pdb

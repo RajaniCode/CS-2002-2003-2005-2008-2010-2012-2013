@@ -1,0 +1,5 @@
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore\bin\ToyStore.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore\bin\ToyStore.pdb
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore\obj\Debug\ToyStore.dll
+C:\Users\swalther\Documents\Books\AspNetMvcUnleashed\Chapter02 - Building a Simple ASP.NET MVC Application\Code\CS\ToyStore\ToyStore\obj\Debug\ToyStore.pdb

@@ -1,0 +1,8 @@
+
+cd C:\Users\Rajani\Desktop\WCF\WCFClient
+
+"C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bin\SvcUtil.exe" http://localhost:8080/HostDevServer/WCFSampleService.svc?wsdl /out:WCFSampleServiceRef.cs /config:app.config
+
+Visual Studio Command Prompt:
+
+SvcUtil http://localhost:8080/HostDevServer/WCFSampleService.svc?wsdl /out:WCFSampleServiceRef.cs /config:app.config

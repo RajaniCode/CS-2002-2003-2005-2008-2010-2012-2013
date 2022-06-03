@@ -1,0 +1,6 @@
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Setup\FindPrivateKey\CS\bin\FindPrivateKey.exe.config
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Setup\FindPrivateKey\CS\bin\FindPrivateKey.exe
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Setup\FindPrivateKey\CS\bin\FindPrivateKey.pdb
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Setup\FindPrivateKey\CS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Setup\FindPrivateKey\CS\obj\Debug\FindPrivateKey.exe
+C:\Users\Rajani\Desktop\WCF and WF Samples\WF_WCF_Samples\WF_WCF_Samples\WCF\Setup\FindPrivateKey\CS\obj\Debug\FindPrivateKey.pdb

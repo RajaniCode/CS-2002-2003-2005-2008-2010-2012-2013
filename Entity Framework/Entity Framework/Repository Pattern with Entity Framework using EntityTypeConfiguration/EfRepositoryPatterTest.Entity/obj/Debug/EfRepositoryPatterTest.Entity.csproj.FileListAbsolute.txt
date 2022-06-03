@@ -1,0 +1,5 @@
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\bin\Debug\EfRepositoryPatterTest.Entity.dll
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\bin\Debug\EfRepositoryPatterTest.Entity.pdb
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\obj\Debug\EfRepositoryPatterTest.Entity.dll
+C:\Users\TPS\Desktop\EntityFramework\EfRepositoryPatterTest\EfRepositoryPatterTest.Entity\obj\Debug\EfRepositoryPatterTest.Entity.pdb

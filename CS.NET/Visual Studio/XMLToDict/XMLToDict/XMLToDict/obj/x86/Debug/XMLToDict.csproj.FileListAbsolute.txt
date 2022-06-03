@@ -1,0 +1,5 @@
+c:\users\supro\documents\visual studio 2010\Projects\XMLToDict\XMLToDict\bin\Debug\XMLToDict.exe
+c:\users\supro\documents\visual studio 2010\Projects\XMLToDict\XMLToDict\bin\Debug\XMLToDict.pdb
+c:\users\supro\documents\visual studio 2010\Projects\XMLToDict\XMLToDict\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\supro\documents\visual studio 2010\Projects\XMLToDict\XMLToDict\obj\x86\Debug\XMLToDict.exe
+c:\users\supro\documents\visual studio 2010\Projects\XMLToDict\XMLToDict\obj\x86\Debug\XMLToDict.pdb

@@ -1,0 +1,7 @@
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.CommandProcessor\bin\Release\EFMVC.CommandProcessor.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.CommandProcessor\bin\Release\EFMVC.CommandProcessor.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.CommandProcessor\bin\Release\EFMVC.Core.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.CommandProcessor\bin\Release\EFMVC.Core.pdb
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.CommandProcessor\obj\Release\EFMVC.CommandProcessor.csprojResolveAssemblyReference.cache
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.CommandProcessor\obj\Release\EFMVC.CommandProcessor.dll
+E:\Hacking\Apps\EFMVC_V1\EFMVC_V1.01\EFMVC.CommandProcessor\obj\Release\EFMVC.CommandProcessor.pdb
