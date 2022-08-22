@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+   <head>
+      <title></title>
+      <meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+      <meta name="ProgId" content="VisualStudio.HTML">
+      <meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+      <link href="wwWebstore.css" type="text/css" rel="stylesheet">
+   </head>
+   <body>
+      <table width="100%" id="Table1">
+         <tr>
+         <tr>
+            <td bgcolor="#000041" valign="middle">
+               <object id="Object1" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+                  height="69" width="124" align="left" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                  name="_cx" viewastext value="3281">
+                  <param name="_cx" value="3281">
+                  <param name="_cy" value="1826">
+                  <param name="FlashVars" value="">
+                  <param name="Movie" value="http://www.devteach.com/images/Movie1.swf">
+                  <param name="Src" value="http://www.devteach.com/images/Movie1.swf">
+                  <param name="WMode" value="Window">
+                  <param name="Play" value="-1">
+                  <param name="Loop" value="-1">
+                  <param name="Quality" value="High">
+                  <param name="SAlign" value="">
+                  <param name="Menu" value="-1">
+                  <param name="Base" value="">
+                  <param name="AllowScriptAccess" value="always">
+                  <param name="Scale" value="ShowAll">
+                  <param name="DeviceFont" value="0">
+                  <param name="EmbedMovie" value="0">
+                  <param name="BGColor" value="">
+                  <param name="SWRemote" value="">
+                  <param name="MovieData" value="">
+                  <param name="SeamlessTabbing" value="1">
+                  <embed src="http://www.devteach.com/images/Movie1.swf" quality="high" type="application/x-shockwave-flash"
+                     width="124" height="69"> </embed>
+               </object>
+               <br>
+               <h1 style="BACKGROUND:none transparent scroll repeat 0% 0%; COLOR:white">How 
+                  ASP.NET works Sample Configuration</h1>
+            </td>
+         </tr>
+      </table>
+      <hr height="1">
+      <p>To configure some of these examples you should do the following:
+      </p>
+      <div style="MARGIN-LEFT:55px;WIDTH:600px">
+         <ul>
+            <li>
+               <strong>Create Virtual Directory</strong>
+               <br>
+               Create a virtual for this directory in the IIS Management Console to get it 
+               ready to be accessible by ASP.Net.
+               <p></p>
+            <li>
+               <strong>Directory Security&nbsp;- full access for Web account</strong><br>
+               Several of the examples require WRITE access in the Web directory of this 
+               application. Both the Config File class and the Logging Class require this to 
+               work properly. To configure, please allow READ/WRITE/CREATE access to the 
+               ASPNET/NETWORK SERVICE account in this directory.
+               <p></p>
+            <li>
+               <strong>SQL Connection String for SQL Logging</strong>
+               <br>
+               The SQL Logging routine requires a SQL Connection string which is stored in the 
+               Config file via the wwAppConfiguration class. Please set the ConnectionString 
+               property of the App class in the Global.asax.cs file to a valid 
+               database/account that allows creation of the logging table - you will be asked 
+               to create the table from the Log Display form.<p></p>
+            <li>
+               <strong>Http Handler Configuration<br>
+               </strong>Several of the examples require that the HTTP Handlers and Modules are 
+               enabled. The handlers are pre-configured and commented out in the web.config 
+               file, so you can simply un-comment them as needed. There 
+               are&nbsp;SharewareMessage and ImageSample Modules . The Url Rewriting handler 
+               is used for the .wws to .aspx mapping example. Remember to also set the .wws 
+               extension to the aspnet_isapi.dll in the IIS Mgt. console.<p/>
+            </li>
+            <li>
+               <strong>Image Watermark Sample</strong>
+               You need to configure .jpg to be mapped as a script map in IIS and mapped
+               to aspnet_isapi.dll (like .aspx). Then make sure the ImageModule module is
+               enabled in web.config.<p/>
+             </li>
+         </ul>
+      </div>
+      <p>
+         <hr height="1">
+         <table width="99%" id="Table2">
+            <tr>
+               <td valign="top">
+                  <img src="images/wwtoollogo.jpg" border="0" align="left"> © Rick Strahl, <a href="http://www.west-wind.com/">
+                     West Wind Technologies</a>
+               </td>
+               <td align="right" valign="top">
+                  <img src="images/help.gif"> <a href="_readme.htm">Sample Configuration</a>
+               </td>
+            </tr>
+            </TD></table>
+   </body>
+</html>

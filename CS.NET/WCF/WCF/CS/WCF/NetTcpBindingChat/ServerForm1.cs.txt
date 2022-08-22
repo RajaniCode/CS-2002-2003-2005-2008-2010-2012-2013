@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using System.ServiceModel;
+
+namespace Server
+{
+    public partial class Form1 : Form
+    {
+        bool isStartStop;
+        ServiceHost hostService;
+        ChatService serviceChat = new ChatService();
+        
+        public Form1()
+        {
+            InitializeComponent();
+            isStartStop = true;
+        }
+
+        private void chatService_ChatListOfNames(List<string> names, object sender)
+        {
+            listBoxUsers.Items.Clear();
+            foreach (string name in names)
+            {
+                listBoxUsers.Items.Add(name);
+            }
+        }
+        
+        private void buttonStartStop_Click(object sender, EventArgs e)
+        {
+            if (isStartStop)
+            {
+                hostService = new ServiceHost(typeof(Server.ChatService));
+                hostService.Open();
+                buttonStartStop.Text = "Stop";
+                ChatService.ChatListOfNames += new ListOfNames(chatService_ChatListOfNames);
+            }
+            else
+            {
+                serviceChat.Close();
+                hostService.Close();
+                buttonStartStop.Text = "Start";
+            }
+            isStartStop = !isStartStop;
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+    }
+}

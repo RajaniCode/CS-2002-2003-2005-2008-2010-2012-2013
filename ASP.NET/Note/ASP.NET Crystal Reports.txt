@@ -1,0 +1,938 @@
+  Private Sub cmdReport_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmdReport.Click
+
+        Dim oRS As DAO.Recordset
+        Dim cn As New ADODB.Connection
+        Dim oADORS As New ADODB.Recordset
+        Dim strSQL As String = ""
+        Dim intModel As Short
+        Dim strModel As String
+        Dim sngBTUFactor As Single
+        Dim intSaveMetric As Short
+        Dim intSaveMeasurement As Short
+        Dim StartDate As Date
+        Dim EndDate As Date
+        Dim objReportWindow As New frmReportWindow
+        Dim crDatabase As Database
+        Dim crTables As Tables
+        Dim crTable As Table
+        Dim crTableLogOnInfo As TableLogOnInfo
+        Dim crConnectionInfo As ConnectionInfo
+
+
+        Dim crReportDocument As CrystalDecisions.CrystalReports.Engine.ReportDocument
+
+
+        If GlobalVariables.gblnLoggedIn Then
+            intSaveMetric = devFB3000EFM.MetricUnits
+            intSaveMeasurement = devFB3000EFM.MeasurementUnits
+        End If
+
+        Try
+
+            If (GlobalVariables.gblnLoggedIn = False) Or ((GlobalVariables.gblnLoggedIn = True) And (mstrMeterID <> GlobalVariables.gstrCurrentMeterID)) Then
+                'UPGRADE_NOTE: Object oRS may not be destroyed until it is garbage collected. Click for more: 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup1029"'
+                oRS = Nothing
+                strSQL = "SELECT * "
+                strSQL = strSQL & "FROM tblMeterArchive "
+                strSQL = strSQL & "WHERE MeterID = '" & mstrMeterID & "' "
+                strSQL = strSQL & "ORDER BY ArchiveDate DESC"
+                Diagnostics.Debug.WriteLine(strSQL)
+                oRS = wspDataIO.GetRecordSet(strSQL)
+                If Not oRS.EOF Then
+                    oRS.MoveFirst()
+                    'UPGRADE_WARNING: Use of Null/IsNull() detected. Click for more: 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup1049"'
+                    devFB3000EFM.MetricUnits = IIf(IsDBNull(oRS.Fields("USMetricSelection").Value), 1, oRS.Fields("USMetricSelection").Value)
+                    'devFB3000EFM.DPUnits = IIf(IsNull(oRS("DPUnitSelection")), 1, oRS("DPUnitSelection"))
+                    'UPGRADE_WARNING: Use of Null/IsNull() detected. Click for more: 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup1049"'
+                    devFB3000EFM.MeasurementUnits = IIf(IsDBNull(oRS.Fields("SPUnitSelection").Value), 1, oRS.Fields("SPUnitSelection").Value)
+                    ' clear out the record set and the string
+                    strSQL = ""
+                    'UPGRADE_NOTE: Object oRS may not be destroyed until it is garbage collected. Click for more: 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup1029"'
+                    oRS = Nothing
+                Else
+                    ' use default values if no archive
+                    devFB3000EFM.MetricUnits = 1
+                    'devFB3000EFM.DPUnits = 1
+                    devFB3000EFM.MeasurementUnits = 1
+                    'UPGRADE_NOTE: Object oRS may not be destroyed until it is garbage collected. Click for more: 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup1029"'
+                    oRS = Nothing
+                End If
+            End If
+            Select Case cboReports.Text.Trim
+                Case ""
+                    InfoMessage("Missing Report Name" & vbCrLf & _
+                                "Please select a report to preview from the drop down box.")
+
+                    '=============================
+                Case "Communication Settings"
+                    If String.Compare(mstrSerialNumber.Trim, "") = 0 Then
+                        Throw New Exception("No Meter Selected" & vbCrLf & "Please select a meter to report on and then select the report.")
+
+                    End If
+                    frmCommAndStandby.lblMsg.Text = "Building report ..."
+                    frmCommAndStandby.lblStatus.Text = ""
+                    frmCommAndStandby.Show()
+                    frmMain.Wait((0.1))
+                    Dim s As String = Application.StartupPath ' \ EFMReports \ rptCommSetting.rpt
+                    Dim str As String = s.Substring(0, s.Length - ((s.Length) - (s.LastIndexOf("\"))))
+                    cn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & str & DB_NAME
+
+                    cn.Open()
+                    strModel = " AND Model = 3000 "
+                    strSQL = "SELECT * "
+                    strSQL = strSQL & "FROM tblCommSettings "
+                    strSQL = strSQL & "WHERE MeterID = '" & mstrMeterID & "' AND  SerialNumber = " & CInt(mstrSerialNumber) & strModel
+                    strSQL = strSQL & "AND ArchiveDate = (SELECT MAX(ArchiveDate) FROM tblCommSettings "
+                    strSQL = strSQL & "WHERE MeterID = '" & mstrMeterID & "' "
+                    strSQL = strSQL & "AND  SerialNumber = " & CInt(mstrSerialNumber) & strModel & " )"
+                    Diagnostics.Debug.WriteLine(strSQL)
+                    oADORS.Open(strSQL, cn)
+                    frmCommAndStandby.Hide()
+                    If oADORS.EOF Then
+                        Throw New Exception("No communication setting records found." & vbCrLf & "Please connect to the meter and download the communcations information first.")
+
+                    End If
+
+                    'Create an instance of the strongly-typed report object
+                    crReportDocument = New ReportDocument
+                    ' Load the hourly flow report
+                    'Modified for isssue id -3908
+
+                    crReportDocument.Load(str & "\EFMReports\rptCommSetting.rpt")
+                    'DSI****************************************
+                    crReportDocument.SetDataSource(oADORS)
+
+                    crConnectionInfo = New ConnectionInfo
+                    With crConnectionInfo
+                        '.ServerName = Application.StartupPath & DB_NAME
+                        .DatabaseName = Application.StartupPath & DB_NAME
+                        .UserID = "Admin"
+                    End With
+                    crTables = crReportDocument.Database.Tables
+                    For Each crTable In crTables
+                        crTableLogOnInfo = crTable.LogOnInfo
+                        'crTableLogOnInfo.ConnectionInfo = crConnectionInfo
+                        crTable.ApplyLogOnInfo(crTableLogOnInfo)
+                    Next
+                    'DSi***********************************************
+                    ' Get the start and end dates
+                    'StartDate = Convert.ToDateTime(dtpStartDate.Value)
+                    'EndDate = Convert.ToDateTime(dtpEndDate.Value)
+                    ' Fill the boxes on the top of the report
+                    crReportDocument.SetParameterValue("txtMeterID", "Communication Settings For:  " & mstrMeterID)
+                    crReportDocument.SetParameterValue("txtSerialNumber", "Serial Number:  " & mstrSerialNumber)
+                    crReportDocument.SetParameterValue("txtDate", "at " & Now.ToString())
+                    ' Connect the report to the data source
+                    objReportWindow.CrystalReportViewer1.ReportSource = crReportDocument
+                    ' Show the report
+                    objReportWindow.Text = "Communication Settings Report"
+                    objReportWindow.Show()
+
+
+                Case "Alarm Settings"
+                    If String.Compare(mstrSerialNumber.Trim, "") = 0 Then
+                        Throw New Exception("No Meter Selected" & vbCrLf & "Please select a meter to report on and then select the report.")
+                    End If
+                    frmCommAndStandby.lblMsg.Text = "Building report ..."
+                    frmCommAndStandby.lblStatus.Text = ""
+                    frmCommAndStandby.Show()
+                    frmMain.Wait((0.1))
+
+                    Dim s As String = Application.StartupPath ' \ EFMReports \ rptCommSetting.rpt
+                    Dim str As String = s.Substring(0, s.Length - ((s.Length) - (s.LastIndexOf("\"))))
+                    cn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & str & DB_NAME
+                    cn.Open()
+                    intModel = 3000
+                    strSQL = "SELECT * "
+                    strSQL = strSQL & "FROM tblAlarmSettings "
+                    strSQL = strSQL & "WHERE MeterID = '" & mstrMeterID & "' "
+                    strSQL = strSQL & "AND ArchiveDate = (SELECT MAX(ArchiveDate) FROM tblAlarmSettings "
+                    strSQL = strSQL & "WHERE MeterID = '" & mstrMeterID & "')"
+                    Diagnostics.Debug.WriteLine(strSQL)
+                    oADORS.Open(strSQL, cn)
+                    frmCommAndStandby.Hide()
+                    If oADORS.EOF Then
+                        Throw New Exception("No alarm setting records found." & vbCrLf & "Please connect to the meter and download the alarm setting information first.")
+
+                    End If
+                    'Create an instance of the strongly-typed report object
+                    crReportDocument = New ReportDocument
+
+                    ' Load the hourly flow report
+                    'Modified for isssue id -3908
+
+                    crReportDocument.Load(str & "\EFMReports\rptAlarmSettings.rpt")
+                    'crReportDocument.Load(Application.StartupPath & "\EFMReports\rptAlarmSettings.rpt")
+
+                    'DSI*********************************************
+                    crReportDocument.SetDataSource(oADORS)
+
+                    crConnectionInfo = New ConnectionInfo
+                    With crConnectionInfo
+                        ''.ServerName = Application.StartupPath & DB_NAME
+                        .DatabaseName = Application.StartupPath & DB_NAME
+                        .UserID = "Admin"
+                    End With
+
+                    crTables = crReportDocument.Database.Tables
+                    For Each crTable In crTables
+                        crTableLogOnInfo = crTable.LogOnInfo
+                        'crTableLogOnInfo.ConnectionInfo = crConnectionInfo
+                        crTable.ApplyLogOnInfo(crTableLogOnInfo)
+                    Next
+                    'DSI***********************************************
+
+
+
+                    ' Fill the boxes on the top of the report
+                    crReportDocument.SetParameterValue("txtMeterID", "Alarm Settings For:  " & mstrMeterID)
+                    crReportDocument.SetParameterValue("txtSerialNumber", "Serial Number:  " & mstrSerialNumber)
+                    crReportDocument.SetParameterValue("txtDate", "at " & Now.ToString())
+
+                    ' Connect the report to the data source
+                    objReportWindow.CrystalReportViewer1.ReportSource = crReportDocument
+
+                    ' Show the report
+                    objReportWindow.Text = "Alarm Settings Report"
+                    objReportWindow.Show()
+
+
+                Case "Meter Configuration"
+                    If String.Compare(mstrSerialNumber.Trim, "") = 0 Then
+                        Throw New Exception("No Meter Selected" & vbCrLf & "Please select a meter to report on and then select the report.")
+
+                    End If
+                    frmCommAndStandby.lblMsg.Text = "Building report ..."
+                    frmCommAndStandby.lblStatus.Text = ""
+                    frmCommAndStandby.Show()
+                    frmMain.Wait((0.1))
+
+                    Dim s As String = Application.StartupPath ' \ EFMReports \ rptCommSetting.rpt
+                    Dim str As String = s.Substring(0, s.Length - ((s.Length) - (s.LastIndexOf("\"))))
+                    cn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & str & DB_NAME
+                    cn.Open()
+                    strSQL = "SELECT *,"
+                    If gPreferences.ReportGasCompositionMole = 1 Then
+                        strSQL = strSQL & "((PercentN2+PercentCO2+PercentCO+PercentC1+PercentC2+PercentC3" & _
+                                            "+PercentC4i+PercentC4n+PercentC5i+PercentC5n+PercentC6" & _
+                                            "+PercentC7+PercentC8+PercentC9+PercentC10+PercentH2S" & _
+                                            "+PercentH2O+PercentO2+PercentHe2+PercentAr+PercentH2)/100) AS GasSum"
+                        strSQL = strSQL & ", (PercentN2/100) AS MolN2"
+                        strSQL = strSQL & ", (PercentCO2/100) AS MolCO2"
+                        strSQL = strSQL & ", (PercentCO/100) AS MolCO"
+                        strSQL = strSQL & ", (PercentC1/100) AS MolC1"
+                        strSQL = strSQL & ", (PercentC2/100) AS MolC2"
+                        strSQL = strSQL & ", (PercentC3/100) AS MolC3"
+                        strSQL = strSQL & ", (PercentC4i/100) AS MolC4i"
+                        strSQL = strSQL & ", (PercentC4n/100) AS MolC4n"
+                        strSQL = strSQL & ", (PercentC5i/100) AS MolC5i"
+                        strSQL = strSQL & ", (PercentC5n/100) AS MolC5n"
+                        strSQL = strSQL & ", (PercentC6/100) AS MolC6"
+                        strSQL = strSQL & ", (PercentC7/100) AS MolC7"
+                        strSQL = strSQL & ", (PercentC8/100) AS MolC8"
+                        strSQL = strSQL & ", (PercentC9/100) AS MolC9"
+                        strSQL = strSQL & ", (PercentC10/100) AS MolC10"
+                        strSQL = strSQL & ", (PercentH2S/100) AS MolH2S"
+                        strSQL = strSQL & ", (PercentH2O/100) AS MolH2O"
+                        strSQL = strSQL & ", (PercentO2/100) AS MolO2"
+                        strSQL = strSQL & ", (PercentHe2/100) AS MolHe2"
+                        strSQL = strSQL & ", (PercentAr/100) AS MolAr"
+                        strSQL = strSQL & ", (PercentH2/100) AS MolH2"
+
+                        ' Modified for the Issue ID 5409
+                        strSQL = strSQL & ", (PercentN2GROSS/100) AS MolN2Gross"
+                        strSQL = strSQL & ", (PercentCO2GROSS/100) As MolCO2Gross"
+
+                    Else
+                        strSQL = strSQL & "(PercentN2+PercentCO2+PercentCO+PercentC1+PercentC2+PercentC3" & _
+                                            "+PercentC4i+PercentC4n+PercentC5i+PercentC5n+PercentC6" & _
+                                            "+PercentC7+PercentC8+PercentC9+PercentC10+PercentH2S" & _
+                                            "+PercentH2O+PercentO2+PercentHe2+PercentAr+PercentH2) AS GasSum"
+                        strSQL = strSQL & ", PercentN2 AS MolN2"
+                        strSQL = strSQL & ", PercentCO2 AS MolCO2"
+                        strSQL = strSQL & ", PercentCO AS MolCO"
+                        strSQL = strSQL & ", PercentC1 AS MolC1"
+                        strSQL = strSQL & ", PercentC2 AS MolC2"
+                        strSQL = strSQL & ", PercentC3 AS MolC3"
+                        strSQL = strSQL & ", PercentC4i AS MolC4i"
+                        strSQL = strSQL & ", PercentC4n AS MolC4n"
+                        strSQL = strSQL & ", PercentC5i AS MolC5i"
+                        strSQL = strSQL & ", PercentC5n AS MolC5n"
+                        strSQL = strSQL & ", PercentC6 AS MolC6"
+                        strSQL = strSQL & ", PercentC7 AS MolC7"
+                        strSQL = strSQL & ", PercentC8 AS MolC8"
+                        strSQL = strSQL & ", PercentC9 AS MolC9"
+                        strSQL = strSQL & ", PercentC10 AS MolC10"
+                        strSQL = strSQL & ", PercentH2S AS MolH2S"
+                        strSQL = strSQL & ", PercentH2O AS MolH2O"
+                        strSQL = strSQL & ", PercentO2 AS MolO2"
+                        strSQL = strSQL & ", PercentHe2 AS MolHe2"
+                        strSQL = strSQL & ", PercentAr AS MolAr"
+                        strSQL = strSQL & ", PercentH2 AS MolH2"
+
+                        ' Modified for the Issue ID 5409
+                        strSQL = strSQL & ", PercentN2GROSS AS MolN2Gross"
+                        strSQL = strSQL & ", PercentCO2GROSS AS MolCO2Gross"
+
+                    End If
+
+                    strSQL = strSQL & " FROM tblMeterArchive"
+                    strSQL = strSQL & " WHERE MeterID = '" & mstrMeterID & "'"
+                    strSQL = strSQL & " AND ArchiveDate = (SELECT MAX(ArchiveDate) FROM tblMeterArchive WHERE MeterID = '" & mstrMeterID & "' )"
+                    Diagnostics.Debug.WriteLine(strSQL)
+                    oADORS.Open(strSQL, cn)
+                    frmCommAndStandby.Hide()
+                    If oADORS.EOF Then
+                        Throw New Exception("No configuration record found." & vbCrLf & "Please connect to the meter and download the configuration first.")
+
+                    End If
+                    'Create an instance of the strongly-typed report object
+                    crReportDocument = New ReportDocument
+
+                    ' Load the Meter Configuration report
+                    'Modified for isssue id -3908
+
+
+                    crReportDocument.Load(str & "\EFMReports\rptMeterConfig.rpt")
+                    ' crReportDocument.Load(Application.StartupPath & "\EFMReports\rptMeterConfig.rpt")
+
+
+                    'DSI*************************************************
+                    crReportDocument.SetDataSource(oADORS)
+                    oADORS.MoveFirst()
+
+                    crConnectionInfo = New ConnectionInfo
+                    With crConnectionInfo
+                        ''.ServerName = Application.StartupPath & "\.." & DB_NAME
+                        .DatabaseName = Application.StartupPath & "\.." & DB_NAME
+                        .UserID = "Admin"
+                    End With
+
+                    crTables = crReportDocument.Database.Tables
+                    For Each crTable In crTables
+                        crTableLogOnInfo = crTable.LogOnInfo
+                        ' crTableLogOnInfo.ConnectionInfo = crConnectionInfo
+                        crTable.ApplyLogOnInfo(crTableLogOnInfo)
+                    Next
+                    'DSI**************************************************
+
+                    ' Fill the boxes on the top of the report
+                    crReportDocument.SetParameterValue("txtMeterID", "Meter Configuration:  " & mstrMeterID)
+                    crReportDocument.SetParameterValue("txtSerialNumber", "Serial Number:  " & mstrSerialNumber)
+                    crReportDocument.SetParameterValue("txtDate", "at:  " & oADORS.Fields("ArchiveDate").Value)
+
+                    ' Fill the boxes on the details section with proper units
+                    crReportDocument.SetParameterValue("txtMeterTubeID", "Meter Tube Inside Diameter (" & MeasurementUnits("SIZE") & "):")
+                    crReportDocument.SetParameterValue("txtMeterTubeTemp", "Meter Tube Ref Temp (" & MeasurementUnits("PT") & "):")
+                    crReportDocument.SetParameterValue("txtOrificePlateBoreSize", "Orifice Plate Bore Size (" & MeasurementUnits("SIZE") & "):")
+                    crReportDocument.SetParameterValue("txtOrificePlateTemp", "Orifice Plate Ref Bore Temp (" & MeasurementUnits("PT") & "):")
+                    crReportDocument.SetParameterValue("txtAbsoluteViscosity", "Absolute viscosity (" & MeasurementUnits("ABSOLUTE VISCOSITY") & "):")
+
+                    ' Set right hand column units
+                    crReportDocument.SetParameterValue("txtLowDPCutoff", "Low DP Cutoff (" & MeasurementUnits("DP") & "):")
+                    crReportDocument.SetParameterValue("txtATMPressure", "Atmospheric Pressure (" & MeasurementUnits("ATM_SP") & "):")
+                    crReportDocument.SetParameterValue("txtDefaultProcessTemp", "Default Process Temperature (" & MeasurementUnits("PT") & "):")
+                    crReportDocument.SetParameterValue("txtContractPressureBase", "Contract Pressure Base (" & MeasurementUnits("ATM_SP") & "):")
+                    crReportDocument.SetParameterValue("txtContractTempBase", "Contract Temperature Base (" & MeasurementUnits("PT") & "):")
+                    crReportDocument.SetParameterValue("txtEnergyFactor", "Energy Factor (" & MeasurementUnits("ENERGY FACTOR") & "):")
+                    crReportDocument.SetParameterValue("txtRefTempSG", "Ref. Temp. for Relative Density (" & MeasurementUnits("REF_TEMP") & "):")
+                    crReportDocument.SetParameterValue("txtRefPressSG", "Ref. Press. for Relative Density (" & MeasurementUnits("ATM_SP") & "):")
+                    'Modified for issue id -3589
+                    crReportDocument.SetParameterValue("LogRecordType", Hex(oADORS.Fields("LogRecordType").Value))
+
+
+                    If oADORS.Fields("AGAMethod").Value = 1 Then ' (1=Detail, 2=Gross)
+                        'Show the gas analysis header to have fraction or percent
+                        If gPreferences.ReportGasCompositionMole = 0 Then
+                            'Mole Fraction
+                            crReportDocument.SetParameterValue("txtGasAnalysis", "Detailed Gas Analysis (Percent):")
+                        Else
+                            'Mole Percent
+                            crReportDocument.SetParameterValue("txtGasAnalysis", "Detailed Gas Analysis (Fraction):")
+                        End If
+
+                        ' Show all the detailed gas analysis
+                        crReportDocument.SetParameterValue("paramN2", oADORS.Fields("MolN2").Value)
+                        crReportDocument.SetParameterValue("paramCO2", oADORS.Fields("MolCO2").Value)
+                        crReportDocument.SetParameterValue("paramCO", oADORS.Fields("MolCO").Value)
+                        crReportDocument.SetParameterValue("paramC1", oADORS.Fields("MolC1").Value)
+                        crReportDocument.SetParameterValue("paramC2", oADORS.Fields("MolC2").Value)
+                        crReportDocument.SetParameterValue("paramC3", oADORS.Fields("MolC3").Value)
+                        crReportDocument.SetParameterValue("paramC4i", oADORS.Fields("MolC4i").Value)
+                        crReportDocument.SetParameterValue("paramC4n", oADORS.Fields("MolC4n").Value)
+                        crReportDocument.SetParameterValue("paramC5i", oADORS.Fields("MolC5i").Value)
+                        crReportDocument.SetParameterValue("paramC5n", oADORS.Fields("MolC5n").Value)
+                        crReportDocument.SetParameterValue("paramC6", oADORS.Fields("MolC6").Value)
+                        crReportDocument.SetParameterValue("paramC7", oADORS.Fields("MolC7").Value)
+                        crReportDocument.SetParameterValue("paramC8", oADORS.Fields("MolC8").Value)
+                        crReportDocument.SetParameterValue("paramC9", oADORS.Fields("MolC9").Value)
+                        crReportDocument.SetParameterValue("paramC10", oADORS.Fields("MolC10").Value)
+                        crReportDocument.SetParameterValue("paramH2S", oADORS.Fields("MolH2S").Value)
+                        crReportDocument.SetParameterValue("paramH2O", oADORS.Fields("MolH2O").Value)
+                        crReportDocument.SetParameterValue("paramO2", oADORS.Fields("MolO2").Value)
+                        crReportDocument.SetParameterValue("paramHe2", oADORS.Fields("MolHe2").Value)
+                        crReportDocument.SetParameterValue("paramAr", oADORS.Fields("MolAr").Value)
+                        crReportDocument.SetParameterValue("paramH2", oADORS.Fields("MolH2").Value)
+
+                        ' Set the gas sum total
+                        crReportDocument.SetParameterValue("fldSum", oADORS.Fields("GasSum").Value)
+
+                        ' Modified for the Issue ID 5409
+                        crReportDocument.SetParameterValue("paramN2Gross", 0)
+                        crReportDocument.SetParameterValue("paramCO2Gross", 0)
+
+                    Else
+                        ' crReportDocument.SetParameterValue("txtGasAnalysis", "Gross Gas Analysis:")
+
+                        ' Modified for the Issue ID 5409
+                        If gPreferences.ReportGasCompositionMole = 0 Then
+                            'Mole Fraction
+                            crReportDocument.SetParameterValue("txtGasAnalysis", "Gross Gas Analysis (Percent):")
+                        Else
+                            'Mole Percent
+                            crReportDocument.SetParameterValue("txtGasAnalysis", "Gross Gas Analysis (Fraction):")
+                        End If
+
+                        ' Modified for the Issue ID 5409
+                        crReportDocument.SetParameterValue("paramN2Gross", oADORS.Fields("MolN2Gross").Value)
+                        crReportDocument.SetParameterValue("paramCO2Gross", oADORS.Fields("MolCO2Gross").Value)
+
+                        ' Modified for the Issue ID 5409
+                        ' Hide the detailed fields by making them blank
+                        crReportDocument.SetParameterValue("paramN2", 0)
+                        crReportDocument.SetParameterValue("paramCO2", 0)
+
+                        crReportDocument.SetParameterValue("paramCO", 0)
+                        crReportDocument.SetParameterValue("paramC1", 0)
+                        crReportDocument.SetParameterValue("paramC2", 0)
+                        crReportDocument.SetParameterValue("paramC3", 0)
+                        crReportDocument.SetParameterValue("paramC4i", 0)
+                        crReportDocument.SetParameterValue("paramC4n", 0)
+                        crReportDocument.SetParameterValue("paramC5i", 0)
+                        crReportDocument.SetParameterValue("paramC5n", 0)
+                        crReportDocument.SetParameterValue("paramC6", 0)
+                        crReportDocument.SetParameterValue("paramC7", 0)
+                        crReportDocument.SetParameterValue("paramC8", 0)
+                        crReportDocument.SetParameterValue("paramC9", 0)
+                        crReportDocument.SetParameterValue("paramC10", 0)
+                        crReportDocument.SetParameterValue("paramH2S", 0)
+                        crReportDocument.SetParameterValue("paramH2O", 0)
+                        crReportDocument.SetParameterValue("paramO2", 0)
+                        crReportDocument.SetParameterValue("paramHe2", 0)
+                        crReportDocument.SetParameterValue("paramAr", 0)
+                        crReportDocument.SetParameterValue("paramH2", 0)
+
+                        ' Hide all the detailed gas analysis
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtCO").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC1").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC2").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC3").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC4i").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC4n").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC5i").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC5n").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC6").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC7").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC8").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC9").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtC10").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtH2S").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtH2O").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtO2").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtHe2").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtAr").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtH2").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("txtSum").ObjectFormat.EnableSuppress = True
+                        crReportDocument.ReportDefinition.ReportObjects.Item("LineSum").ObjectFormat.EnableSuppress = True
+
+                        ' Set the gas sum total
+                        crReportDocument.SetParameterValue("fldSum", 0)
+                    End If
+
+                    ' Connect the report to the data source
+                    objReportWindow.CrystalReportViewer1.ReportSource = crReportDocument
+
+                    ' Show the report
+                    objReportWindow.Text = "Meter Configuration Report"
+                    objReportWindow.Show()
+
+                Case "Flow History"
+                    ' clear out the record set and the string
+                    strSQL = ""
+                    oRS = Nothing
+
+                    'Get the ENERGY FACTOR and write it to the database class property
+                    strSQL = "SELECT BTUFactor "
+                    strSQL = strSQL & "FROM tblMeterArchive "
+                    strSQL = strSQL & "WHERE MeterID = '" & mstrMeterID & "' "
+                    strSQL = strSQL & "ORDER BY ArchiveDate DESC"
+                    Diagnostics.Debug.WriteLine(strSQL)
+                    oRS = wspDataIO.GetRecordSet(strSQL)
+                    If Not oRS.EOF Then
+                        oRS.MoveFirst()
+                        sngBTUFactor = oRS.Fields("BTUFactor").Value
+                    Else
+                        ' same value as MCF
+                        sngBTUFactor = 1000
+                    End If
+                    wspDataIO.EnergyFactor = sngBTUFactor
+
+                    ' clear out the record set and the string
+                    strSQL = ""
+                    oRS = Nothing
+
+                    If String.Compare(mstrSerialNumber.Trim, "") = 0 Then
+                        Throw New Exception("No Meter Selected:" & vbCrLf & _
+                                            "Please select a meter to report on and then select the report.")
+                    End If
+
+                    frmCommAndStandby.lblMsg.Text = "Building report ..."
+                    frmCommAndStandby.lblStatus.Text = ""
+                    frmCommAndStandby.Show()
+                    frmMain.Wait((0.1))
+
+                    Dim s As String = Application.StartupPath ' \ EFMReports \ rptCommSetting.rpt
+                    Dim str As String = s.Substring(0, s.Length - ((s.Length) - (s.LastIndexOf("\"))))
+                    cn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & str & DB_NAME
+                    cn.Open()
+
+
+                    ' Get the start and end dates
+                    StartDate = Convert.ToDateTime(dtpStartDate.Value.ToString("yyyy/MM/dd") & " 00:00:00")
+                    EndDate = Convert.ToDateTime(dtpEndDate.Value.ToString("yyyy/MM/dd") & " 23:59:59")
+
+                    Call wspDataIO.GetHourlyRecordset(mstrMeterID, StartDate, EndDate, strSQL)
+                    oADORS.Open(strSQL, cn)
+
+                    frmCommAndStandby.Hide()
+                    If oADORS.EOF Then
+                        Throw New Exception("No flow logs records found." & vbCrLf & _
+                                            "Please connect to the meter and download the meter logs first or choose different dates.")
+                    End If
+
+                    'Create an instance of the strongly-typed report object
+                    crReportDocument = New ReportDocument
+
+                    ' Load the hourly flow report
+                    'Modified for isssue id -3908
+
+                    crReportDocument.Load(str & "\EFMReports\rptHourlyFlowLogs.rpt")
+                    'crReportDocument.Load(Application.StartupPath & "\EFMReports\rptHourlyFlowLogs.rpt")
+
+                    crReportDocument.SetDataSource(oADORS)
+
+                    'DSI******************************************
+                    crConnectionInfo = New ConnectionInfo
+                    With crConnectionInfo
+                        '' .ServerName = Application.StartupPath & "\.." & DB_NAME
+                        .DatabaseName = Application.StartupPath & "\.." & DB_NAME
+                        .UserID = "Admin"
+                    End With
+
+                    crTables = crReportDocument.Database.Tables
+                    For Each crTable In crTables
+                        crTableLogOnInfo = crTable.LogOnInfo
+                        'crTableLogOnInfo.ConnectionInfo = crConnectionInfo
+                        crTable.ApplyLogOnInfo(crTableLogOnInfo)
+                    Next
+                    'DSI********************************************
+
+
+                    ' Fill the boxes on the top of the report
+                    crReportDocument.SetParameterValue("txtMeterID", "Hourly Flow Logs for Meter:  " & mstrMeterID)
+                    crReportDocument.SetParameterValue("txtSerialNumber", "Serial Number:  " & mstrSerialNumber)
+                    crReportDocument.SetParameterValue("txtDate", "Hourly Logs for " & StartDate & " thru " & EndDate)
+                    crReportDocument.SetParameterValue("txtHourlyFlowQty", "Flow Qty (" & MeasurementUnits("GAS VOLUME/1000") & ")")
+                    crReportDocument.SetParameterValue("txtHourlyDP", "DP Avg (" & MeasurementUnits("DP") & ")")
+                    crReportDocument.SetParameterValue("txtHourlySP", "SP Avg (" & MeasurementUnits("ATM_SP") & ")")
+                    crReportDocument.SetParameterValue("txtHourlyPT", "PT Avg (" & MeasurementUnits("PT") & ")")
+
+                    ' Connect the report to the data source
+                    objReportWindow.CrystalReportViewer1.ReportSource = crReportDocument
+
+                    ' Show the report
+                    objReportWindow.Text = "Hourly Flow History Report"
+                    objReportWindow.Show()
+
+                    '=============================
+                Case "Events"
+                    ' clear out the record set and the string
+                    strSQL = ""
+                    oRS = Nothing
+                    If String.Compare(mstrSerialNumber.Trim, "") = 0 Then
+                        Throw New Exception("No Meter Selected:" & vbCrLf & _
+                                            "Please select a meter to report on and then select the report.")
+                    End If
+
+                    frmCommAndStandby.lblMsg.Text = "Building report ..."
+                    frmCommAndStandby.lblStatus.Text = ""
+                    frmCommAndStandby.Show()
+                    frmMain.Wait((0.1))
+
+                    Dim s As String = Application.StartupPath
+                    Dim str As String = s.Substring(0, s.Length - ((s.Length) - (s.LastIndexOf("\"))))
+                    cn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source= " & Application.StartupPath & "\.." & DB_NAME
+                    cn.Open()
+                    ' Get the start and end dates
+                    StartDate = Convert.ToDateTime(dtpStartDate.Value.ToString("yyyy/MM/dd") & " 00:00:00")
+                    EndDate = Convert.ToDateTime(dtpEndDate.Value.ToString("yyyy/MM/dd") & " 23:59:59")
+
+                    Call wspDataIO.GetEventRecordset(mstrMeterID, StartDate, EndDate, strSQL)
+                    oADORS.Open(strSQL, cn)
+
+                    frmCommAndStandby.Hide()
+
+
+
+                    If oADORS.EOF Then
+                        Throw New Exception("No flow logs records found." & vbCrLf & _
+                                            "Please connect to the meter and download the meter logs first or choose different dates.")
+                    End If
+
+                    'Create an instance of the strongly-typed report object
+                    crReportDocument = New ReportDocument
+
+                    ' Load the hourly flow report
+                    'Modified for isssue id -3908
+
+                    crReportDocument.Load(Application.StartupPath & "\..\EFMReports\rptEventLogs.rpt")
+                    crReportDocument.SetDataSource(oADORS)
+
+                    'DSI******************************************
+                    crConnectionInfo = New ConnectionInfo
+                    With crConnectionInfo
+                        ''.ServerName = Application.StartupPath & "\.." & DB_NAME
+                        .DatabaseName = Application.StartupPath & "\.." & DB_NAME
+                        .UserID = "Admin"
+                    End With
+                    crTables = crReportDocument.Database.Tables
+                    For Each crTable In crTables
+                        crTableLogOnInfo = crTable.LogOnInfo
+                        crTableLogOnInfo.ReportName = "rptEventLogs"
+                        '' crTableLogOnInfo.ConnectionInfo = crConnectionInfo
+                        crTable.ApplyLogOnInfo(crTableLogOnInfo)
+                    Next
+                    'DSI********************************************
+
+
+                    ' Fill the boxes on the top of the report
+                    crReportDocument.SetParameterValue("txtMeterID", "Event Logs for Meter:  " & mstrMeterID)
+                    crReportDocument.SetParameterValue("txtSerialNumber", "Serial Number:  " & mstrSerialNumber)
+                    crReportDocument.SetParameterValue("txtDate", "Events between " & StartDate & " and " & EndDate)
+                    
+
+                    ' Connect the report to the data source
+                    objReportWindow.CrystalReportViewer1.ReportSource = crReportDocument
+
+                    '' '' Modified for the Issue ID 3550
+                    ''If devFB3000EFM.LogSeqNbrEvent() = False Then
+                    ''    crReportDocument.ReportDefinition.ReportObjects("Text1").ObjectFormat.EnableSuppress = True
+                    ''    crReportDocument.ReportDefinition.ReportObjects("SeqNbr").ObjectFormat.EnableSuppress = True
+                    ''End If
+
+                    ' Show the report
+                    objReportWindow.Text = "Event Log History Report"
+                    objReportWindow.Show()
+
+
+                    '=============================
+                Case "Alarms"
+                    If String.Compare(mstrSerialNumber.Trim, "") = 0 Then
+                        Throw New Exception("No Meter Selected" & vbCrLf & "Please select a meter to report on and then select the report.")
+                    End If
+
+                    frmCommAndStandby.lblMsg.Text = "Building report ..."
+                    frmCommAndStandby.lblStatus.Text = ""
+                    frmCommAndStandby.Show()
+                    frmMain.Wait((0.1))
+
+                    cn.ConnectionString = "DRIVER={Microsoft Access Driver (*.mdb)};DBQ=" & Application.StartupPath & "\.." & DB_NAME
+                    cn.Open()
+
+
+                    ' Get the start and end dates
+                    StartDate = Convert.ToDateTime(dtpStartDate.Value.ToString("yyyy/MM/dd") & " 00:00:00")
+                    EndDate = Convert.ToDateTime(dtpEndDate.Value.ToString("yyyy/MM/dd") & " 23:59:59")
+
+                    Call wspDataIO.GetAlarmRecordset(mstrMeterID, StartDate, EndDate, strSQL)
+
+                    oADORS.Open(strSQL, cn)
+                    frmCommAndStandby.Hide()
+                    If oADORS.EOF Then
+                        Throw New Exception("No alarms records found." & vbCrLf & "Please connect to the meter and download the alarm logs first or choose different dates.")
+                    End If
+
+                    'Create an instance of the strongly-typed report object
+                    crReportDocument = New ReportDocument
+
+                    ' Load the alarms report
+                    'crReportDocument.Load("..\EFMReports\rptAlarmLogs.rpt")
+                    crReportDocument.Load(Application.StartupPath & "\..\EFMReports\rptAlarmLogs.rpt")
+
+                    crReportDocument.SetDataSource(oADORS)
+
+                    crConnectionInfo = New ConnectionInfo
+                    With crConnectionInfo
+                        ''.ServerName = Application.StartupPath & "\.." & DB_NAME
+                        .DatabaseName = Application.StartupPath & "\.." & DB_NAME
+                        .UserID = "Admin"
+                    End With
+
+                    crTables = crReportDocument.Database.Tables
+                    For Each crTable In crTables
+                        crTableLogOnInfo = crTable.LogOnInfo
+                        '' crTableLogOnInfo.ConnectionInfo = crConnectionInfo
+                        crTable.ApplyLogOnInfo(crTableLogOnInfo)
+                    Next
+
+
+                    ' Fill the boxes on the top of the report
+                    crReportDocument.SetParameterValue("txtMeterID", "Alarm Logs for Meter:  " & mstrMeterID)
+                    crReportDocument.SetParameterValue("txtSerialNumber", "Serial Number:  " & mstrSerialNumber)
+                    crReportDocument.SetParameterValue("txtDate", "Alarms between " & StartDate & " and " & EndDate)
+
+                    ' Connect the report to the data source
+
+                    objReportWindow.CrystalReportViewer1.ReportSource = crReportDocument
+
+                    ' Show the report
+                    objReportWindow.Text = "Alarm Logs Report"
+                    objReportWindow.Show()
+
+
+
+                    '=============================
+                Case "Daily Volumes"
+                    ' clear out the record set and the string
+                    strSQL = ""
+                    oRS = Nothing
+
+                    'Get the ENERGY FACTOR and write it to the database class property
+                    strSQL = "SELECT BTUFactor "
+                    strSQL = strSQL & "FROM tblMeterArchive "
+                    strSQL = strSQL & "WHERE MeterID = '" & mstrMeterID & "' "
+                    strSQL = strSQL & "ORDER BY ArchiveDate DESC"
+                    Diagnostics.Debug.WriteLine(strSQL)
+                    oRS = wspDataIO.GetRecordSet(strSQL)
+                    If Not oRS.EOF Then
+                        oRS.MoveFirst()
+                        sngBTUFactor = oRS.Fields("BTUFactor").Value
+                    Else
+                        ' same value as MCF
+                        sngBTUFactor = 1000
+                    End If
+                    wspDataIO.EnergyFactor = sngBTUFactor
+
+                    ' clear out the record set and the string
+                    strSQL = ""
+                    oRS = Nothing
+
+                    If String.Compare(mstrSerialNumber.Trim, "") = 0 Then
+                        Throw New Exception("No Meter Selected" & vbCrLf & _
+                                            "Please select a meter to report on and then select the report.")
+                    End If
+
+                    Dim s As String = Application.StartupPath ' \ EFMReports \ rptCommSetting.rpt
+                    Dim str As String = s.Substring(0, s.Length - ((s.Length) - (s.LastIndexOf("\"))))
+                    cn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & str & DB_NAME
+                    cn.Open()
+
+                    frmCommAndStandby.lblMsg.Text = "Building report ..."
+                    frmCommAndStandby.lblStatus.Text = ""
+                    frmCommAndStandby.Show()
+                    frmMain.Wait((0.1)) ' allow standby form to show before turning over control
+
+                    ' Get the start and end dates
+                    StartDate = Convert.ToDateTime(dtpStartDate.Value.ToString("yyyy/MM/dd") & " 00:00:00")
+                    EndDate = Convert.ToDateTime(dtpEndDate.Value.ToString("yyyy/MM/dd") & " 23:59:59")
+
+                    'Get the query for the daily volumes
+                    Call wspDataIO.GetDailyRecordset(mstrMeterID, StartDate, EndDate, strSQL)
+
+                    oADORS.Open(strSQL, cn)
+                    frmCommAndStandby.Hide()
+                    If oADORS.EOF Then
+                        Throw New Exception("No daily records found." & vbCrLf & _
+                                            "Please connect to the meter and download the daily logs first or choose different dates.")
+                    End If
+
+                    'Create an instance of the strongly-typed report object
+                    crReportDocument = New ReportDocument
+
+                    ' Load the alarms report
+                    'Modified for isssue id -3908
+
+                    crReportDocument.Load(str & "\EFMReports\rptDailyLogs.rpt")
+                    ' crReportDocument.Load(Application.StartupPath & "\EFMReports\rptDailyLogs.rpt")
+
+
+
+                    'DSI**********************************
+                    crReportDocument.SetDataSource(oADORS)
+                    crConnectionInfo = New ConnectionInfo
+                    With crConnectionInfo
+                        .ServerName = Application.StartupPath & DB_NAME
+                        '.DatabaseName = VB6.GetPath & DB_NAME
+                        '.UserID = "Admin"
+                    End With
+
+                    crTables = crReportDocument.Database.Tables
+                    For Each crTable In crTables
+                        crTableLogOnInfo = crTable.LogOnInfo
+                        'crTableLogOnInfo.ConnectionInfo = crConnectionInfo
+                        crTable.ApplyLogOnInfo(crTableLogOnInfo)
+                    Next
+                    'DSI************************************
+
+
+                    ' Fill the boxes on the top of the report
+                    crReportDocument.SetParameterValue("txtMeterID", "Daily Logs for Meter:  " & mstrMeterID)
+                    crReportDocument.SetParameterValue("txtSerialNumber", "Serial Number:  " & mstrSerialNumber)
+                    crReportDocument.SetParameterValue("txtDate", "Daily Logs for " & StartDate & " thru " & EndDate)
+                    crReportDocument.SetParameterValue("txtFlowQty", "Flow Qty (" & MeasurementUnits("GAS VOLUME/1000") & ")")
+                    crReportDocument.SetParameterValue("txtEnergy", "Energy (" & MeasurementUnits("ENERGY CONTENT") & ")")
+                    crReportDocument.SetParameterValue("txtDP", "DP Avg (" & MeasurementUnits("DP") & ")")
+                    crReportDocument.SetParameterValue("txtSP", "SP Avg (" & MeasurementUnits("ATM_SP") & ")")
+                    crReportDocument.SetParameterValue("txtPT", "PT Avg (" & MeasurementUnits("PT") & ")")
+
+                    ' Connect the report to the data source
+                    objReportWindow.CrystalReportViewer1.ReportSource = crReportDocument
+
+                    ' Show the report
+                    objReportWindow.Text = "Daily Flow History Report"
+                    objReportWindow.Show()
+
+                    '=============================
+                Case Else
+                    Throw New Exception("No report selected." & vbCrLf & "Please select a report to preview.")
+            End Select
+
+
+            'Restore measurement units to reset for the next meter
+            If GlobalVariables.gblnLoggedIn Then
+                devFB3000EFM.MetricUnits = intSaveMetric
+                devFB3000EFM.MeasurementUnits = intSaveMeasurement
+            End If
+
+        Catch ex As Exception
+            'Modified by Nirmala for Issue Id 3433
+            WriteFileLog(ex.ToString.Substring(ex.ToString.IndexOf(":")))
+            InfoMessage(ex.Message, "Build Report Info")
+            frmCommAndStandby.Hide()
+            If GlobalVariables.gblnLoggedIn Then
+                devFB3000EFM.MetricUnits = intSaveMetric
+                devFB3000EFM.MeasurementUnits = intSaveMeasurement
+            End If
+
+            If Not IsNothing(objReportWindow) Then
+                objReportWindow.Close()
+
+            End If
+
+        Finally
+            crDatabase = Nothing
+            crTables = Nothing
+            crTable = Nothing
+            crTableLogOnInfo = Nothing
+            crConnectionInfo = Nothing
+            crReportDocument = Nothing
+
+        End Try
+
+    End Sub
+
+
+http://www.aspfree.com/c/a/ASP.NET/Working-with-Parameters-with-Crystal-Reports-and-ASP-NET-2-0/
+
+
+http://www.aspfree.com/c/a/ASP.NET/Working-with-Parameters-with-Crystal-Reports-and-ASP-NET-2-0/2/
+
+
+
+
+Dim ConnInfo As New ConnectionInfo
+
+With ConnInfo
+
+  .ServerName = ".sqlexpress"
+
+  .DatabaseName = "Northwind"
+
+  .UserID = "sa"
+
+  .Password = "eXpress2005"
+
+End With
+
+The above connection information is assigned to the CrystalReportViewer control using the following code:
+
+For Each cnInfo As TableLogOnInfo In Me.CrystalReportViewer1.LogOnInfo
+
+  cnInfo.ConnectionInfo = ConnInfo
+
+Next
+
+Finally, the ReportSource and Parameter are added as following:
+
+Me.CrystalReportViewer1.ParameterFieldInfo.Clear()
+
+  Me.CrystalReportViewer1.ReportSource = Server.MapPath("SampleParam1.rpt")
+
+  Dim ParamFields As ParameterFields = Me.CrystalReportViewer1.ParameterFieldInfo
+
+  Dim p_EmpID As New ParameterField
+
+  p_EmpID.Name = "p_EmployeeID"
+
+  Dim p_EmpID_Value As New ParameterDiscreteValue
+
+  p_EmpID_Value.Value = Me.txtEmployeeID.Text
+
+  p_EmpID.CurrentValues.Add(p_EmpID_Value)
+
+  ParamFields.Add(p_EmpID)
+
+We can add as many numbers of parameters as we want to the "ParameterFields" collection to provide values at run-time. The following is the code which deals with paging:
+
+ Protected Sub btnFirst_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnFirst.Click
+
+  Me.CrystalReportViewer1.ShowFirstPage()
+
+End Sub
+
+ 
+
+Protected Sub btnPrevious_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnPrevious.Click
+
+  Me.CrystalReportViewer1.ShowPreviousPage()
+
+End Sub
+
+ 
+
+Protected Sub btnNext_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnNext.Click
+
+  Me.CrystalReportViewer1.ShowNextPage()
+
+End Sub
+
+ 
+
+Protected Sub btnLast_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnLast.Click
+
+  Me.CrystalReportViewer1.ShowLastPage()
+
+End Sub
+
+ 
+
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+  If Not IsPostBack Then
+
+    btnShow_Click(Nothing, Nothing)
+
+  End If
+
+End Sub
+

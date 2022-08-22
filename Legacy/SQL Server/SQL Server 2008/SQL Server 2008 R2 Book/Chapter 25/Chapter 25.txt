@@ -1,0 +1,5 @@
+--Listing 25.33: 
+
+csc /t:library
+/r:“C:\Users\Sumita\Desktop\FileUser\FileUser\bin\Debug\FileUser.dll" /r:"C:\Program
+Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlaccess.dll" Class1.cs

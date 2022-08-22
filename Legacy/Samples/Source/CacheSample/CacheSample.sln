@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\shiv projects\Dot Net Interview questions\Book\Disk Data\Source Code\CacheSample\", "D:\shiv projects\Dot Net Interview questions\Book\Disk Data\Source Code\CacheSample\", "{F478DEEF-5B84-4BC9-A1FF-389AE32230C4}"
+	ProjectSection(WebsiteProperties) = preProject
+		VWDPort = 3844
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F478DEEF-5B84-4BC9-A1FF-389AE32230C4}.Debug|.NET.ActiveCfg = Debug|.NET
+		{F478DEEF-5B84-4BC9-A1FF-389AE32230C4}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

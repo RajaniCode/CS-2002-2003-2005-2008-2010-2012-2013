@@ -1,0 +1,83 @@
+http://bytes.com/groups/net-asp/719208-server-mappath-request-mappath
+
+Server.MapPath vs Request.MapPath
+
+The way I look at it, there's a single MapPath method
+which is called in different contexts with different parameters.
+
+public virtual string MapPath(string virtualPath)
+{
+return null;
+}
+
+public string MapPath(string virtualPath)
+{
+return this.MapPath(VirtualPath.CreateAllowNull(virtualPa th));
+}
+
+internal string MapPath(VirtualPath virtualPath)
+{
+if (this._wr != null)
+{
+return this.MapPath(virtualPath, this.FilePathObject, true);
+}
+return virtualPath.MapPath();
+}
+
+public string MapPath(string virtualPath, string baseVirtualDir, bool allowCrossAppMapping)
+{
+VirtualPath filePathObject;
+if (string.IsNullOrEmpty(baseVirtualDir))
+{
+filePathObject = this.FilePathObject;
+}
+else
+{
+filePathObject = VirtualPath.CreateTrailingSlash(baseVirtualDir);
+}
+return this.MapPath(VirtualPath.CreateAllowNull(virtualPa th), filePathObject, allowCrossAppMapping);
+}
+
+internal string MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, bool allowCrossAppMapping)
+{
+if (this._wr == null)
+{
+throw new HttpException(SR.GetString("Cannot_map_path_withou t_context"));
+}
+if (virtualPath == null)
+{
+virtualPath = VirtualPath.Create(".");
+}
+VirtualPath path = virtualPath;
+if (baseVirtualDir != null)
+{
+virtualPath = baseVirtualDir.Combine(virtualPath);
+}
+if (!allowCrossAppMapping)
+{
+virtualPath.FailIfNotWithinAppRoot();
+}
+string str = virtualPath.MapPathInternal();
+if (((virtualPath.VirtualPathString == "/") && (path.VirtualPathString != "/"))
+&& (!path.HasTrailingSlash && UrlPath.PathEndsWithExtraSlash(str)))
+{
+str = str.Substring(0, str.Length - 1);
+}
+InternalSecurityPermissions.PathDiscovery(str).Dem and();
+return str;
+}
+
+public string MapPath(string path)
+{
+if (this._context == null)
+{
+throw new HttpException(SR.GetString("Server_not_available") );
+}
+return this._context.Request.MapPath(path);
+}
+
+public string MapPath()
+{
+return HostingEnvironment.MapPath(this);
+}
+

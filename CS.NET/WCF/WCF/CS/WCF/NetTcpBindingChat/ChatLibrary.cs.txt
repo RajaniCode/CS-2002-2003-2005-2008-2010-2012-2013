@@ -1,0 +1,113 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.ServiceModel;
+
+namespace Server
+{
+    public delegate void ListOfNames(List<string> names, object sender);
+
+    [ServiceContract(CallbackContract = typeof(IReceiveChatService))]
+    public interface ISendChatService
+    {
+        [OperationContract(IsOneWay = true)]
+        void SendMessage(string message, string sender, string receiver);
+
+        [OperationContract(IsOneWay = true)]
+        void Start(string Name);
+
+        [OperationContract(IsOneWay = true)]
+        void Stop(string Name);
+    }
+
+    public interface IReceiveChatService
+    {
+        [OperationContract(IsOneWay = true)]
+        void ReceiveMessage(string message, string receiver);
+
+        [OperationContract(IsOneWay = true)]
+        void SendNames(List<string> names);
+    }
+
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
+    public class ChatService : ISendChatService 
+    {
+        Dictionary<string, IReceiveChatService> names = new Dictionary<string, IReceiveChatService>();
+        
+        public static event ListOfNames ChatListOfNames;
+
+        IReceiveChatService callback = null;
+
+        public ChatService() { }
+
+        public void Close()
+        {
+            callback = null;
+            names.Clear();
+        }
+
+        public void Start(string name)
+        {
+            try
+            {
+                if (!names.ContainsKey(name))
+                {
+                    callback = OperationContext.Current.GetCallbackChannel<IReceiveChatService>();
+                    AddUser(name, callback);
+                    SendNamesToAll();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void Stop(string name)
+        {
+            try
+            {
+                if (names.ContainsKey(name))
+                {
+                    names.Remove(name);
+                    SendNamesToAll();
+                 }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        void ISendChatService.SendMessage(string message, string sender, string receiver)
+        {
+            if (names.ContainsKey(receiver))
+            {
+                callback = names[receiver];
+                callback.ReceiveMessage(message, sender);
+            }
+        }       
+
+        private void AddUser(string name, IReceiveChatService callback)
+        {
+            names.Add(name, callback);
+            if (ChatListOfNames != null)
+            {
+                ChatListOfNames(names.Keys.ToList(), this);
+            }            
+        }
+
+        private void SendNamesToAll()
+        {
+            foreach (KeyValuePair<string, IReceiveChatService> name in names)
+            {
+                IReceiveChatService proxy = name.Value;
+                proxy.SendNames(names.Keys.ToList());
+            }
+            if (ChatListOfNames != null)
+            {
+                ChatListOfNames(names.Keys.ToList(), this);
+            }
+        }
+    }
+}

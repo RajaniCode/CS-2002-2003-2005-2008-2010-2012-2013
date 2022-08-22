@@ -1,0 +1,12 @@
+[DEFAULT]
+BASEURL=http://www.codeproject.com/KB/custom-controls/webchart.aspx
+[DOC#1153]
+BASEURL=http://www.codeproject.com/script/Adm/ServeLinks.aspx?C=False&ids=8560,5228,8559
+ORIGURL=/script/Adm/ServeLinks.aspx?C=False&ids=8560,5228,8559
+[InternetShortcut]
+URL=http://www.codeproject.com/KB/custom-controls/webchart.aspx
+IDList=
+IconFile=http://www.codeproject.com/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

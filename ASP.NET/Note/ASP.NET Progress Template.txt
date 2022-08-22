@@ -1,0 +1,16 @@
+http://forums.asp.net/p/1420969/3155632.aspx#3155632
+
+ok, I found the issue. It was related to this section in my style for the DIV:
+ 
+
+left:expression((this.offsetParent.clientWidth/2)-(this.clientWidth/2)+this.offsetParent.scrollLeft);top:expression((this.offsetParent.clientHeight/2)-(this.clientHeight/2)+this.offsetParent.scrollTop); 
+
+It appears that IE8 does not recognize the offsetParent or something else contained within those screen calculations.
+
+My new code is as follows:
+<iframe frameborder="0" src="about:blank"
+
+style="border:0px;position:absolute;z-index:9;left:0px;top:0px;width:100%;height:100%;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=75, FinishOpacity=0, Style=0, StartX=0, FinishX=100, StartY=0, FinishY=100);"></iframe> 
+<div style="margin-left: auto; margin-right: auto; width:190px;top:50%" ><img src="../Images/progress_bar.gif" style="position: absolute; top: 50%;" /></div>
+
+Note that the  "width:190px" in the div is the width of the image being displayed. It is slightly less dynamic as I need to specify this image width, but it does work.

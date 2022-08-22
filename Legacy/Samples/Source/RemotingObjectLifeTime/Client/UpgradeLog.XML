@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="Client">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Client.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Client.suo">
+</Property><Property Name="Date" Value="Friday, June 17, 2005">
+</Property><Property Name="Time" Value="20:22 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Client.sln" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Client.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Client.suo" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Client.suo">
+</Event><Event ErrorLevel="0" Project="Client" Source="Client.vbproj" Description="Project file successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Client.vbproj">
+</Event><Event ErrorLevel="0" Project="Client" Source="AssemblyInfo.vb" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Client.vbproj">
+</Event><Event ErrorLevel="0" Project="Client" Source="Module1.vb" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Client.vbproj">
+</Event><Event ErrorLevel="0" Project="Client" Source="bin\Client.Config" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Client.vbproj">
+</Event><Event ErrorLevel="0" Project="Client" Source="Client.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Client" Source="Client.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CommonInterFace" Source="..\CommonInterFace\CommonInterFace.vbproj" Description="Project file successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\CommonInterFace\CommonInterFace.vbproj">
+</Event><Event ErrorLevel="0" Project="CommonInterFace" Source="..\CommonInterFace\AssemblyInfo.vb" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\CommonInterFace\CommonInterFace.vbproj">
+</Event><Event ErrorLevel="0" Project="CommonInterFace" Source="..\CommonInterFace\ClsInterFace.vb" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\CommonInterFace\CommonInterFace.vbproj">
+</Event><Event ErrorLevel="0" Project="CommonInterFace" Source="..\CommonInterFace\CommonInterFace.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CommonInterFace" Source="..\CommonInterFace\CommonInterFace.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Server" Source="..\Server\Server.vbproj" Description="Project file successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Server\Server.vbproj">
+</Event><Event ErrorLevel="0" Project="Server" Source="..\Server\AssemblyInfo.vb" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Server\Server.vbproj">
+</Event><Event ErrorLevel="0" Project="Server" Source="..\Server\ClsServer.vb" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Server\Server.vbproj">
+</Event><Event ErrorLevel="0" Project="Server" Source="..\Server\Module1.vb" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Server\Server.vbproj">
+</Event><Event ErrorLevel="0" Project="Server" Source="..\Server\bin\Server.config" Description="File successfully backed up as C:\Documents and Settings\Administrator\Desktop\RemotingObjectLifeTime\Client\Backup\Server\Server.vbproj">
+</Event><Event ErrorLevel="0" Project="Server" Source="..\Server\Server.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Server" Source="..\Server\Server.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Client.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Client.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "using-.net-provider-framework", ".", "{8974AE66-0A68-4298-9890-9FFE4497D6B4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "2.0"
+		Debug.AspNetCompiler.VirtualPath = "/using-.net-provider-framework"
+		Debug.AspNetCompiler.PhysicalPath = "..\using-.net-provider-framework\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\using-.net-provider-framework\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/using-.net-provider-framework"
+		Release.AspNetCompiler.PhysicalPath = "..\using-.net-provider-framework\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\using-.net-provider-framework\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4904"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8974AE66-0A68-4298-9890-9FFE4497D6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8974AE66-0A68-4298-9890-9FFE4497D6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

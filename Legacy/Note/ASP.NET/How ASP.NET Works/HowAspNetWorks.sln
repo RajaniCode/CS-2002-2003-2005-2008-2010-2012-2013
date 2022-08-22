@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowAspNetWorks", "http://localhost/projects/HowAspNetWorks/HowAspNetWorks.csproj", "{BA27CCE6-5E61-42AF-A83A-C707E80F1C76}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wwUtils", "..\..\..\..\..\projects\wwUtils\wwUtils.csproj", "{E19126C8-995F-4BF9-B9E2-FCB7EB6D1F61}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BA27CCE6-5E61-42AF-A83A-C707E80F1C76}.Debug.ActiveCfg = Debug|.NET
+		{BA27CCE6-5E61-42AF-A83A-C707E80F1C76}.Debug.Build.0 = Debug|.NET
+		{BA27CCE6-5E61-42AF-A83A-C707E80F1C76}.Release.ActiveCfg = Release|.NET
+		{BA27CCE6-5E61-42AF-A83A-C707E80F1C76}.Release.Build.0 = Release|.NET
+		{E19126C8-995F-4BF9-B9E2-FCB7EB6D1F61}.Debug.ActiveCfg = Debug|.NET
+		{E19126C8-995F-4BF9-B9E2-FCB7EB6D1F61}.Debug.Build.0 = Debug|.NET
+		{E19126C8-995F-4BF9-B9E2-FCB7EB6D1F61}.Release.ActiveCfg = Release|.NET
+		{E19126C8-995F-4BF9-B9E2-FCB7EB6D1F61}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

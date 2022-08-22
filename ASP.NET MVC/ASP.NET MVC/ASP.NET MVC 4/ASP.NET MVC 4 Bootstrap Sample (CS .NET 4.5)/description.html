@@ -1,0 +1,506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head><link rel="stylesheet" type="text/css" href="description/Combined.css,1:ImageSprite;/Areas/Epx/Themes/Msdn/Content:0,/Areas/Epx/Content/Css:1&amp;amp;hashKey=E7560C71640616C5057FAEACB58DCB00" xmlns="http://www.w3.org/1999/xhtml" />
+<link rel="stylesheet" type="text/css" href="description/2f95808e-ca34-4249-88ff-44fabe33cdc0Combined.css,1:LinkList,2:ImageSprite,2:SiteFeedbackLink;/Areas/Epx/Themes/Msdn/Content:0,/Areas/Epx/Themes/Base/Content:1,/Areas/Epx/Content/Css:2&amp;amp;hashKey=EEE39C2D6B93379FDAF50337BE99AF8C" xmlns="http://www.w3.org/1999/xhtml" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>ASP.NET MVC 4 Bootstrap Sample (C# .NET 4.5)</title>
+        <link href="description/Galleries.css" type="text/css" rel="Stylesheet" /><link href="description/Layout.css" type="text/css" rel="Stylesheet" /><link href="description/Brand.css" type="text/css" rel="Stylesheet" />
+        <link href="description/iframedescription.css" rel="Stylesheet" type="text/css" />
+        <script src="description/offline.js" type="text/javascript"></script>
+        <style type="text/css">
+            #projectInfo {
+                overflow: auto;
+            }
+            #longDesc {
+                clear:both;
+                margin: 25px 0 10px 0;
+            }
+
+            #SampleIndexList{
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+<body>
+    <div id="offlineDescription">
+        <h1>ASP.NET MVC 4 Bootstrap Sample (C# .NET 4.5)</h1>
+        <br/>
+        <div id="projectInfo">
+            <div class="section">
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Technologies">Technologies</label>
+                        <div id="Technologies">
+                            Javascript, CSS, ASP.NET MVC 4
+                        </div>
+                    </div>
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Topics">Topics</label>
+                        <div id="Topics">
+                            ASP.NET MVC, jQuery, Javascript, Bootstrap
+                        </div>
+                    </div>
+                <div class="itemBarLong">
+                    <label for="Platforms">Platforms</label>
+                    <div id="Platforms">
+                        Web
+                    </div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="Requirements">Requirements</label>
+                    <div id="Requirements">
+                        NuGet Package Manager
+                    </div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Primary Language</label>
+                    <div id="LastUpdated">en-US</div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Last Updated</label>
+                    <div id="LastUpdated">6/5/2013</div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="License">License</label>
+                    <div id="License">
+                        <a href="license.rtf">Apache License, Version 2.0</a></div>
+                </div>
+                <div class="itemBar">
+                    <div class="viewonlinecont">
+                        <a data-link="online" href="http://code.msdn.microsoft.com/ASPNET-MVC-4-Bootstrap-21f6031e">View this sample online</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                   
+<script type="text/javascript">
+    function initializePage() {
+        var otherTabClass = 'otherTab';
+        var hiddenPreClass = 'hidden';
+
+        var htmlDecode = function(encodedData) {
+            var decodedData = "";
+            if (encodedData) {
+                var div = document.createElement('div');
+                div.innerHTML = encodedData;
+                decodedData = div.firstChild.nodeValue.replace( /\\r\\n/ig , '\r\n');
+            }
+            return decodedData;
+        };
+                
+        Galleries.iterateElem(Galleries.findElem(null, 'div', 'scriptcode'), function (index, scriptBlock) {
+            var titleElem = Galleries.findElem(scriptBlock, 'div', 'title')[0];
+            var labelElems = Galleries.findElem(titleElem, 'span');
+            if (labelElems.length == 0) {
+                labelElems = titleElem;
+            }
+            var languageSpans = Galleries.findElem(scriptBlock, 'span', 'hidden');
+            var pres = Galleries.findElem(scriptBlock, 'pre');
+            if (languageSpans.length > 0 && pres.length > 1) {
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    var languageSpan = languageSpans[index];
+                            
+                    elem.code = codePre.innerHTML.replace( /(\r(\n)?)|((\r)?\n)/ig , '\\r\\n');
+                            
+                    codePre.className = codePre.className.replace(hiddenPreClass, '');
+                            
+                    languageSpan.parentNode.removeChild(languageSpan);
+                });
+
+                pres = Galleries.findElem(scriptBlock, 'pre');
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    if (index == 0) {
+                        scriptBlock.activeTab = 0;
+                    }
+                    else {
+                        labelSpan.className += otherTabClass;
+                        codePre.className += hiddenPreClass;
+                    }
+                    Galleries.attachEventHandler(labelSpan, 'click', function(e) {
+                        var activeTab = scriptBlock.activeTab;
+                        labelElems[activeTab].className += otherTabClass;
+                        pres[activeTab].className += hiddenPreClass;
+
+                        codePre.className = codePre.className.replace(hiddenPreClass, '');
+                        labelSpan.className = labelSpan.className.replace(otherTabClass, '');
+                        scriptBlock.activeTab = index;
+                    });
+                });
+
+                var preview = Galleries.findElem(scriptBlock, 'div', 'preview');
+                if (preview.length == 0) {
+                    preview.push(pres[pres.length - 1]);
+                }
+                Galleries.iterateElem(preview, function(index, elem) {
+                    elem.parentNode.removeChild(elem);
+                });
+
+                if (window.clipboardData && clipboardData.setData) {
+                    var copyLink = document.createElement('a');
+                    copyLink.href = 'javascript:void(0);';
+                    copyLink.className = 'copyCode';
+                    copyLink.innerHTML = 'Copy Code';
+                    Galleries.attachEventHandler(copyLink, 'click', function (e) {
+                        clipboardData.setData("Text", htmlDecode(labelElems[scriptBlock.activeTab].code));
+                        return false;
+                    });
+                    scriptBlock.insertBefore(copyLink, scriptBlock.childNodes[0]);
+                }
+            }
+        });
+    }
+
+    Galleries.onWindowLoad(function(){
+        initializePage();
+    });
+
+</script>
+<div id="longDesc">
+    
+<h1>Introduction</h1>
+<p>This sample demonstrates how to use Bootstrap with ASP.NET MVC 4 and provides a simple fluid layout. The sample has only a single controller and doesn't use any object-relational mappers for clarity. There are three views that show certains features of the
+ Bootstrap framework including a simple popup dialog.</p>
+<p>More information about the features of Bootstrap can be found here:</p>
+<p><a href="http://twitter.github.io/bootstrap/">http://twitter.github.io/bootstrap/</a></p>
+<h1><span>Building the Sample</span></h1>
+<p>You will need Visual Studio 2012 and&nbsp;.NET 4.5 installed to build the sample.</p>
+<h1>Description</h1>
+<p>After running the application a browser will open and you should be able to see the following layout:</p>
+<p><img id="83655" src="description/layout.png" alt="" width="620" height="456"></p>
+<p>Let's see about the specific implementetation details.</p>
+<p>We will use the Microsoft ASP.NET Web Optimization Framework (Namespace <a title="System.Web.Optimization" href="http://msdn.microsoft.com/en-us/library/system.web.optimization.aspx" >
+System.Web.Optimization</a>) to bundle all styles and javascripts into single minified versions. This is done in the following
+<em>BundleConfig</em> class:</p>
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>C#</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Edit</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">csharp</span>
+<pre class="hidden">public static class BundleConfig
+{
+    public static void RegisterBundles(BundleCollection bundles)
+    {
+        RegisterStyleBundles(bundles);
+        RegisterJavascriptBundles(bundles);
+    }
+
+    private static void RegisterStyleBundles(BundleCollection bundles)
+    {
+        bundles.Add(new StyleBundle(&quot;~/css&quot;)
+                        .Include(&quot;~/Content/bootstrap.css&quot;)
+                        .Include(&quot;~/Content/bootstrap-responsive.css&quot;)
+                        .Include(&quot;~/Content/site.css&quot;));
+    }
+
+    private static void RegisterJavascriptBundles(BundleCollection bundles)
+    {
+        bundles.Add(new ScriptBundle(&quot;~/js&quot;)
+                        .Include(&quot;~/Scripts/jquery-{version}.js&quot;)
+                        .Include(&quot;~/Scripts/jquery-ui-{version}.js&quot;)
+                        .Include(&quot;~/Scripts/bootstrap.js&quot;));
+    }
+}</pre>
+<div class="preview">
+<pre class="csharp"><span class="cs__keyword">public</span>&nbsp;<span class="cs__keyword">static</span>&nbsp;<span class="cs__keyword">class</span>&nbsp;BundleConfig&nbsp;
+{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;<span class="cs__keyword">static</span>&nbsp;<span class="cs__keyword">void</span>&nbsp;RegisterBundles(BundleCollection&nbsp;bundles)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RegisterStyleBundles(bundles);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RegisterJavascriptBundles(bundles);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;<span class="cs__keyword">static</span>&nbsp;<span class="cs__keyword">void</span>&nbsp;RegisterStyleBundles(BundleCollection&nbsp;bundles)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bundles.Add(<span class="cs__keyword">new</span>&nbsp;StyleBundle(<span class="cs__string">&quot;~/css&quot;</span>)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Include(<span class="cs__string">&quot;~/Content/bootstrap.css&quot;</span>)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Include(<span class="cs__string">&quot;~/Content/bootstrap-responsive.css&quot;</span>)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Include(<span class="cs__string">&quot;~/Content/site.css&quot;</span>));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;<span class="cs__keyword">static</span>&nbsp;<span class="cs__keyword">void</span>&nbsp;RegisterJavascriptBundles(BundleCollection&nbsp;bundles)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bundles.Add(<span class="cs__keyword">new</span>&nbsp;ScriptBundle(<span class="cs__string">&quot;~/js&quot;</span>)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Include(<span class="cs__string">&quot;~/Scripts/jquery-{version}.js&quot;</span>)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Include(<span class="cs__string">&quot;~/Scripts/jquery-ui-{version}.js&quot;</span>)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.Include(<span class="cs__string">&quot;~/Scripts/bootstrap.js&quot;</span>));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+}</pre>
+</div>
+</div>
+</div>
+<ul>
+</ul>
+<p>The BundleConfig needs to be initialized on start of the application to take effect. This is done in the
+<em><strong>Global.asax.cs</strong></em>:</p>
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>C#</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Edit</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">csharp</span>
+<pre class="hidden">public class MvcApplication : <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Web.HttpApplication.aspx"  title="Auto generated link to System.Web.HttpApplication">System.Web.HttpApplication</a>
+{
+    protected void Application_Start()
+    {
+        // ...
+
+        BundleConfig.RegisterBundles(BundleTable.Bundles);
+    }
+}
+</pre>
+<div class="preview">
+<pre class="csharp"><span class="cs__keyword">public</span>&nbsp;<span class="cs__keyword">class</span>&nbsp;MvcApplication&nbsp;:&nbsp;System.Web.HttpApplication&nbsp;
+{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">protected</span>&nbsp;<span class="cs__keyword">void</span>&nbsp;Application_Start()&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;...</span>&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BundleConfig.RegisterBundles(BundleTable.Bundles);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+}&nbsp;
+</pre>
+</div>
+</div>
+</div>
+<div class="endscriptcode">Bundling enables us to use aliases in our <strong><em>_Layout.cshtml</em></strong> which we have defined in the
+<em>BundleConfig</em> earlier:</div>
+<div class="endscriptcode"></div>
+<div class="endscriptcode">
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>HTML</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Edit</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">html</span>
+<pre class="hidden">@using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Web.Optimization.aspx"  title="Auto generated link to System.Web.Optimization">System.Web.Optimization</a>
+&lt;!DOCTYPE html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;!-- ... --&gt;
+
+    @Styles.Render(&quot;~/css&quot;)
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- ... --&gt;
+
+    @Scripts.Render(&quot;~/js&quot;)
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<div class="preview">
+<pre class="html">@using&nbsp;System.Web.Optimization&nbsp;
+<span class="html__doctype">&lt;!DOCTYPE&nbsp;html&gt;</span>&nbsp;
+&nbsp;
+<span class="html__tag_start">&lt;html</span>&nbsp;<span class="html__attr_name">lang</span>=<span class="html__attr_value">&quot;en&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span><span class="html__tag_start">&lt;head</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__comment">&lt;!--&nbsp;...&nbsp;--&gt;</span>&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;@Styles.Render(&quot;~/css&quot;)&nbsp;
+<span class="html__tag_end">&lt;/head&gt;</span>&nbsp;
+<span class="html__tag_start">&lt;body</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__comment">&lt;!--&nbsp;...&nbsp;--&gt;</span>&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;@Scripts.Render(&quot;~/js&quot;)&nbsp;
+<span class="html__tag_end">&lt;/body&gt;</span>&nbsp;
+<span class="html__tag_end">&lt;/html&gt;</span>&nbsp;</pre>
+</div>
+</div>
+</div>
+</div>
+<p>The full <em><strong>_Layout.cshtml</strong></em> using Bootstrap fluid containers:</p>
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>HTML</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Edit</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">html</span>
+<pre class="hidden">@using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Web.Optimization.aspx"  title="Auto generated link to System.Web.Optimization">System.Web.Optimization</a>
+&lt;!DOCTYPE html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;title&gt;Your Website &amp;bull; @ViewBag.Title&lt;/title&gt;
+
+    @Styles.Render(&quot;~/css&quot;)
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;button type=&quot;button&quot; class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;@Url.Action(&quot;Index&quot;, &quot;Home&quot;)&quot;&gt;Your Logo Here&lt;/a&gt;
+                &lt;ul class=&quot;nav&quot;&gt;
+                    &lt;li class=&quot;dropdown&quot;&gt;@Html.ActionLink(&quot;Home&quot;, &quot;Index&quot;, &quot;Home&quot;)&lt;/li&gt;
+                    &lt;li class=&quot;dropdown&quot;&gt;@Html.ActionLink(&quot;Featured&quot;, &quot;FeaturedExample&quot;, &quot;Home&quot;)&lt;/li&gt;
+                    &lt;li class=&quot;dropdown&quot;&gt;@Html.ActionLink(&quot;Popup&quot;, &quot;DialogExample&quot;, &quot;Home&quot;)&lt;/li&gt;
+                    
+                    &lt;!-- DropDown example --&gt;
+                    &lt;li class=&quot;dropdown&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; id=&quot;dropdownCommonMenu&quot; data-toggle=&quot;dropdown&quot;&gt;DropDown&lt;/a&gt;
+                        &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot; aria-labelledby=&quot;dropdownCommonMenu&quot;&gt;
+                            &lt;li role=&quot;menuitem&quot; class=&quot;nav-header&quot;&gt;Header 1&lt;/li&gt;
+                            &lt;li role=&quot;menuitem&quot;&gt;@Html.ActionLink(&quot;Item 1&quot;, &quot;Index&quot;, &quot;Home&quot;)&lt;/li&gt;
+                            &lt;li role=&quot;menuitem&quot; class=&quot;disabled&quot;&gt;@Html.ActionLink(&quot;Item 2 (disabled)&quot;, &quot;Index&quot;, &quot;Home&quot;)&lt;/li&gt;
+                            &lt;li role=&quot;menuitem&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;
+                            &lt;li role=&quot;menuitem&quot; class=&quot;nav-header&quot;&gt;Header 2&lt;/li&gt;
+                            &lt;li role=&quot;menuitem&quot;&gt;@Html.ActionLink(&quot;Item 3&quot;, &quot;Index&quot;, &quot;Home&quot;)&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;container-fluid&quot;&gt;
+
+        &lt;div class=&quot;row-fluid&quot;&gt;
+            @if (IsSectionDefined(&quot;sidebar&quot;))
+            {
+                &lt;div class=&quot;span2&quot;&gt;
+                    @RenderSection(&quot;sidebar&quot;, required: false)
+                &lt;/div&gt;
+            }
+
+            &lt;div id=&quot;content&quot; @(IsSectionDefined(&quot;sidebar&quot;) ? Html.Raw(&quot;class=span10&quot;) : Html.Raw(&quot;class=span12&quot;))&gt;
+                &lt;noscript&gt;
+                    &lt;div class=&quot;alert&quot;&gt;
+                        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&amp;times;&lt;/button&gt;
+                        &lt;strong&gt;Warning!&lt;/strong&gt; Please enable JavaScript in your browser!
+                    &lt;/div&gt;
+                &lt;/noscript&gt;
+
+                @if (IsSectionDefined(&quot;featured&quot;))
+                {
+                    &lt;div&gt;
+                        &lt;div class=&quot;hero-unit&quot;&gt;
+                            @RenderSection(&quot;featured&quot;, required: false)
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                }
+                &lt;div&gt;
+                    @RenderBody()
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;row-fluid&quot;&gt;
+            &lt;footer id=&quot;footer&quot;&gt;
+                &lt;p&gt;&amp;copy; 2013, Your Company Limited&lt;/p&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    @Scripts.Render(&quot;~/js&quot;)
+    @RenderSection(&quot;scripts&quot;, required: false)
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<div class="preview">
+<pre class="html">@using&nbsp;System.Web.Optimization&nbsp;
+<span class="html__doctype">&lt;!DOCTYPE&nbsp;html&gt;</span>&nbsp;
+&nbsp;
+<span class="html__tag_start">&lt;html</span>&nbsp;<span class="html__attr_name">lang</span>=<span class="html__attr_value">&quot;en&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span><span class="html__tag_start">&lt;head</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;meta</span>&nbsp;<span class="html__attr_name">charset</span>=<span class="html__attr_value">&quot;utf-8&quot;</span>&nbsp;<span class="html__tag_start">/&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;title</span><span class="html__tag_start">&gt;</span>Your&nbsp;Website&nbsp;<span class="html__entity">&amp;bull;</span>&nbsp;@ViewBag.Title<span class="html__tag_end">&lt;/title&gt;</span>&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;@Styles.Render(&quot;~/css&quot;)&nbsp;
+<span class="html__tag_end">&lt;/head&gt;</span>&nbsp;
+<span class="html__tag_start">&lt;body</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;navbar&nbsp;navbar-fixed-top&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;navbar-inner&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;container-fluid&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;button</span>&nbsp;<span class="html__attr_name">type</span>=<span class="html__attr_value">&quot;button&quot;</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;btn&nbsp;btn-navbar&quot;</span>&nbsp;<span class="html__attr_name">data-toggle</span>=<span class="html__attr_value">&quot;collapse&quot;</span>&nbsp;<span class="html__attr_name">data-target</span>=<span class="html__attr_value">&quot;.nav-collapse&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;span</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;icon-bar&quot;</span><span class="html__tag_start">&gt;</span><span class="html__tag_end">&lt;/span&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;span</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;icon-bar&quot;</span><span class="html__tag_start">&gt;</span><span class="html__tag_end">&lt;/span&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;span</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;icon-bar&quot;</span><span class="html__tag_start">&gt;</span><span class="html__tag_end">&lt;/span&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/button&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;a</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;brand&quot;</span>&nbsp;<span class="html__attr_name">href</span>=<span class="html__attr_value">&quot;@Url.Action(&quot;</span>Index&quot;,&nbsp;&quot;Home&quot;)&quot;<span class="html__tag_start">&gt;</span>Your&nbsp;Logo&nbsp;Here<span class="html__tag_end">&lt;/a&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;ul</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;nav&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;dropdown&quot;</span><span class="html__tag_start">&gt;@</span>Html.ActionLink(&quot;Home&quot;,&nbsp;&quot;Index&quot;,&nbsp;&quot;Home&quot;)<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;dropdown&quot;</span><span class="html__tag_start">&gt;@</span>Html.ActionLink(&quot;Featured&quot;,&nbsp;&quot;FeaturedExample&quot;,&nbsp;&quot;Home&quot;)<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;dropdown&quot;</span><span class="html__tag_start">&gt;@</span>Html.ActionLink(&quot;Popup&quot;,&nbsp;&quot;DialogExample&quot;,&nbsp;&quot;Home&quot;)<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__comment">&lt;!--&nbsp;DropDown&nbsp;example&nbsp;--&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;dropdown&quot;</span><span class="html__tag_start">&gt;</span><span class="html__tag_start">&lt;a</span>&nbsp;<span class="html__attr_name">href</span>=<span class="html__attr_value">&quot;#&quot;</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;dropdown-toggle&quot;</span>&nbsp;<span class="html__attr_name">id</span>=<span class="html__attr_value">&quot;dropdownCommonMenu&quot;</span>&nbsp;<span class="html__attr_name">data-toggle</span>=<span class="html__attr_value">&quot;dropdown&quot;</span><span class="html__tag_start">&gt;</span>DropDown<span class="html__tag_end">&lt;/a&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;ul</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;dropdown-menu&quot;</span>&nbsp;<span class="html__attr_name">role</span>=<span class="html__attr_value">&quot;menu&quot;</span>&nbsp;<span class="html__attr_name">aria-labelledby</span>=<span class="html__attr_value">&quot;dropdownCommonMenu&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">role</span>=<span class="html__attr_value">&quot;menuitem&quot;</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;nav-header&quot;</span><span class="html__tag_start">&gt;</span>Header&nbsp;1<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">role</span>=<span class="html__attr_value">&quot;menuitem&quot;</span><span class="html__tag_start">&gt;@</span>Html.ActionLink(&quot;Item&nbsp;1&quot;,&nbsp;&quot;Index&quot;,&nbsp;&quot;Home&quot;)<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">role</span>=<span class="html__attr_value">&quot;menuitem&quot;</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;disabled&quot;</span><span class="html__tag_start">&gt;@</span>Html.ActionLink(&quot;Item&nbsp;2&nbsp;(disabled)&quot;,&nbsp;&quot;Index&quot;,&nbsp;&quot;Home&quot;)<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">role</span>=<span class="html__attr_value">&quot;menuitem&quot;</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;divider&quot;</span><span class="html__tag_start">&gt;</span><span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">role</span>=<span class="html__attr_value">&quot;menuitem&quot;</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;nav-header&quot;</span><span class="html__tag_start">&gt;</span>Header&nbsp;2<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;li</span>&nbsp;<span class="html__attr_name">role</span>=<span class="html__attr_value">&quot;menuitem&quot;</span><span class="html__tag_start">&gt;@</span>Html.ActionLink(&quot;Item&nbsp;3&quot;,&nbsp;&quot;Index&quot;,&nbsp;&quot;Home&quot;)<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/ul&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/li&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/ul&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;container-fluid&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;row-fluid&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@if&nbsp;(IsSectionDefined(&quot;sidebar&quot;))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;span2&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@RenderSection(&quot;sidebar&quot;,&nbsp;required:&nbsp;false)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">id</span>=<span class="html__attr_value">&quot;content&quot;</span>&nbsp;@(IsSectionDefined(&quot;sidebar&quot;)&nbsp;?&nbsp;Html.Raw(&quot;class=span10&quot;)&nbsp;:&nbsp;Html.Raw(&quot;class=span12&quot;))<span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;noscript</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;alert&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;button</span>&nbsp;<span class="html__attr_name">type</span>=<span class="html__attr_value">&quot;button&quot;</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;close&quot;</span>&nbsp;<span class="html__attr_name">data-dismiss</span>=<span class="html__attr_value">&quot;alert&quot;</span><span class="html__tag_start">&gt;&amp;</span>times;<span class="html__tag_end">&lt;/button&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;strong</span><span class="html__tag_start">&gt;</span>Warning!<span class="html__tag_end">&lt;/strong&gt;</span>&nbsp;Please&nbsp;enable&nbsp;JavaScript&nbsp;in&nbsp;your&nbsp;browser!&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/noscript&gt;</span>&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@if&nbsp;(IsSectionDefined(&quot;featured&quot;))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;hero-unit&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@RenderSection(&quot;featured&quot;,&nbsp;required:&nbsp;false)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@RenderBody()&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;div</span>&nbsp;<span class="html__attr_name">class</span>=<span class="html__attr_value">&quot;row-fluid&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;footer</span>&nbsp;<span class="html__attr_name">id</span>=<span class="html__attr_value">&quot;footer&quot;</span><span class="html__tag_start">&gt;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_start">&lt;p</span><span class="html__tag_start">&gt;&amp;</span>copy;&nbsp;2013,&nbsp;Your&nbsp;Company&nbsp;Limited<span class="html__tag_end">&lt;/p&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/footer&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="html__tag_end">&lt;/div&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;@Scripts.Render(&quot;~/js&quot;)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;@RenderSection(&quot;scripts&quot;,&nbsp;required:&nbsp;false)&nbsp;
+<span class="html__tag_end">&lt;/body&gt;</span>&nbsp;
+<span class="html__tag_end">&lt;/html&gt;</span>&nbsp;
+</pre>
+</div>
+</div>
+</div>
+<div class="endscriptcode">&nbsp;</div>
+<p>&nbsp;</p>
+<h2>More Information</h2>
+<p>For more information on the ASP.NET Web Optimization Framework see:</p>
+<p><a href="http://aspnetoptimization.codeplex.com/">http://aspnetoptimization.codeplex.com/</a></p>
+<p>More information on Bootstrap can be found here:</p>
+<p><a href="http://twitter.github.io/bootstrap/">http://twitter.github.io/bootstrap/</a><em><br>
+</em></p>
+
+</div>
+
+
+    </div>
+</body>
+</html>

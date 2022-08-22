@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CookieLevel2Domain", "CookieLevel2Domain", "{2D290777-137A-460D-B555-A018B1D48C9D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/CookieLevel2Domain"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\ASPNET08\CookieLevel2Domain\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CookieLevel2Domain\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CookieLevel2Domain"
+		Release.AspNetCompiler.PhysicalPath = "..\..\ASPNET08\CookieLevel2Domain\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CookieLevel2Domain\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50943"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CookieSubdomain", "CookieSubdomain", "{44239056-1F69-4812-9B3E-647D5289A0F8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/CookieSubdomain"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\ASPNET08\CookieSubdomain\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CookieSubdomain\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CookieSubdomain"
+		Release.AspNetCompiler.PhysicalPath = "..\..\ASPNET08\CookieSubdomain\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CookieSubdomain\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50945"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D290777-137A-460D-B555-A018B1D48C9D}.Debug|.NET.ActiveCfg = Debug|.NET
+		{2D290777-137A-460D-B555-A018B1D48C9D}.Debug|.NET.Build.0 = Debug|.NET
+		{44239056-1F69-4812-9B3E-647D5289A0F8}.Debug|.NET.ActiveCfg = Debug|.NET
+		{44239056-1F69-4812-9B3E-647D5289A0F8}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

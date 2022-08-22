@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SampleReportProject", "SampleReportProject\SampleReportProject.rptproj", "{0318C2F5-6DA2-4809-9E65-40C35195C611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0318C2F5-6DA2-4809-9E65-40C35195C611}.Debug|Default.ActiveCfg = Debug
+		{0318C2F5-6DA2-4809-9E65-40C35195C611}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{0318C2F5-6DA2-4809-9E65-40C35195C611}.DebugLocal|Default.Build.0 = DebugLocal
+		{0318C2F5-6DA2-4809-9E65-40C35195C611}.Release|Default.ActiveCfg = Release
+		{0318C2F5-6DA2-4809-9E65-40C35195C611}.Release|Default.Build.0 = Release
+		{0318C2F5-6DA2-4809-9E65-40C35195C611}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

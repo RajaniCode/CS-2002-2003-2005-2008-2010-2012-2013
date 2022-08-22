@@ -1,0 +1,1780 @@
+﻿<WebErrorLog>
+    <WebError time="6/15/2004 8:27:35 PM">
+        <error><![CDATA[
+
+
+ on 6/15/2004 8:27:35 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+    </WebError>
+<WebError time="6/15/2004 8:27:49 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:27:49 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:28:06 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:28:06 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:28:13 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:28:13 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:28:35 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:28:35 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:30:12 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:30:12 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:30:20 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:30:20 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:30:21 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:30:21 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:30:28 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:30:28 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:30:55 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:30:55 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 8:30:57 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 8:30:57 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 9:01:58 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 9:01:58 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 9:02:06 PM">
+    <error><![CDATA[
+
+
+ on 6/15/2004 9:02:06 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/15/2004 9:05:54 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 6/15/2004 9:05:54 pm
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/16/2004 1:29:32 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/ResponseEndTest.aspx
+
+It is invalid to show a modal dialog or form when the application is not running in UserInteractive mode. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+ on 6/16/2004 1:29:32 pm
+
+--- Stack Trace ---
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at System.Windows.Forms.MessageBox.Show(String text)
+   at ASP.ResponseEndTest_aspx.__Render__control1(HtmlTextWriter __output, Control parameterContainer) in d:\westwind\projects\HowAspNetWorks\ResponseEndTest.aspx:line 16
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/16/2004 1:34:31 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/ResponseEndTest.aspx
+
+It is invalid to show a modal dialog or form when the application is not running in UserInteractive mode. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+ on 6/16/2004 1:34:31 pm
+
+--- Stack Trace ---
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at System.Windows.Forms.MessageBox.Show(String text)
+   at ASP.ResponseEndTest_aspx.__Render__control1(HtmlTextWriter __output, Control parameterContainer) in d:\westwind\projects\HowAspNetWorks\ResponseEndTest.aspx:line 16
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/16/2004 1:34:32 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/ResponseEndTest.aspx
+
+It is invalid to show a modal dialog or form when the application is not running in UserInteractive mode. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+ on 6/16/2004 1:34:32 pm
+
+--- Stack Trace ---
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at System.Windows.Forms.MessageBox.Show(String text)
+   at ASP.ResponseEndTest_aspx.__Render__control1(HtmlTextWriter __output, Control parameterContainer) in d:\westwind\projects\HowAspNetWorks\ResponseEndTest.aspx:line 16
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/16/2004 1:35:08 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/ResponseEndTest.aspx
+
+It is invalid to show a modal dialog or form when the application is not running in UserInteractive mode. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+ on 6/16/2004 1:35:08 pm
+
+--- Stack Trace ---
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at System.Windows.Forms.MessageBox.Show(String text)
+   at ASP.ResponseEndTest_aspx.__Render__control1(HtmlTextWriter __output, Control parameterContainer) in d:\westwind\projects\HowAspNetWorks\ResponseEndTest.aspx:line 16
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/16/2004 1:35:09 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/ResponseEndTest.aspx
+
+It is invalid to show a modal dialog or form when the application is not running in UserInteractive mode. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+ on 6/16/2004 1:35:09 pm
+
+--- Stack Trace ---
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at System.Windows.Forms.MessageBox.Show(String text)
+   at ASP.ResponseEndTest_aspx.__Render__control1(HtmlTextWriter __output, Control parameterContainer) in d:\westwind\projects\HowAspNetWorks\ResponseEndTest.aspx:line 16
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 1:48:37 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/19/2004 1:48:37 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 2:53:03 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/19/2004 2:53:03 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 2:58:36 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/19/2004 2:58:36 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 3:00:53 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/ResponseEndTest.aspx
+
+File not found: File or assembly name System.Windows.Forms, or one of its dependencies, was not found.
+ on 6/19/2004 3:00:53 pm
+
+--- Stack Trace ---
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Boolean isStringized, Evidence assemblySecurity, Boolean throwOnFileNotFound, Assembly locationHint, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Boolean stringized, Evidence assemblySecurity, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at System.Web.UI.CompilationConfiguration.LoadAssembly(String assemblyName, Boolean throwOnFail)
+   at System.Web.UI.TemplateParser.LoadAssembly(String assemblyName, Boolean throwOnFail)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 3:01:28 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/ResponseEndTest.aspx
+
+External component has thrown an exception.
+ on 6/19/2004 3:01:28 pm
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/ResponseEndTest.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 8:46:10 PM">
+    <error><![CDATA[
+
+
+ on 6/19/2004 8:46:10 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/19/2004 8:46:20 PM">
+    <error><![CDATA[
+
+
+ on 6/19/2004 8:46:20 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/19/2004 8:46:21 PM">
+    <error><![CDATA[
+
+
+ on 6/19/2004 8:46:21 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/19/2004 9:10:42 PM">
+    <error><![CDATA[
+
+
+ on 6/19/2004 9:10:42 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/19/2004 9:10:43 PM">
+    <error><![CDATA[
+
+
+ on 6/19/2004 9:10:43 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/19/2004 9:10:43 PM">
+    <error><![CDATA[
+
+
+ on 6/19/2004 9:10:43 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/19/2004 9:10:44 PM">
+    <error><![CDATA[
+
+
+ on 6/19/2004 9:10:44 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="6/19/2004 9:30:16 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/19/2004 9:30:16 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 9:33:02 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 6/19/2004 9:33:02 pm
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40426)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 9:43:32 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/19/2004 9:43:32 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 9:55:02 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/19/2004 9:55:02 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/19/2004 10:00:57 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/19/2004 10:00:57 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/20/2004 7:13:14 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/20/2004 7:13:14 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/20/2004 9:57:43 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/20/2004 9:57:43 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/20/2004 11:52:33 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/20/2004 11:52:33 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="6/30/2004 10:23:50 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 6/30/2004 10:23:50 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="7/1/2004 9:43:07 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 7/1/2004 9:43:07 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="7/15/2004 3:18:08 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 7/15/2004 3:18:08 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="10/16/2004 10:52:10 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 10/16/2004 10:52:10 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="10/16/2004 11:42:08 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 10/16/2004 11:42:08 am
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="10/17/2004 7:41:06 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 10/17/2004 7:41:06 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/6/2004 8:04:34 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 11/6/2004 8:04:34 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:41:33 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 11/10/2004 10:41:33 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:44:52 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 10:44:52 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:44:55 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 10:44:55 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:44:59 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 10:44:59 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:45:04 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 10:45:04 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:07 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 10:46:07 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:09 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 10:46:09 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:34 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:34 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:35 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:35 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:36 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:36 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:37 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:37 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:37 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:37 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:37 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:37 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:38 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:38 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:38 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:38 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:44 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:44 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:46:45 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 10:46:45 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 11:04:29 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 11:04:29 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 11:04:29 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 11:04:29 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 11:04:29 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 11:04:29 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 11:04:29 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 11:04:29 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 11:04:29 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 11:04:29 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 11:04:29 AM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 11:04:29 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:10:53 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/ResponseFilter.aspx
+
+Control 'chkEnableFilter' of type 'CheckBox' must be placed inside a form tag with runat=server.
+ on 11/10/2004 9:10:53 pm
+
+--- Stack Trace ---
+   at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.CheckBox.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/ResponseFilter.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:15:54 PM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 9:15:54 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:16:56 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:16:56 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:16:58 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:16:58 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:21:34 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:21:34 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:21:36 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:21:36 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:21:37 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:21:37 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:21:51 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:21:51 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:21:54 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:21:54 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:21:57 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:21:57 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:22:11 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:22:11 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:22:12 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:22:12 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:22:12 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+File not found: d:\westwind\projects\HowAspNetWorks\default.wws
+ on 11/10/2004 9:22:12 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:22:30 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+Could not load type 'Westwind.WebStore.Default'.
+ on 11/10/2004 9:22:30 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:22:31 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+Could not load type 'Westwind.WebStore.Default'.
+ on 11/10/2004 9:22:31 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/DEFAULT.ASPX
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:22:50 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+Could not load type 'Westwind.WebStore.Default'.
+ on 11/10/2004 9:22:50 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:23:11 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/default.wws
+
+Could not load type 'Westwind.WebStore.Default'.
+ on 11/10/2004 9:23:11 pm
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateControlParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.PageParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateControlParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text)
+   at System.Web.UI.TemplateParser.ParseString(String text, String virtualPath, String basePhysicalDir)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/default.wws
+        IP: 127.0.0.1
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:25:13 PM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 9:25:13 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:26:06 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 11/10/2004 9:26:06 pm
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.wws
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: RASNOTEBOOK\rstrahl
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:26:38 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 11/10/2004 9:26:38 pm
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.wws
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:28:14 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 11/10/2004 9:28:14 pm
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.wws
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:28:56 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 11/10/2004 9:28:56 pm
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.wws
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 9:29:13 PM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 11/10/2004 9:29:13 pm
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.wws
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/10/2004 10:13:14 PM">
+    <error><![CDATA[
+
+
+ on 11/10/2004 10:13:14 pm
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/11/2004 4:46:45 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/get_aspx_ver.aspx
+
+File not found: d:\westwind\projects\HowAspNetWorks\get_aspx_ver.aspx
+ on 11/11/2004 4:46:45 am
+
+--- Stack Trace ---
+   at System.Web.UI.TemplateParser.GetParserCacheItem()
+   at System.Web.UI.TemplateControlParser.CompileAndGetParserCacheItem(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.TemplateControlParser.GetCompiledInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstanceInternal(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String path)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, String path, String pathTranslated, Boolean useAppConfig)
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/get_aspx_ver.aspx
+        IP: 127.0.0.1
+   Browser: Microsoft-Visual-Studio.NET/7.10.3077
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/11/2004 5:42:39 AM">
+    <error><![CDATA[
+
+
+ on 11/11/2004 5:42:39 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/11/2004 5:42:54 AM">
+    <error><![CDATA[
+
+
+ on 11/11/2004 5:42:54 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/11/2004 5:43:12 AM">
+    <error><![CDATA[
+
+
+ on 11/11/2004 5:43:12 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/11/2004 5:43:28 AM">
+    <error><![CDATA[
+
+
+ on 11/11/2004 5:43:28 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+<WebError time="11/11/2004 7:09:25 AM">
+    <error><![CDATA[/projects/HowAspNetWorks/CompiledAspxCode.aspx
+
+External component has thrown an exception.
+ on 11/11/2004 7:09:25 am
+
+--- Stack Trace ---
+   at System.Web.Compilation.BaseCompiler.ThrowIfCompilerErrors(CompilerResults results, CodeDomProvider codeProvider, CodeCompileUnit sourceData, String sourceFile, String sourceString)
+   at System.Web.Compilation.BaseCompiler.GetCompiledType()
+   at System.Web.UI.PageParser.CompileIntoType()
+   at System.Web.UI.TemplateParser.GetParserCacheItemThroughCompilation()
+
+--- Request Information ---
+  Full Url: http://localhost/projects/HowAspNetWorks/CompiledAspxCode.aspx
+        IP: 127.0.0.1
+   Referer: http://localhost/projects/HowAspNetWorks/default.aspx
+   Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.40607)
+     Login: Anonymous
+]]></error>
+</WebError>
+<WebError time="11/11/2004 7:12:54 AM">
+    <error><![CDATA[
+
+
+ on 11/11/2004 7:12:54 am
+--- Request Information ---
+  Full Url: 
+        IP: 
+   Browser: 
+     Login: 
+]]></error>
+</WebError>
+</WebErrorLog>

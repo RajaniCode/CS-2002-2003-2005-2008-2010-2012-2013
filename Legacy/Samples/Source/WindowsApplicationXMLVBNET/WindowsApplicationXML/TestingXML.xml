@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<invoice id="100">
+<amount>200</amount>
+<currency>Rupees</currency>
+<productname>Interview Question book</productname>
+</invoice>

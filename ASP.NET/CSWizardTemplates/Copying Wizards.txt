@@ -1,0 +1,3 @@
+1- Simply backup your folders from
+	<VisualStudioDir>\VC#\VC#Wizards
+2- Copy the New Wizard folders to the above mentioned folder

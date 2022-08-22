@@ -1,0 +1,9 @@
+
+http://www.codeproject.com/KB/WCF/WCFWPFChat.aspx
+
+
+Note:
+
+It's OK if PresentationDesignDeveloper reference is missing in WPFChatter References
+
+Add "using WPFChatter;" in  ChatService.cs

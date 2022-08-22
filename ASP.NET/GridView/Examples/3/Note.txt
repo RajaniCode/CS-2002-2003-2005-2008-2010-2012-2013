@@ -1,0 +1,14 @@
+http://www.codeproject.com/Articles/358038/jQuery-in-ASP-NET-Part-II-GridView
+
+
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>aspnet_regsql.exe -E -S localhost -A mr
+
+Start adding the following features:
+Membership
+RoleManager
+
+....
+
+Finished.
+
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>

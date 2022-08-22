@@ -1,0 +1,38 @@
+--Listing 16.9: 
+
+bcp Inventory.dbo.Products out D:\Products.xls -c –SSUMITA-PC –Usa –Pkogent@123
+
+--Listing 16.10: 
+
+bcp Test.dbo.Products in D:\Products.xls -c –SSUMITA-PC –Usa –Pkogent@123
+
+--Listing 16.11: 
+
+bcp "SELECT s.SupplierName, s.SupplierContactName, s.SupplierPhone, p.ProductID,
+p.ProductName, p.UnitPrice FROM Inventory.dbo.Suppliers s LEFT OUTER JOIN
+Inventory.dbo.Products p ON s.SupplierID = p.SupplierID" queryout
+D:\Supplier_Product.txt -SSUMITA-PC -Usa -Pkogent@123 –n
+
+
+--Listing 16.13: 
+
+bcp Inventory.dbo.Shippers out D:\Shippers.bcp -SSUMITA-PC -Usa -Pkogent@123 -E -c
+-t, -r\n
+
+
+--Listing 16.14: 
+
+bcp Inventory.dbo.Shipper_New format null –c –t, -x –fD:\new_Shippers.xml -
+SSUMITA-PC -Usa -Pkogent@123
+
+
+--Listing 16.15: 
+
+bcp Inventory.dbo.Shipper_New in D:\Shippers.bcp –c –t, –fD:\new_Shippers.xml -
+SSUMITA-PC -Usa -Pkogent@123
+
+
+--Listing 16.16: 
+
+bcp Inventory.dbo.Shippers out D:\Shippers.bcp -SSUMITA-PC -Usa -Pkogent@123 -E -c
+-t, -r\n

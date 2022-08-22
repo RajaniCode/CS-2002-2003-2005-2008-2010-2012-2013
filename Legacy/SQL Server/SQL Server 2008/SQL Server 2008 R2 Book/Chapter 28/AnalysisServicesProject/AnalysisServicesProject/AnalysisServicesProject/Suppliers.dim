@@ -1,0 +1,157 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fb4a7a86-18f4-4ae9-a166-0aaedacfb2b0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Suppliers</ID>
+  <Name>Suppliers</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-404" scrolltop="-622" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5530" y="6244" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Suppliers" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4683" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004b12000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Suppliers" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-404</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-622</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e5c07cb2-e5e8-4ac6-9456-51ea33a75815">
+    <DataSourceViewID>Inventory</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b88aeabc-324c-40e7-8871-8e2811d07131">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="3c42ff67-b6eb-4c96-8d1d-e87a2696f947">
+      <ID>Supplier ID</ID>
+      <Name>Supplier ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9c7bf79e-4e70-4445-8814-0596509579af">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94b58ded-2800-4ed8-a4b1-ca950f9df763">
+            <TableID>dbo_Suppliers</TableID>
+            <ColumnID>SupplierID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6b1a0a62-f4ba-44b4-a9b6-37d0503a3b3b">
+          <AttributeID>Supplier Name</AttributeID>
+          <Name>Supplier Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f8657d77-13fa-490a-8ac2-9dc8e720f756">
+          <AttributeID>Supplier Contact Name</AttributeID>
+          <Name>Supplier Contact Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="645178fd-6b64-4d66-b331-e115445791f4">
+          <AttributeID>Supplier Phone</AttributeID>
+          <Name>Supplier Phone</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="feb77292-65d4-4be6-a005-9fe8d427da89">
+      <ID>Supplier Name</ID>
+      <Name>Supplier Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c3d22bdc-b13b-49b1-aa3b-b3d943db3ee2">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="205ee0d9-53f8-46be-a476-b56039a1b085">
+            <TableID>dbo_Suppliers</TableID>
+            <ColumnID>SupplierName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c8b6a707-d03b-4bfc-a54d-e2a09e997e57">
+      <ID>Supplier Contact Name</ID>
+      <Name>Supplier Contact Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="489dd723-6fe4-4473-bbf4-548d48c15105">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d703721-5d3e-4420-a7be-22b0ff8c41d0">
+            <TableID>dbo_Suppliers</TableID>
+            <ColumnID>SupplierContactName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5a572263-f343-4877-bb99-eefaffdcde92">
+      <ID>Supplier Phone</ID>
+      <Name>Supplier Phone</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="61f30240-9831-4a89-8fe4-cf3fd775707a">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="71cbdf2e-b198-449c-a30b-43897a3658b1">
+            <TableID>dbo_Suppliers</TableID>
+            <ColumnID>SupplierPhone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

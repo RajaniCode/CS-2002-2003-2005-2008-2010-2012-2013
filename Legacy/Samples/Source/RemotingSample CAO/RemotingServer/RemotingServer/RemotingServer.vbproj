@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.40607</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A098816-C631-4B60-BFE7-ACDB025631F7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>RemotingServer</RootNamespace>
+    <AssemblyName>RemotingServer</AssemblyName>
+    <ProjectTypeGuids>{FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4};{68B1623D-7FB9-47D8-8664-7ECEA3297D4F};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <DeployTargetPath>\Program Files\$(AssemblyName)</DeployTargetPath>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>3C41C503-53EF-4c2a-8DD4-A8217CAD115E</PlatformID>
+    <MyType>Windows</MyType>
+    <DeployDeviceID>My Computer</DeployDeviceID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>RemotingServer.xml</DocumentationFile>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>RemotingServer.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\CompactFramework\WindowsCE\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\CompactFramework\WindowsCE\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Runtime.Remoting\2.0.3600.0__b77a5c561934e089\System.Runtime.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\CompactFramework\WindowsCE\System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\MyApplication.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MyApplication.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="RemotingServer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyResources.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyResources.resx</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\MyResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MyResources.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\MyApplication.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>MyApplication.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\MySettings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InterFaceRemoting\InterFaceRemoting.vbproj">
+      <Project>{D2A3117D-D2FF-44BC-9AE4-BE6859B3A070}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+      <Name>InterFaceRemoting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\VisualBasic_Device.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{F184B08F-C81C-45F6-A57F-5ABD9991F28F}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+      <UserProperties PolicyFile="D:\shiv projects\Dot Net Interview questions\Book\Disk Data\Source Code\RemotingSample\RemotingServer\RemotingServer\RemotingServer.vbproj.user" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Inventory">
+  <DataContextMoniker Name="/InventoryDataContext" />
+  <nestedChildShapes>
+    <classShape Id="45c35de5-e0be-440c-9a75-af63251c8fa3" absoluteBounds="0.5, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/InventoryDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d5f6f687-6d7d-4b8a-bfde-bdb7fcfd69e3" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b8763452-1c69-449e-8b61-0137ed0eca8d" absoluteBounds="0.5, 3.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/InventoryDataContext/Supplier" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d4d630b-203e-4800-8ba6-dcad8bbb46c0" absoluteBounds="0.51500000000000012, 3.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 3.125); (1.5 : 2.84780110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/InventoryDataContext/Supplier/Supplier_Product" />
+      <nodes>
+        <classShapeMoniker Id="b8763452-1c69-449e-8b61-0137ed0eca8d" />
+        <classShapeMoniker Id="45c35de5-e0be-440c-9a75-af63251c8fa3" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

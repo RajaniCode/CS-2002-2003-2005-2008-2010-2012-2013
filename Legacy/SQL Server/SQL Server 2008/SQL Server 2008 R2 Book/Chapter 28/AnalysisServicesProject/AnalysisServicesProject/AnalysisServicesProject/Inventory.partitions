@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a37f9b10-4769-48b6-b620-0808ae4fb5d8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Inventory</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Suppliers</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="25950c07-e106-4dc8-940b-22b2cb0ecc0a">
+          <ID>Suppliers</ID>
+          <Name>Suppliers</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="88080f30-c4e1-4e43-8f86-48b23145231a">
+            <DataSourceViewID>Inventory</DataSourceViewID>
+            <TableID>dbo_Suppliers</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Products</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6ae838ea-6c6a-4545-91fe-f370b80cc885">
+          <ID>Products</ID>
+          <Name>Products</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a29c84da-9727-40a5-a2c0-a67a943d4d63">
+            <DataSourceViewID>Inventory</DataSourceViewID>
+            <TableID>dbo_Products</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

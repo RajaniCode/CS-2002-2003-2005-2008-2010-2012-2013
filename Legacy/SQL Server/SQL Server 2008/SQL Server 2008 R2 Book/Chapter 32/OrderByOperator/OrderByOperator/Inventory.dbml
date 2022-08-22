@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Inventory" Class="InventoryDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=JITENDRA;Initial Catalog=Inventory;User ID=sa" SettingsObjectName="OrderByOperator.Properties.Settings" SettingsPropertyName="InventoryConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Customers" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CustName" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="CustCompanyName" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="CustDesignation" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="CustAddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CustCity" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="CustState" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="CustPostalCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CustCountry" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="CustPhone" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

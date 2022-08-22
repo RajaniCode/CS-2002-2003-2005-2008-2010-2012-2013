@@ -1,0 +1,5 @@
+ASP.NET Button Text Wrap Workaround
+
+Example:
+
+Text="Next&#10;Well"

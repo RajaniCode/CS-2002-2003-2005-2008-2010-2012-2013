@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PhotoAlbum xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Photos>
+      <Photo>
+         <Notes>A quick bout at Baby Beach.</Notes>
+         <SortOrder>170</SortOrder>
+         <FileSize>17816</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-06-12T23:39:36.8624160-07:00</Updated>
+         <FileName>offthelipbabybeach.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes>Going, Going... GONE!</Notes>
+         <SortOrder>160</SortOrder>
+         <FileSize>24900</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-06-12T23:39:36.8624160-07:00</Updated>
+         <FileName>babybeach2.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes>Duck, duck!!!</Notes>
+         <SortOrder>150</SortOrder>
+         <FileSize>41251</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:17.6868112-07:00</Updated>
+         <FileName>sunshinesignature.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes>Maui Beach Babe</Notes>
+         <SortOrder>140</SortOrder>
+         <FileSize>45443</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:15.5938016-07:00</Updated>
+         <FileName>beachbunny.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes>Stranded at Mama's Fish House...</Notes>
+         <SortOrder>130</SortOrder>
+         <FileSize>114324</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-05-19T14:48:34.2661040-07:00</Updated>
+         <FileName>mamasfishhouseboathead.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes>Going Sailing</Notes>
+         <SortOrder>120</SortOrder>
+         <FileSize>381234</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:17.6667824-07:00</Updated>
+         <FileName>sunshinesailor.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes>Can it be???</Notes>
+         <SortOrder>110</SortOrder>
+         <FileSize>63587</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-06-02T13:27:00.0000000-07:00</Updated>
+         <FileName>abbaad.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>100</SortOrder>
+         <FileSize>64985</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-06-12T23:41:54.7607040-07:00</Updated>
+         <FileName>rollmopps.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>72846</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-06-12T23:42:11.0441184-07:00</Updated>
+         <FileName>bicyles.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>112868</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-06-12T23:41:22.9749984-07:00</Updated>
+         <FileName>centralstationamsterdam.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>30948</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-06-12T23:41:02.2051328-07:00</Updated>
+         <FileName>highsurfadvisory.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>27344</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-06-12T23:39:36.8624160-07:00</Updated>
+         <FileName>babybeach3.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>3837</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-05-23T09:33:01.8740992-07:00</Updated>
+         <FileName>dragdrop.htm</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>7368</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2004-05-19T17:05:22.6591936-07:00</Updated>
+         <FileName>default.htm</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>428907</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:17.6467536-07:00</Updated>
+         <FileName>sunseinadjasarahrick4.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>30701</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:17.6167104-07:00</Updated>
+         <FileName>snowboardjump.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>35929</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:17.2662064-07:00</Updated>
+         <FileName>ricktree.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>29282</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:17.1860912-07:00</Updated>
+         <FileName>rickbeachwork.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>313898</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:17.1460336-07:00</Updated>
+         <FileName>rickandjan.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>51651</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:16.4950976-07:00</Updated>
+         <FileName>nadjatree.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>472291</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:16.4650544-07:00</Updated>
+         <FileName>house.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>70766</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:15.8842192-07:00</Updated>
+         <FileName>dogtown.jpg</FileName>
+      </Photo>
+      <Photo>
+         <Notes />
+         <SortOrder>0</SortOrder>
+         <FileSize>2272990</FileSize>
+         <ImageWidth>120</ImageWidth>
+         <ImageHeight>120</ImageHeight>
+         <Visible>true</Visible>
+         <Updated>2003-04-16T21:06:15.1030960-07:00</Updated>
+         <FileName>antitrust - no privacy.mp3</FileName>
+      </Photo>
+   </Photos>
+   <AlbumName>Maui 2004</AlbumName>
+   <AlbumDescription>This is my greate new photoalbum for the last year on maui. Man what a year it was. We had tons of wind and lots of good times as you can see.
+
+Believe it or not there's more cool stuff to be had, but we were trying to do malicious stuff and failed miserable. We did manage to set a boat on fire though, which was great fun!</AlbumDescription>
+   <ThumbNailSize>150</ThumbNailSize>
+   <ThumbNailColumns>2</ThumbNailColumns>
+   <FtpLink>ftp://rstrahl:@www.west-wind.com/Westwind_sysroot/westwind/rick/photoalbum/Maui_2004/</FtpLink>
+   <LocalPhotoPath>d:\westwind\rick\photoalbum\europe2004</LocalPhotoPath>
+   <ShowAdminLink>true</ShowAdminLink>
+   <RequireAdminLogin>false</RequireAdminLogin>
+   <HomeLink>http://www.west-wind.com/wconnect/</HomeLink>
+   <LastUpdate>2004-06-12T23:53:20.6569744-07:00</LastUpdate>
+   <FirstImageFileName>offthelipbabybeach.jpg</FirstImageFileName>
+   <AllowedTypes>|.gif|.jpg|.png|.mp3|.pdf|.htm|.html|.avi|.wmv|.swf|</AllowedTypes>
+</PhotoAlbum>

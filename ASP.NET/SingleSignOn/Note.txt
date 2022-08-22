@@ -1,0 +1,3 @@
+Single Sign-on in ASP.NET and Other Platforms
+
+http://www.codeproject.com/Articles/27576/Single-Sign-on-in-ASP-NET-and-Other-Platforms
